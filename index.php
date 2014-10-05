@@ -138,7 +138,6 @@
             <div class="button_read">Читать!</div>
         </div>
         <div class="news">
-            <div class="news_angle"></div>
             <H4>Вышла Mageia 3 beta!</H4>
 
             <div class="news_body">
@@ -147,6 +146,7 @@
                 использования GRUB2 и т.д.
             </div>
             <div class="button_read">Читать!</div>
+            <div class="news_angle"></div>
         </div>
     </div>
     <div class="clear"></div>

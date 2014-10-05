@@ -196,7 +196,7 @@ H4 {
     top: 0;
     left: 0;
     background-image: url('../images/news_angle.png');
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 .news_body {
