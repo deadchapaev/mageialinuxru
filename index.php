@@ -12,31 +12,31 @@
     <div id="upline" class="grid_12"></div>
     <div class="clear"></div>
 
-    <div id="header">
-        <!--шапка-->
-        <div id="logo" class="grid_4"></div>
-        <div id="flowertop" class="grid_8"></div>
-        <div class="clear"></div>
-        <!--меню-->
-        <div id="navbar" class="grid_12">
-            <div id="menu" class="grid_7 alpha">
-                <ul>
-                    <li class="active">Главная</li>
-                    <li>Загрузки</li>
-                    <li>Вики</li>
-                    <li>Репозиторий</li>
-                    <li>Форум</li>
-                </ul>
-            </div>
-            <div id="searchbar">
-                <form name="searchin" method="post" action="index.php">
-                    <input id="searchsubmit" type="submit" value="">
-                    <input id="searchinput" type="text" size="25">
-                </form>
-            </div>
+
+    <!--шапка-->
+    <div id="logo" class="grid_4"></div>
+    <div id="flowertop" class="grid_8"></div>
+    <div class="clear"></div>
+    <!--меню-->
+    <div id="navbar" class="grid_12">
+        <div id="menu" class="grid_7 alpha">
+            <ul>
+                <li class="active">Главная</li>
+                <li>Загрузки</li>
+                <li>Вики</li>
+                <li>Репозиторий</li>
+                <li>Форум</li>
+            </ul>
         </div>
-        <div class="clear"></div>
+        <div id="searchbar">
+            <form name="searchin" method="post" action="index.php">
+                <input id="searchsubmit" type="submit" value="">
+                <input id="searchinput" type="text" size="25">
+            </form>
+        </div>
     </div>
+    <div class="clear"></div>
+
 
     <div id="content" class="grid_12">
         <!--Описание дистра-->
@@ -139,25 +139,26 @@
 
 
     <!--Футер-->
-    <div class="footer">
-        <div id="footer" class="grid_12">
-            <img src="images/logo.png" alt="logo">
 
-            <div class="footer_menu">
-                <p>Карта сайта
-                <ul>
-                    <li>Главная</li>
-                    <li>Загрузки</li>
-                    <li>Вики</li>
-                    <li>Репозиторий</li>
-                    <li>Форум</li>
-                </ul>
-            </div>
-            <div class="grid_5 prefix_3 copyright">copyright 2014 - Mageia Russian Community</div>
+    <div id="footer" class="grid_12">
+        <img src="images/logo.png" alt="logo">
+
+        <div class="footer_menu">
+            <p>Карта сайта
+            <ul>
+                <li>Главная</li>
+                <li>Загрузки</li>
+                <li>Вики</li>
+                <li>Репозиторий</li>
+                <li>Форум</li>
+            </ul>
         </div>
-        <div class="clear"></div>
-
+        <div class="grid_5 prefix_3 copyright">copyright 2014 - Mageia Russian Community</div>
     </div>
+    <div class="clear"></div>
+
+    
 </div>
+
 
 </body>
