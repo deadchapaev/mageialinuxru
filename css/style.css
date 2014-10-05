@@ -2,16 +2,13 @@
     margin: 0 auto;
     z-index: 0;
     font-family: "Verdana";
+    font-size: 14px;
+    position: relative;
 }
 
 body {
     width: 1020px;
 }
-
-/*#test, #test1, #test2, #test3, #test4, #test5, #test6, #test7, #test8, #test9, #test10, #test11 {*/
-/*height: 30px;*/
-/*background-color: #2497d4;*/
-/*}*/
 
 hr {
     border: 0;
@@ -37,6 +34,7 @@ hr {
     background-repeat: no-repeat;
 }
 
+
 #flowertop {
     float: right;
     height: 130px;
@@ -53,7 +51,8 @@ H3 {
 }
 
 H4 {
-    font-size: 14px;
+
+
     color: rgb(0, 0, 0);
     text-decoration: underline;
     line-height: 1.429;
@@ -62,18 +61,17 @@ H4 {
     margin-top: 10px;
 }
 
-#navbar {
+
+/***************************************************************
+    Навигационная панель
+***************************************************************/
+#navbar, #menu  {
     height: 38px;
     background-color: #2497d4;
 }
-
 /*
     Меню
 */
-#menu {
-    height: 38px;
-}
-
 #menu > ul {
     list-style-type: none;
     padding: 0px;
@@ -81,11 +79,10 @@ H4 {
 }
 
 #menu > ul > li,
-#menu > ul > li:hover {
+#menu > ul > li:hover{
     display: block;
     float: left;
-    width: 100px;
-    font-size: 14px;
+    width: 103px;
     color: rgb(255, 255, 255);
     line-height: 38px;
     text-align: center;
@@ -93,12 +90,13 @@ H4 {
 
 }
 
-#menu > ul > li:hover {
+#menu > ul > li:hover,
+#menu > ul > li.active{
     background-color: #185d81;
 }
 
 /*
-поиск
+    Поиск
 */
 #searchinput {
     margin-top: 8px;
@@ -107,7 +105,7 @@ H4 {
 }
 
 /*
-кнопка поиска
+    Кнопка поиска
 */
 #searchsubmit {
     border: none;
@@ -115,32 +113,20 @@ H4 {
     background-repeat: no-repeat;
     width: 23px;
     height: 18px;
-    z-index: 999;
+    /*z-index: 999;*/
     position: relative;
     left: 348px;
     top: 10px;
     cursor: pointer;
 }
 
-/*
-  Контент
-*/
-
+/***************************************************************
+    Контент
+***************************************************************/
 .about {
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 50px;
-}
-
-.info {
-    height: 90px;
-    font-size: 18px;
-}
-
-.detail {
-    padding-top: 40px;
-    height: 70px;
-    font-size: 14px;
 }
 
 .about > .button {
@@ -153,21 +139,31 @@ H4 {
     cursor: pointer;
 }
 
+.info {
+    height: 90px;
+    font-size: 18px;
+}
+
+.detail {
+    padding-top: 40px;
+    height: 70px;
+}
+
+
+
 .about > .button:hover {
     background-color: #185d81;
 }
 
-#flowerbottom {
-    margin-left: 723px;
+#content {
     background-image: url(../images/flower-bottom.png);
     background-repeat: no-repeat;
-    height: 130px;
+    background-position: right top;
 }
 
 #monitor {
     margin-top: 40px;
     height: 262px;
-
 }
 
 #monitorpic {
@@ -177,36 +173,30 @@ H4 {
     margin-left: 25px;
 }
 
+/*
+    Новости
+*/
 .news {
-    width: 300px;
+    width: 290px;
     height: 200px;
     position: relative;
     text-align: left;
     float: left;
     margin-left: 4px;
     margin-top: 35px;
-
-
-}
-
-.news_angle {
-    width: 60px;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding-left: 10px;
     background-image: url('../images/news_angle.png');
-    /*z-index: -1;*/
+    background-repeat: no-repeat;
 }
 
-.news_body {
+.news > p {
     padding-top: 10px;
     font-size: 12px;
     line-height: 1.7;
     margin-right: 50px;
     margin-left: 10px;
-
 }
+
 
 .button_read {
     background-color: #2497d4;
@@ -218,12 +208,17 @@ H4 {
     text-align: center;
     line-height: 28px;
     color: #ffffff;
-
+    cursor: pointer;
 }
 
-/*
+.button_read:hover {
+    background-color: #185d81;
+}
+
+
+/***************************************************************
     Футер
-*/
+***************************************************************/
 #footer {
     height: 393px;
     background: linear-gradient(#f8fbfe, #2a9ad5);
@@ -239,7 +234,9 @@ H4 {
     font-weight: bold;
     top: 60px;
     right: 60px;
-
+}
+.footer_menu > p {
+    padding-bottom: 15px;
 }
 
 .footer_menu > ul {
@@ -248,10 +245,9 @@ H4 {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-
 }
 
-.grad_line {
-    background: linear-gradient(#f8fbfe, #2a9ad5);
-    height: 4px;
+.copyright {
+    text-align: center;
+    font-size: 12px;
 }
