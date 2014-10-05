@@ -1,4 +1,4 @@
-<head>
+<head xmlns="http://www.w3.org/1999/html">
     <link rel="stylesheet" type="text/css" href="/css/960px.css"/>
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 
@@ -53,9 +53,9 @@
         <div class="clear"></div>
     </div>
 
-    <div class="content">
+    <div id="content" class="grid_12">
         <!--Описание дистра-->
-        <div class="grid_6 about">
+        <div class="grid_5 about">
             <div class="info">
                 Mageia - это стабильная и безопасная, свободная операционная система для персональных компьютеров и
                 серверов, основанная на GNU/Linux.
@@ -68,112 +68,108 @@
         </div>
 
         <!--Монитор-->
-        <div class="grid_6 monitor">
-            <div id="flowerbottom" class="grid_8">
-                <img src="images/flower-bottom.png">
-            </div>
-
-            <img src="images/monitor.png">
-
-
+        <div id="monitor" class="grid_6 push_1">
+            <div id="monitorpic"></div>
         </div>
-        <div class="clear"></div>
-
-        <hr>
-
-        <!--Новости-->
-        <div class="grid_12">
-            <H3>Последние новости</H3>
-        </div>
-        <div class="grid_12">
-            <div class="news">
-                <H4>Вышла Mageia 3 beta!</H4>
-
-                <div class="news_body">
-                    Вышла Mageia 3 Beta 1.
-                    Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                    использования GRUB2 и т.д.
-                </div>
-                <div class="button_read">Читать!</div>
-            </div>
-            <div class="news">
-                <H4>Вышла Mageia 3 beta!</H4>
-
-                <div class="news_body">
-                    Вышла Mageia 3 Beta 1.
-                    Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                    использования GRUB2 и т.д.
-                </div>
-                <div class="button_read">Читать!</div>
-            </div>
-            <div class="news">
-                <H4>Вышла Mageia 3 beta!</H4>
-
-                <div class="news_body">
-                    Вышла Mageia 3 Beta 1.
-                    Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                    использования GRUB2 и т.д.
-                </div>
-                <div class="button_read">Читать!</div>
-            </div>
-            <div class="news">
-                <H4>Вышла Mageia 3 beta!</H4>
-
-                <div class="news_body">
-                    Вышла Mageia 3 Beta 1.
-                    Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                    использования GRUB2 и т.д.
-                </div>
-                <div class="button_read">Читать!</div>
-            </div>
-            <div class="news">
-                <H4>Вышла Mageia 3 beta!</H4>
-
-                <div class="news_body">
-                    Вышла Mageia 3 Beta 1.
-                    Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                    использования GRUB2 и т.д.
-                </div>
-                <div class="button_read">Читать!</div>
-            </div>
-            <div class="news">
-                <H4>Вышла Mageia 3 beta!</H4>
-
-                <div class="news_body">
-                    Вышла Mageia 3 Beta 1.
-                    Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                    использования GRUB2 и т.д.
-                </div>
-                <div class="button_read">Читать!</div>
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="clear"></div>
+        <div id="flowerbottom"></div>
     </div>
-
+    <div class="clear"></div>
 
     <hr>
 
-
-    <!--Футер-->
-    <div class="footer">
-        <div id="footer" class="grid_12">
-
-            <img src="images/logo.png">
-
-
-            <div class="footer_menu">
-                Карта сайта
-                <ul>
-                    <li>Главная</li>
-                    <li>Загрузки</li>
-                    <li>Вики</li>
-                    <li>Репозиторий</li>
-                    <li>Форум</li>
-                </ul>
-            </div>
-        </div>
-        <div class="clear"></div>
+    <!--Новости-->
+    <div class="grid_12">
+        <H3>Последние новости</H3>
     </div>
+    <div class="grid_12">
+        <div class="news">
+            <H4>Вышла Mageia 3 beta!</H4>
+
+            <div class="news_body">
+                Вышла Mageia 3 Beta 1.
+                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
+                использования GRUB2 и т.д.
+            </div>
+            <div class="button_read">Читать!</div>
+        </div>
+        <div class="news">
+            <H4>Вышла Mageia 3 beta!</H4>
+
+            <div class="news_body">
+                Вышла Mageia 3 Beta 1.
+                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
+                использования GRUB2 и т.д.
+            </div>
+            <div class="button_read">Читать!</div>
+        </div>
+        <div class="news">
+            <H4>Вышла Mageia 3 beta!</H4>
+
+            <div class="news_body">
+                Вышла Mageia 3 Beta 1.
+                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
+                использования GRUB2 и т.д.
+            </div>
+            <div class="button_read">Читать!</div>
+        </div>
+        <div class="news">
+            <H4>Вышла Mageia 3 beta!</H4>
+
+            <div class="news_body">
+                Вышла Mageia 3 Beta 1.
+                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
+                использования GRUB2 и т.д.
+            </div>
+            <div class="button_read">Читать!</div>
+        </div>
+        <div class="news">
+            <H4>Вышла Mageia 3 beta!</H4>
+
+            <div class="news_body">
+                Вышла Mageia 3 Beta 1.
+                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
+                использования GRUB2 и т.д.
+            </div>
+            <div class="button_read">Читать!</div>
+        </div>
+        <div class="news">
+            <H4>Вышла Mageia 3 beta!</H4>
+
+            <div class="news_body">
+                Вышла Mageia 3 Beta 1.
+                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
+                использования GRUB2 и т.д.
+            </div>
+            <div class="button_read">Читать!</div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+
+
+<hr>
+
+
+<!--Футер-->
+<div class="footer">
+    <div id="footer" class="grid_12">
+
+        <img src="images/logo.png">
+
+
+        <div class="footer_menu">
+            Карта сайта
+            <ul>
+                <li>Главная</li>
+                <li>Загрузки</li>
+                <li>Вики</li>
+                <li>Репозиторий</li>
+                <li>Форум</li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
 
 </body>

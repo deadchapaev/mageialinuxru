@@ -17,10 +17,10 @@ hr {
     border: 0;
     height: 1px;
     background-image: -webkit-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image:    -moz-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image:     -ms-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image:      -o-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    margin-top: 40px;
+    background-image: -moz-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image: -ms-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image: -o-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -95,12 +95,18 @@ H4 {
     background-color: #185d81;
 }
 
+/*
+поиск
+*/
 #searchinput {
     margin-top: 8px;
     margin-right: 20px;
     float: right;
 }
 
+/*
+кнопка поиска
+*/
 #searchsubmit {
     border: none;
     background-image: url(../images/loop.png);
@@ -121,20 +127,17 @@ H4 {
 .about {
     color: rgb(0, 0, 0);
     text-align: center;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .info {
-
     height: 90px;
-    width: 400px;
     font-size: 18px;
 }
 
 .detail {
     padding-top: 40px;
     height: 70px;
-    width: 450px;
     font-size: 14px;
 }
 
@@ -145,19 +148,31 @@ H4 {
     text-align: center;
     line-height: 45px;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.about > .button:hover {
+    background-color: #185d81;
 }
 
 #flowerbottom {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 193px;
+    margin-left: 723px;
+    background-image: url(../images/flower-bottom.png);
+    background-repeat: no-repeat;
     height: 130px;
 }
 
-.monitor {
-    padding-top: 40px;
-    padding-bottom: 40px;
+#monitor {
+    margin-top: 40px;
+    height: 262px;
+
+}
+
+#monitorpic {
+    background-image: url(../images/monitor.png);
+    height: 262px;
+    background-repeat: no-repeat;
+    margin-left: 25px;
 }
 
 .news {
