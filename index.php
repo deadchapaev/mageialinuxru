@@ -9,20 +9,20 @@
 
 <div id="container" class="container_12">
 
-<!--    <div id="test" class="grid_1"></div>-->
-<!--    <div id="test1" class="grid_1"></div>-->
-<!--    <div id="test2" class="grid_1"></div>-->
-<!--    <div id="test3" class="grid_1"></div>-->
-<!--    <div id="test4" class="grid_1"></div>-->
-<!--    <div id="test5" class="grid_1"></div>-->
-<!--    <div id="test6" class="grid_1"></div>-->
-<!--    <div id="test7" class="grid_1"></div>-->
-<!--    <div id="test8" class="grid_1"></div>-->
-<!--    <div id="test9" class="grid_1"></div>-->
-<!--    <div id="test10" class="grid_1"></div>-->
-<!--    <div id="test11" class="grid_1"></div>-->
+    <!--    <div id="test" class="grid_1"></div>-->
+    <!--    <div id="test1" class="grid_1"></div>-->
+    <!--    <div id="test2" class="grid_1"></div>-->
+    <!--    <div id="test3" class="grid_1"></div>-->
+    <!--    <div id="test4" class="grid_1"></div>-->
+    <!--    <div id="test5" class="grid_1"></div>-->
+    <!--    <div id="test6" class="grid_1"></div>-->
+    <!--    <div id="test7" class="grid_1"></div>-->
+    <!--    <div id="test8" class="grid_1"></div>-->
+    <!--    <div id="test9" class="grid_1"></div>-->
+    <!--    <div id="test10" class="grid_1"></div>-->
+    <!--    <div id="test11" class="grid_1"></div>-->
 
-<!--    <div class="clear"></div>-->
+    <!--    <div class="clear"></div>-->
 
     <div id="upline" class="grid_12"></div>
     <div class="clear"></div>
@@ -44,7 +44,10 @@
                 </ul>
             </div>
             <div id="searchbar">
-                <div id="loop"></div>
+                <form name="searchin" method="post" action="">
+                    <input id="searchsubmit" type="submit" value="">
+                    <input id="searchinput" type="text" size="25">
+                </form>
             </div>
         </div>
         <div class="clear"></div>

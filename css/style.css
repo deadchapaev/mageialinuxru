@@ -84,21 +84,23 @@ H4 {
     background-color: #185d81;
 }
 
-#searchbar {
-    float: right;
-    width: 250px;
-    height: 20px;
-    background-color: #ffffff;
+#searchinput {
     margin-top: 8px;
-    margin-right: 30px;
+    margin-right: 20px;
+    float: right;
 }
 
-#loop {
-    float: right;
-    width: 23px;
-    height: 19px;
+#searchsubmit {
+    border: none;
     background-image: url(../images/loop.png);
     background-repeat: no-repeat;
+    width: 23px;
+    height: 18px;
+    z-index: 999;
+    position: relative;
+    left: 348px;
+    top: 10px;
+    cursor: pointer;
 }
 
 /*
