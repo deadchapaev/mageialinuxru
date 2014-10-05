@@ -144,32 +144,30 @@
         </div>
     </div>
     <div class="clear"></div>
-    <div class="clear"></div>
-</div>
 
 
-<hr>
+    <hr>
 
 
-<!--Футер-->
-<div class="footer">
-    <div id="footer" class="grid_12">
+    <!--Футер-->
+    <div class="footer">
+        <div id="footer" class="grid_12">
 
-        <img src="images/logo.png">
+            <img src="images/logo.png">
 
 
-        <div class="footer_menu">
-            Карта сайта
-            <ul>
-                <li>Главная</li>
-                <li>Загрузки</li>
-                <li>Вики</li>
-                <li>Репозиторий</li>
-                <li>Форум</li>
-            </ul>
+            <div class="footer_menu">
+                Карта сайта
+                <ul>
+                    <li>Главная</li>
+                    <li>Загрузки</li>
+                    <li>Вики</li>
+                    <li>Репозиторий</li>
+                    <li>Форум</li>
+                </ul>
+            </div>
         </div>
+        <div class="clear"></div>
     </div>
-    <div class="clear"></div>
-</div>
 
 </body>
