@@ -65,7 +65,7 @@ H4 {
 /***************************************************************
     Навигационная панель
 ***************************************************************/
-#navbar, #menu  {
+#navbar, #menu, #searchbar {
     height: 38px;
     background-color: #2497d4;
 }
@@ -98,10 +98,17 @@ H4 {
 /*
     Поиск
 */
+#searchbar > form {
+    height: 22px;
+    padding-top: 8px;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+}
+
 #searchinput {
-    margin-top: 8px;
-    margin-right: 20px;
     float: right;
+    height: 16px;
 }
 
 /*
@@ -112,11 +119,9 @@ H4 {
     background-image: url(../images/loop.png);
     background-repeat: no-repeat;
     width: 23px;
-    height: 18px;
-    /*z-index: 999;*/
-    position: relative;
-    left: 348px;
-    top: 10px;
+    height: 22px;
+    position: absolute;
+    right: 0px;
     cursor: pointer;
 }
 

@@ -19,7 +19,7 @@
     <div class="clear"></div>
     <!--меню-->
     <div id="navbar" class="grid_12">
-        <div id="menu" class="grid_7 alpha">
+        <div id="menu" class="grid_8 alpha">
             <ul>
                 <li class="active">Главная</li>
                 <li>Загрузки</li>
@@ -28,10 +28,10 @@
                 <li>Форум</li>
             </ul>
         </div>
-        <div id="searchbar">
+        <div id="searchbar" class="grid_4">
             <form name="searchin" method="post" action="index.php">
-                <input id="searchsubmit" type="submit" value="">
                 <input id="searchinput" type="text" size="25">
+                <input id="searchsubmit" type="submit" value="">
             </form>
         </div>
     </div>
@@ -157,7 +157,7 @@
     </div>
     <div class="clear"></div>
 
-    
+
 </div>
 
 
