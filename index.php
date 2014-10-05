@@ -76,9 +76,7 @@
         </div>
         <div class="clear"></div>
 
-        <!--Линия-->
-        <div class="grid_12 grad_line"></div>
-        <div class="clear"></div>
+        <hr>
 
         <!--Новости-->
         <div class="grid_12">
@@ -151,9 +149,7 @@
     </div>
 
 
-    <!--Линия-->
-    <div class="grid_12 grad_line"></div>
-    <div class="clear"></div>
+    <hr>
 
 
     <!--Футер-->

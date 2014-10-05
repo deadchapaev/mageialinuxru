@@ -13,6 +13,17 @@ body {
 /*background-color: #2497d4;*/
 /*}*/
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image:    -moz-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image:     -ms-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image:      -o-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 #upline {
     height: 3px;
     background-image: url(../images/upline.png);
