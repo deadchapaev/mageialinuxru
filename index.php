@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="/960px.css"/>
-    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/960px.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <title>mageialinux.ru</title>
 </head>
 
