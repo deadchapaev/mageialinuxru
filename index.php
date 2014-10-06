@@ -63,12 +63,18 @@
 
     <!--Новости-->
     <div class="grid_12">
-        <H3>Последние новости</H3>
+        <a href=""><H3>Последние новости</H3></a>
     </div>
     <div class="clear"></div>
     <div class="grid_12">
         <div class="news">
-            <H4>Вышла Mageia 3 beta!</H4>
+            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+
+            <div class="newsdetails">
+                <br>Dec 19, 2012
+                <br>Категория: General
+                <br> Разместил: xxblx
+            </div>
 
             <p>Вышла Mageia 3 Beta 1.
                 Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
@@ -78,7 +84,13 @@
             <div class="button_read">читать</div>
         </div>
         <div class="news">
-            <H4>Вышла Mageia 3 beta!</H4>
+            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+
+            <div class="newsdetails">
+                <br>Dec 19, 2012
+                <br>Категория: General
+                <br> Разместил: xxblx
+            </div>
 
             <p> Вышла Mageia 3 Beta 1.
                 Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
@@ -88,7 +100,13 @@
             <div class="button_read">читать</div>
         </div>
         <div class="news">
-            <H4>Вышла Mageia 3 beta!</H4>
+            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+
+            <div class="newsdetails">
+                <br>Dec 19, 2012
+                <br>Категория: General
+                <br> Разместил: xxblx
+            </div>
 
             <p>
                 Вышла Mageia 3 Beta 1.
@@ -99,7 +117,13 @@
             <div class="button_read">читать</div>
         </div>
         <div class="news">
-            <H4>Вышла Mageia 3 beta!</H4>
+            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+
+            <div class="newsdetails">
+                <br>Dec 19, 2012
+                <br>Категория: General
+                <br> Разместил: xxblx
+            </div>
 
             <p>
                 Вышла Mageia 3 Beta 1.
@@ -110,7 +134,13 @@
             <div class="button_read">читать</div>
         </div>
         <div class="news">
-            <H4>Вышла Mageia 3 beta!</H4>
+            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+
+            <div class="newsdetails">
+                <br>Dec 19, 2012
+                <br>Категория: General
+                <br> Разместил: xxblx
+            </div>
 
             <p>
                 Вышла Mageia 3 Beta 1.
@@ -121,7 +151,13 @@
             <div class="button_read">читать</div>
         </div>
         <div class="news">
-            <H4>Вышла Mageia 3 beta!</H4>
+            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+
+            <div class="newsdetails">
+                <br>Dec 19, 2012
+                <br>Категория: General
+                <br> Разместил: xxblx
+            </div>
 
             <p>
                 Вышла Mageia 3 Beta 1.
@@ -141,16 +177,15 @@
     <!--Футер-->
 
     <div id="footer" class="grid_12">
-        <img src="images/logo.png" alt="logo">
 
         <div class="footer_menu">
             <p>Карта сайта
             <ul>
-                <li>Главная</li>
-                <li>Загрузки</li>
-                <li>Вики</li>
-                <li>Репозиторий</li>
-                <li>Форум</li>
+                <li><a href="">Главная</a></li>
+                <li><a href="">Загрузки</a></li>
+                <li><a href="">Вики</a></li>
+                <li><a href="">Репозиторий</a></li>
+                <li><a href="">Форум</a></li>
             </ul>
         </div>
         <div class="grid_5 prefix_3 copyright">copyright 2014 - Mageia Russian Community</div>

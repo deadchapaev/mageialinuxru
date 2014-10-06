@@ -34,7 +34,6 @@ hr {
     background-repeat: no-repeat;
 }
 
-
 #flowertop {
     float: right;
     height: 130px;
@@ -52,7 +51,6 @@ H3 {
 
 H4 {
 
-
     color: rgb(0, 0, 0);
     text-decoration: underline;
     line-height: 1.429;
@@ -61,7 +59,6 @@ H4 {
     margin-top: 10px;
 }
 
-
 /***************************************************************
     Навигационная панель
 ***************************************************************/
@@ -69,6 +66,7 @@ H4 {
     height: 38px;
     background-color: #2497d4;
 }
+
 /*
     Меню
 */
@@ -79,7 +77,7 @@ H4 {
 }
 
 #menu > ul > li,
-#menu > ul > li:hover{
+#menu > ul > li:hover {
     display: block;
     float: left;
     width: 103px;
@@ -91,7 +89,7 @@ H4 {
 }
 
 #menu > ul > li:hover,
-#menu > ul > li.active{
+#menu > ul > li.active {
     background-color: #185d81;
 }
 
@@ -115,11 +113,13 @@ H4 {
     Кнопка поиска
 */
 #searchsubmit {
+    margin-top: 1px;
+    margin-right: 1px;
     border: none;
     background-image: url(../images/loop.png);
     background-repeat: no-repeat;
-    width: 23px;
-    height: 22px;
+    width: 22px;
+    height: 19px;
     position: absolute;
     right: 0px;
     cursor: pointer;
@@ -154,8 +154,6 @@ H4 {
     height: 70px;
 }
 
-
-
 .about > .button:hover {
     background-color: #185d81;
 }
@@ -183,7 +181,7 @@ H4 {
 */
 .news {
     width: 290px;
-    height: 200px;
+    height: 260px;
     position: relative;
     text-align: left;
     float: left;
@@ -202,8 +200,15 @@ H4 {
     margin-left: 10px;
 }
 
+.newsdetails {
+    margin-right: 50px;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
 
 .button_read {
+
     background-color: #2497d4;
     height: 30px;
     width: 100px;
@@ -220,13 +225,14 @@ H4 {
     background-color: #185d81;
 }
 
-
 /***************************************************************
     Футер
 ***************************************************************/
 #footer {
-    height: 393px;
-    background: linear-gradient(#f8fbfe, #2a9ad5);
+    height: 300px;
+    /*background: linear-gradient(#f8fbfe, #2a9ad5);*/
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
 }
 
 #footer > img {
@@ -237,22 +243,35 @@ H4 {
 .footer_menu {
     position: absolute;
     font-weight: bold;
-    top: 60px;
+    top: 20px;
     right: 60px;
 }
+
 .footer_menu > p {
     padding-bottom: 15px;
 }
 
 .footer_menu > ul {
-    text-decoration: underline;
+
     font-weight: normal;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
 
+.footer_menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.footer_menu > ul > li > a:hover {
+    color: #185d81;
+    text-decoration: underline;
+}
+
 .copyright {
+    margin-top: 280px;
     text-align: center;
     font-size: 12px;
 }
