@@ -1,0 +1,235 @@
+
+* {
+    margin: 0 auto;
+    z-index: 0;
+    font-family: "Verdana";
+    font-size: 14px;
+    position: relative;
+}
+
+body {
+    width: 1020px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image: -moz-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image: -ms-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image: -o-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#upline {
+    height: 3px;
+    background-image: url(../images/upline.png);
+    background-repeat: no-repeat;
+}
+
+#logo {
+    margin-top: 15px;
+    height: 88px;
+    background-image: url(../images/logomageia.png);
+    background-repeat: no-repeat;
+}
+
+#flowertop {
+    float: right;
+    height: 130px;
+    background: url(../images/flower-top.png) top right;
+    background-repeat: no-repeat;
+}
+
+/***************************************************************
+    Навигационная панель
+***************************************************************/
+#navbar, #menu, #searchbar {
+    height: 38px;
+    background-color: #2497d4;
+}
+
+/*
+    Меню
+*/
+#menu > ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu > ul > li,
+#menu > ul > li:hover {
+    display: block;
+    float: left;
+    width: 103px;
+    color: rgb(255, 255, 255);
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#menu > ul > li:hover,
+#menu > ul > li.active {
+    background-color: #185d81;
+}
+
+/*
+    Поиск
+*/
+#searchbar > form {
+    height: 22px;
+    padding-top: 8px;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+}
+
+#searchinput {
+    float: right;
+    height: 16px;
+}
+
+/*
+    Кнопка поиска
+*/
+#searchsubmit {
+    margin-top: 1px;
+    margin-right: 1px;
+    border: none;
+    background-image: url(../images/loop.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 19px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+#newscontent p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#newscontent a {
+    color: #185d81;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#newscontent a:hover {
+    color: #2497d4;
+}
+
+.newsdetails {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #185d81;
+}
+
+#newscontent {
+    min-height: 130px;
+    background-image: url(../images/flower-bottom.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#newscontent H3 {
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    line-height: 0.833;
+    font-weight: normal;
+}
+
+#buttonforum {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 240px;
+    height: 45px;
+    background-color: #2497d4;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#buttonforum:hover {
+    background-color: #185d81;
+}
+
+#buttonback{
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 45px;
+    background-color: #2497d4;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#buttonback:hover {
+    background-color: #185d81;
+}
+
+
+/***************************************************************
+    Футер
+***************************************************************/
+#footer {
+    height: 300px;
+    /*background: linear-gradient(#f8fbfe, #2a9ad5);*/
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+}
+
+#footer > img {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.footer_menu {
+    position: absolute;
+    font-weight: bold;
+    top: 20px;
+    right: 60px;
+}
+
+.footer_menu > p {
+    padding-bottom: 15px;
+}
+
+.footer_menu > ul {
+
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer_menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.footer_menu > ul > li > a:hover {
+    color: #185d81;
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 280px;
+    text-align: center;
+    font-size: 12px;
+}
+
