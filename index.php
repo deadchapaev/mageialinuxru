@@ -1,43 +1,4 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="/css/960px.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <title>mageialinux.ru</title>
-</head>
-
-<body>
-
-<div id="container" class="container_12">
-    <div id="upline" class="grid_12"></div>
-    <div class="clear"></div>
-
-
-    <!--шапка-->
-    <div id="logo" class="grid_4"></div>
-    <div id="flowertop" class="grid_8"></div>
-    <div class="clear"></div>
-    <!--меню-->
-    <div id="navbar" class="grid_12">
-        <div id="menu" class="grid_8 alpha">
-            <ul>
-                <li class="active">Главная</li>
-                <li>Загрузки</li>
-                <li>Вики</li>
-                <li>Репозиторий</li>
-                <li>Форум</li>
-            </ul>
-        </div>
-        <div id="searchbar" class="grid_4">
-            <form name="searchin" method="post" action="index.php">
-                <input id="searchinput" type="text" size="25">
-                <input id="searchsubmit" type="submit" value="">
-            </form>
-        </div>
-    </div>
-    <div class="clear"></div>
-
+<?php get_header(); ?>
 
     <div id="content" class="grid_12">
         <!--Описание дистра-->
@@ -64,138 +25,36 @@
 
     <!--Новости-->
     <div class="grid_12">
-        <a href=""><H3>Последние новости</H3></a>
+        <a href="<?php get_post_type_archive_link();?>"><H3>Последние новости</H3></a>
     </div>
     <div class="clear"></div>
     <div class="grid_12">
-        <div class="news">
-            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+        <?php if (have_posts()) :
+            while (have_posts()) : the_post(); ?>
+                <div class="news">
+                    <H4><?php the_title(); ?></H4>
 
-            <div class="newsdetails">
-                <br>Dec 19, 2012
-                <br>Категория: General
-                <br> Разместил: xxblx
-            </div>
+                    <div class="newsdetails">
+                        <br><?php the_time('F jS, Y'); ?>
+                        <?php $category = get_the_category(); ?>
+                        <br>Категория: <?php echo $category[0]->cat_name; ?>
+                        <br> Разместил: <?php the_author(); ?>
+                    </div>
 
-            <p>Вышла Mageia 3 Beta 1.
-                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                использования GRUB2 и т.д.
-            </p>
+                    <p>
+                        <?php
+                        print(mb_substr(strip_tags(get_the_content()), 0, 170));
+                        print('...');
+                        ?>
+                    </p>
 
-            <div class="button_read">читать</div>
-        </div>
-        <div class="news">
-            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
+                    <div class="button_read"><a href="<?php the_permalink(); ?>">читать</a></div>
+                </div>
+            <?php endwhile;
+        endif; ?>
 
-            <div class="newsdetails">
-                <br>Dec 19, 2012
-                <br>Категория: General
-                <br> Разместил: xxblx
-            </div>
-
-            <p> Вышла Mageia 3 Beta 1.
-                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                использования GRUB2 и т.д.
-            </p>
-
-            <div class="button_read">читать</div>
-        </div>
-        <div class="news">
-            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
-
-            <div class="newsdetails">
-                <br>Dec 19, 2012
-                <br>Категория: General
-                <br> Разместил: xxblx
-            </div>
-
-            <p>
-                Вышла Mageia 3 Beta 1.
-                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                использования GRUB2 и т.д.
-            </p>
-
-            <div class="button_read">читать</div>
-        </div>
-        <div class="news">
-            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
-
-            <div class="newsdetails">
-                <br>Dec 19, 2012
-                <br>Категория: General
-                <br> Разместил: xxblx
-            </div>
-
-            <p>
-                Вышла Mageia 3 Beta 1.
-                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                использования GRUB2 и т.д.
-            </p>
-
-            <div class="button_read">читать</div>
-        </div>
-        <div class="news">
-            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
-
-            <div class="newsdetails">
-                <br>Dec 19, 2012
-                <br>Категория: General
-                <br> Разместил: xxblx
-            </div>
-
-            <p>
-                Вышла Mageia 3 Beta 1.
-                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                использования GRUB2 и т.д.
-            </p>
-
-            <div class="button_read">читать</div>
-        </div>
-        <div class="news">
-            <a href=""><H4>Вышла Mageia 3 beta!</H4></a>
-
-            <div class="newsdetails">
-                <br>Dec 19, 2012
-                <br>Категория: General
-                <br> Разместил: xxblx
-            </div>
-
-            <p>
-                Вышла Mageia 3 Beta 1.
-                Это первый релиз, содержащий в себе некоторые изменения в инсталляторе. Например, доступна опция
-                использования GRUB2 и т.д.
-            </p>
-
-            <div class="button_read">читать</div>
-        </div>
     </div>
     <div class="clear"></div>
-
-
     <hr>
 
-
-    <!--Футер-->
-
-    <div id="footer" class="grid_12">
-
-        <div class="footer_menu">
-            <p>Карта сайта
-            <ul>
-                <li><a href="">Главная</a></li>
-                <li><a href="">Загрузки</a></li>
-                <li><a href="">Вики</a></li>
-                <li><a href="">Репозиторий</a></li>
-                <li><a href="">Форум</a></li>
-            </ul>
-        </div>
-        <div class="grid_5 prefix_3 copyright">copyright 2014 - Mageia Russian Community</div>
-    </div>
-    <div class="clear"></div>
-
-
-</div>
-
-
-</body>
-</html>
+<?php get_footer(); ?>
