@@ -164,7 +164,7 @@ hr {
     background-color: #185d81;
 }
 
-#buttonback{
+#buttonback {
     float: right;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -181,6 +181,36 @@ hr {
     background-color: #185d81;
 }
 
+#newsarchcontent {
+    min-height: 130px;
+    background-image: url(../images/flower-bottom.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#newsarchcontent h3 {
+    margin-top: 30px;
+    font-size: 34px;
+    font-weight: normal;
+}
+
+#archyear {
+    color: #185d81;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#archews {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #185d81;
+}
+
+#archews li:hover {
+    cursor: pointer;
+    color: #2497d4;
+}
 
 /***************************************************************
     Футер
