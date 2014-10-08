@@ -1,34 +1,27 @@
 <?php
+/*
+Template Name: Архив новостей
+*/
+?>
+<?php
 get_header(); ?>
 
     <div id="newsarchcontent" class="grid_12">
-        <H3>Архив новостей</H3>
-
-        <?php if (have_posts()) : ?>
+	    <H3>Архив новостей</H3>
             <ul id="archews">
-
-                <?php
-                while (have_posts()) : the_post();?>
-                    <a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a>
-                <?php
-                endwhile;
-                ?>
-            </ul>
-        <?php else : ?>
-            <?php get_template_part('content', 'none'); ?>
-        <?php endif; ?>
-
-        <div id="buttonback">Назад</div>
-
-
+				<?php
+					$myposts = get_posts('');
+					foreach($myposts as $post) :
+				?>
+					<li>
+						<a  href="<?php the_permalink(); ?>"><?php the_time('d.m.y') ?>  |  <?php  the_title() ?></a>
+					</li>
+				<?php  endforeach;  ?>
+		    </ul>
+        <div id="buttonback"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
     </div>
 
     <div class="clear"></div>
     <hr>
-
-
-
-
-
 
 <?php get_footer(); ?>

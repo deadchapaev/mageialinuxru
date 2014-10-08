@@ -22,7 +22,7 @@
     <div id="navbar" class="grid_12">
         <div id="menu" class="grid_8 alpha">
             <ul>
-                <li class="active">Главная</li>
+                <li>Главная</li>
                 <li>Загрузки</li>
                 <li>Вики</li>
                 <li>Репозиторий</li>

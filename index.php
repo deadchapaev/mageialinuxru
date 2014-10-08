@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 
     <div id="content" class="grid_12">
         <!--Описание дистра-->
@@ -25,7 +25,8 @@
 
     <!--Новости-->
     <div class="grid_12">
-        <a href="<?php get_post_type_archive_link();?>"><H3>Последние новости</H3></a>
+        <a href="arch"><H3>Последние новости</H3></a>
+		
     </div>
     <div class="clear"></div>
     <div class="grid_12">

@@ -4,7 +4,7 @@
     <?php if (have_posts()) :
         while (have_posts()) : the_post(); ?>
 
-            <H3><?php the_title(); ?></H3>
+		<H3><?php the_title(); ?></H3>
 
             <div class="newsdetails">
                 <br><?php the_time('F jS, Y'); ?>
@@ -15,13 +15,12 @@
 
             <p><?php the_content(','); ?></p>
 
-            <div id="buttonforum">Обсудить новость на форуме</div>
-            <div id="buttonback">Назад</div>
+            <div id="buttonforum"><a href="http://forum.mageialinux.ru/">Обсудить новость на форуме</a></div>
+            <div id="buttonback"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 
             <div class="clear"></div>
         <?php endwhile;
     endif; ?>
-
     <hr>
 
 <?php get_footer(); ?>

@@ -146,6 +146,10 @@ hr {
     line-height: 0.833;
     font-weight: normal;
 }
+#newsarchcontent > H3 {
+	text-decoration: none;
+}
+
 
 #buttonforum {
     float: left;
@@ -175,6 +179,12 @@ hr {
     line-height: 45px;
     cursor: pointer;
     color: #ffffff;
+}
+
+#buttonforum >a, #buttonback > a {
+	text-decoration:none;
+	color: #ffffff;
+	font-weight: normal;
 }
 
 #buttonback:hover {
@@ -210,6 +220,15 @@ hr {
 #archews li:hover {
     cursor: pointer;
     color: #2497d4;
+}
+#archews > li > a {
+	margin: 0px auto;
+	z-index: 0;
+	font-family: "Verdana";
+	font-size: 14px;
+	position: relative;
+	text-decoration: none;
+	
 }
 
 /***************************************************************
