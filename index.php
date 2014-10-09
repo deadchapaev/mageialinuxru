@@ -44,7 +44,7 @@
 
                     <p>
                         <?php
-                        print(mb_substr(strip_tags(get_the_content()), 0, 170));
+                        print(mb_substr(strip_tags(get_the_content()), 0, 100));
                         print('...');
                         ?>
                     </p>
