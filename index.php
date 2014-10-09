@@ -31,6 +31,7 @@
     <div class="clear"></div>
     <div class="grid_12">
         <?php if (have_posts()) :
+            $i = 0;
             while (have_posts()) : the_post(); ?>
                 <div class="news">
                     <H4><?php the_title(); ?></H4>
@@ -51,7 +52,9 @@
 
                     <div class="button_read"><a href="<?php the_permalink(); ?>">читать</a></div>
                 </div>
-            <?php endwhile;
+            <?php if (++$i >= 6) break;
+              
+              endwhile;
         endif; ?>
 
     </div>
