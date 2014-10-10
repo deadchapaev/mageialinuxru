@@ -24,9 +24,9 @@
     <hr>
 
     <!--Новости-->
-    <div class="grid_12">
+    <div id="newsblock" class="grid_12">
         <a href="arch"><H3>Последние новости</H3></a>
-		
+
     </div>
     <div class="clear"></div>
     <div class="grid_12">
@@ -50,11 +50,13 @@
                         ?>
                     </p>
 
-                    <div class="button_read"><a href="<?php the_permalink(); ?>">читать</a></div>
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="button_read">читать</div>
+                    </a>
                 </div>
-            <?php if (++$i >= 6) break;
-              
-              endwhile;
+                <?php if (++$i >= 6) break;
+
+            endwhile;
         endif; ?>
 
     </div>

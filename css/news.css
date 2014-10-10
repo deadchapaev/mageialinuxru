@@ -124,7 +124,7 @@ hr {
     color: #2497d4;
 }
 
-.newsdetails {
+.singlenewsdetails {
     margin-top: 20px;
     font-size: 12px;
     font-weight: bold;
@@ -146,12 +146,13 @@ hr {
     line-height: 0.833;
     font-weight: normal;
 }
+
 #newsarchcontent > H3 {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-
 #buttonforum {
+    font-weight: normal;
     float: left;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -169,6 +170,7 @@ hr {
 }
 
 #buttonback {
+    font-weight: normal;
     float: right;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -181,10 +183,10 @@ hr {
     color: #ffffff;
 }
 
-#buttonforum >a, #buttonback > a {
-	text-decoration:none;
-	color: #ffffff;
-	font-weight: normal;
+#buttonforum > a, #buttonback > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
 }
 
 #buttonback:hover {
@@ -199,9 +201,22 @@ hr {
 }
 
 #newsarchcontent h3 {
-    margin-top: 30px;
-    font-size: 34px;
+    margin-top: 60px;
+    font-size: 28px;
     font-weight: normal;
+}
+
+
+#newsarchcontent ul {
+    margin-top: 30px;
+}
+
+#newsarchcontent a {
+    color: #185d81;
+}
+
+#newsarchcontent a:hover {
+    color: #2497d4;
 }
 
 #archyear {
@@ -221,14 +236,15 @@ hr {
     cursor: pointer;
     color: #2497d4;
 }
+
 #archews > li > a {
-	margin: 0px auto;
-	z-index: 0;
-	font-family: "Verdana";
-	font-size: 14px;
-	position: relative;
-	text-decoration: none;
-	
+    margin: 0px auto;
+    z-index: 0;
+    font-family: "Verdana";
+    font-size: 14px;
+    position: relative;
+    text-decoration: none;
+
 }
 
 /***************************************************************

@@ -75,8 +75,7 @@ H4 {
     margin: 0px;
 }
 
-#menu > ul > li,
-#menu > ul > li:hover {
+#menu li {
     display: block;
     float: left;
     width: 103px;
@@ -84,11 +83,9 @@ H4 {
     line-height: 38px;
     text-align: center;
     cursor: pointer;
-
 }
 
-#menu > ul > li:hover,
-#menu > ul > li.active {
+#menu li:hover {
     background-color: #185d81;
 }
 
@@ -180,7 +177,7 @@ H4 {
 */
 .news {
     width: 290px;
-    height: 260px;
+    height: 230px;
     position: relative;
     text-align: left;
     float: left;
@@ -191,41 +188,52 @@ H4 {
     background-repeat: no-repeat;
 }
 
-.news > p {
-    padding-top: 10px;
+.news h4 {
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+h3:hover {
+    color: #185d81;
+}
+
+.news p {
+    margin-top: 20px;
     font-size: 12px;
     line-height: 1.7;
     margin-right: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .newsdetails {
     margin-right: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 10px;
     font-weight: bold;
+    color: #185d81;
 }
 
 .button_read {
-
     background-color: #2497d4;
     height: 30px;
     width: 100px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
     text-align: center;
     line-height: 28px;
     color: #ffffff;
     cursor: pointer;
 }
-.button_read > a {
-	text-decoration:none;
-	color: #ffffff;	
+
+.news a {
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 30px;
 }
 
 .button_read:hover {
-    background-color: #185d81;
+background-color: #185d81;
 }
 
 /***************************************************************
@@ -254,7 +262,7 @@ H4 {
     padding-bottom: 15px;
 }
 
-.footer_menu > ul {
+.footer_menu ul {
 
     font-weight: normal;
     list-style-type: none;
@@ -262,13 +270,16 @@ H4 {
     margin: 0px;
 }
 
-.footer_menu > ul > li > a {
+.footer_menu li {
     text-decoration: none;
     color: black;
     font-size: 12px;
 }
 
-.footer_menu > ul > li > a:hover {
+.footer_menu a {
+    text-decoration: none;
+}
+.footer_menu li:hover {
     color: #185d81;
     text-decoration: underline;
 }
