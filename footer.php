@@ -6,7 +6,7 @@
             <a href="/">
                 <li>Главная</li>
             </a>
-            <a href="/">
+            <a href="/download">
                 <li>Загрузки</li>
             </a>
             <a href="http://forum.mageialinux.ru/">

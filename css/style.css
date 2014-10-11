@@ -130,7 +130,7 @@ H4 {
     margin-top: 50px;
 }
 
-.about > .button {
+.button {
     width: 240px;
     height: 45px;
     background-color: #2497d4;
@@ -138,6 +138,10 @@ H4 {
     line-height: 45px;
     color: #ffffff;
     cursor: pointer;
+}
+
+.about a {
+    text-decoration: none;
 }
 
 .info {
@@ -150,7 +154,7 @@ H4 {
     height: 70px;
 }
 
-.about > .button:hover {
+.button:hover {
     background-color: #185d81;
 }
 
@@ -193,7 +197,7 @@ H4 {
     padding-left: 10px;
 }
 
-h3:hover {
+#newsblock h3:hover {
     color: #185d81;
 }
 
