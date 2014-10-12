@@ -42,17 +42,15 @@ hr {
     background-repeat: no-repeat;
 }
 
-/***************************************************************
-    Навигационная панель
-***************************************************************/
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    Н ав иг ац ио нн ая па не ль
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 #navbar, #menu, #searchbar {
     height: 38px;
     background-color: #2497d4;
 }
 
-/*
-    Меню
-*/
+Ме ню
 #menu > ul {
     list-style-type: none;
     padding: 0px;
@@ -76,9 +74,7 @@ hr {
     background-color: #185d81;
 }
 
-/*
-    Поиск
-*/
+По ис к
 #searchbar > form {
     height: 22px;
     padding-top: 8px;
@@ -92,9 +88,7 @@ hr {
     height: 16px;
 }
 
-/*
-    Кнопка поиска
-*/
+Кн оп ка по ис ка
 #searchsubmit {
     margin-top: 1px;
     margin-right: 1px;
@@ -112,6 +106,7 @@ hr {
     margin-top: 20px;
     font-size: 14px;
     line-height: 1.7;
+    word-wrap: break-word;
 }
 
 #newscontent a {
@@ -206,7 +201,6 @@ hr {
     font-weight: normal;
 }
 
-
 #newsarchcontent ul {
     margin-top: 30px;
 }
@@ -247,12 +241,12 @@ hr {
 
 }
 
-/***************************************************************
-    Футер
-***************************************************************/
+/*
+*footer
+*/
 #footer {
     height: 300px;
-    /*background: linear-gradient(#f8fbfe, #2a9ad5);*/
+    background: linear-gradient(#f8fbfe, #2a9ad5);
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
 }
