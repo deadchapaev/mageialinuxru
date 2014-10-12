@@ -29,7 +29,7 @@
 
     </div>
     <div class="clear"></div>
-    <div class="grid_12">
+
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
@@ -59,8 +59,9 @@
             endwhile;
         endif; ?>
 
-    </div>
+
     <div class="clear"></div>
     <hr>
+
 
 <?php get_footer(); ?>
