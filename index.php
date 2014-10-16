@@ -51,7 +51,7 @@
                     </p>
 
                     <a href="<?php the_permalink(); ?>">
-                        <div class="button_read">читать</div>
+                        читать
                     </a>
                 </div>
                 <?php if (++$i >= 6) break;
