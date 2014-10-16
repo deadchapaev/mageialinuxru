@@ -13,7 +13,7 @@
             <br> Разместил: <?php the_author(); ?>
         </div>
 
-        <p><?php the_content(','); ?></p>
+        <?php the_content(','); ?>
 
         <a href="http://forum.mageialinux.ru/">
             <div id="buttonforum">Обсудить новость на форуме</div>
@@ -25,6 +25,7 @@
         <div class="clear"></div>
     <?php endwhile;
 endif; ?>
-    <hr>
 
+    <hr>
+</div>
 <?php get_footer(); ?>
