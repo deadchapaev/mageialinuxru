@@ -75,7 +75,7 @@ H4 {
     margin: 0px;
 }
 
-#menu li {
+#menu li, #menu li a {
     display: block;
     float: left;
     width: 103px;
@@ -83,42 +83,11 @@ H4 {
     line-height: 38px;
     text-align: center;
     cursor: pointer;
+	text-decoration: none;
 }
 
-#menu li:hover {
+#menu li:hover, #menu li a:hover {
     background-color: #185d81;
-}
-
-/*
-    Поиск
-*/
-#searchbar > form {
-    height: 22px;
-    padding-top: 8px;
-    width: 200px;
-    position: absolute;
-    right: 10px;
-}
-
-#searchinput {
-    float: right;
-    height: 16px;
-}
-
-/*
-    Кнопка поиска
-*/
-#searchsubmit {
-    margin-top: 1px;
-    margin-right: 1px;
-    border: none;
-    background-image: url(../images/loop.png);
-    background-repeat: no-repeat;
-    width: 22px;
-    height: 19px;
-    position: absolute;
-    right: 0px;
-    cursor: pointer;
 }
 
 /***************************************************************
@@ -143,7 +112,7 @@ H4 {
     cursor: pointer;
 }
 
-.about a :hover {
+.about a:hover {
     background-color: #185d81;
 }
 
