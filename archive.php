@@ -10,7 +10,7 @@ get_header(); ?>
         <H3>Архив новостей</H3>
         <ul id="archews">
             <?php
-            $myposts = get_posts('');
+            $myposts = get_posts('numberposts=-1');
             foreach ($myposts as $post) :
                 ?>
                 <li>
