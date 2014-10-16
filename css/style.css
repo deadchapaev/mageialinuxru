@@ -130,8 +130,11 @@ H4 {
     margin-top: 50px;
 }
 
-.button {
-    width: 240px;
+
+.about a {
+    text-decoration: none;
+	width: 240px;
+	display:block;
     height: 45px;
     background-color: #2497d4;
     text-align: center;
@@ -140,8 +143,8 @@ H4 {
     cursor: pointer;
 }
 
-.about a {
-    text-decoration: none;
+.about a :hover {
+    background-color: #185d81;
 }
 
 .info {
@@ -154,9 +157,7 @@ H4 {
     height: 70px;
 }
 
-.button:hover {
-    background-color: #185d81;
-}
+
 
 #content {
     background-image: url(../images/flower-bottom.png);
