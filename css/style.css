@@ -255,6 +255,10 @@ H4 {
 
 .footer_menu a {
     text-decoration: none;
+    color: #185d81;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
 }
 
 .footer_menu li:hover {
