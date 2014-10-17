@@ -51,7 +51,7 @@
     background-color: #2497d4;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: normal;
     display:block;
     line-height: 45px;
@@ -61,13 +61,12 @@
     margin-top: 50px;
 }
 
-#buttonforum >a{
+#buttonforum > a{
     float: left;
     width: 240px;
 }
 
-
-#buttonback >a {
+#buttonback > a {
     float: right;
     width: 150px;
 }
@@ -78,12 +77,6 @@
     background-color: #185d81;
     color: #ffffff;
 }
-#buttonback a:hover, #buttonforum a:hover {
-    color: #ffffff;
-}
-
-
-
 
 #newsarchcontent {
     min-height: 130px;

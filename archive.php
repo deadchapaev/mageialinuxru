@@ -18,9 +18,9 @@ get_header(); ?>
                 </li>
             <?php endforeach; ?>
         </ul>
-        <a href="javascript:javascript:history.go(-1)">
-            <div id="buttonback">Назад</div>
-        </a>
+        
+        <div id="buttonback"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
+        
     </div>
 
     <div class="clear"></div>
