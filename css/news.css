@@ -73,7 +73,8 @@
 }
 
 
-#buttonback:hover, #buttonforum:hover {
+#buttonback:hover, #buttonforum:hover,
+#buttonback a:hover, #buttonforum a:hover {
     background-color: #185d81;
     color: #ffffff;
 }
