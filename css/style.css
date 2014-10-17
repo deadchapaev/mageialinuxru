@@ -10,6 +10,7 @@ body {
     width: 1020px;
 }
 
+
 hr {
     border: 0;
     height: 1px;
@@ -20,6 +21,27 @@ hr {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+H3 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    line-height: 0.833;
+    font-weight: normal;
+}
+
+H4 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    line-height: 1.429;
+    font-weight: bold;
+    margin-left: 10px; /*!!*/
+    margin-top: 10px;
+}
+
+/***************************************************************
+    Шапка
+***************************************************************/
 
 #upline {
     height: 3px;
@@ -41,34 +63,15 @@ hr {
     background-repeat: no-repeat;
 }
 
-H3 {
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    line-height: 0.833;
-    font-weight: normal;
-}
-
-H4 {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    line-height: 1.429;
-    font-weight: bold;
-    margin-left: 10px; /*!!*/
-    margin-top: 10px;
-}
 
 /***************************************************************
     Навигационная панель
 ***************************************************************/
-#navbar, #menu, #searchbar {
+#navbar, #menu {
     height: 38px;
     background-color: #2497d4;
 }
 
-/*
-    Меню
-*/
 #menu > ul {
     list-style-type: none;
     padding: 0px;
@@ -93,12 +96,17 @@ H4 {
 /***************************************************************
     Контент
 ***************************************************************/
+#content {
+    background-image: url(../images/flower-bottom.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .about {
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 50px;
 }
-
 
 .about a {
     text-decoration: none;
@@ -127,13 +135,6 @@ H4 {
 }
 
 
-
-#content {
-    background-image: url(../images/flower-bottom.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-}
-
 #monitor {
     margin-top: 40px;
     height: 262px;
@@ -146,9 +147,9 @@ H4 {
     margin-left: 25px;
 }
 
-/*
-    Новости
-*/
+/***************************************************************
+    Новости на главной странице
+***************************************************************/
 .news {
     width: 290px;
     height: 300px;
@@ -213,7 +214,6 @@ H4 {
 ***************************************************************/
 #footer {
     height: 300px;
-    /*background: linear-gradient(#f8fbfe, #2a9ad5);*/
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
 }
