@@ -16,7 +16,7 @@
     <div class="clear"></div>
 
     <!--шапка-->
-    <div id="logo" class="grid_4"></div>
+    <div id="logo" class="grid_4"><a href="/"></a></div>
     <div id="flowertop" class="grid_8"></div>
     <div class="clear"></div>
     <!--меню-->

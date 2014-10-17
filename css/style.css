@@ -56,6 +56,16 @@ H4 {
     background-repeat: no-repeat;
 }
 
+#logo > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+
+}
+#logo > a:active  {
+    background-color:transparent;
+}
 #flowertop {
     float: right;
     height: 130px;
