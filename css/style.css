@@ -4,23 +4,23 @@
     font-family: "Verdana";
     font-size: 14px;
     position: relative;
-	
+
 }
 
 body {
-	/*background-color:#E2E2E2;*/
-	background-color:#EAEAEA;
+    /*background-color:#E2E2E2;*/
+    background-color: #ffffff;
 }
 
 #container {
-	width:940px;
-	background-color:white;
-	margin:0 auto;
-	-webkit-box-shadow: 0px 1px 6px 0px rgba(50, 50, 50, 1);
-	-moz-box-shadow:    0px 1px 6px 0px rgba(50, 50, 50, 1);
-	box-shadow:         0px 1px 6px 0px rgba(50, 50, 50, 1);
-}
+    width: 940px;
+    background-color: white;
+    margin: 0 auto;
 
+    -webkit-box-shadow: 0px 1px 1px 0px #185d81;
+    -moz-box-shadow:    0px 1px 1px 0px #185d81);
+    box-shadow:         0px 1px 1px 0px #185d81;
+}
 
 hr {
     border: 0;
@@ -61,10 +61,15 @@ H4 {
 }
 
 #logo {
-    margin-top: 15px;
+    margin-left: 25px;
+    float: left;
+    width: 261px;
+    /*margin-top: 15px;*/
     height: 88px;
     background-image: url(../images/logomageia.png);
     background-repeat: no-repeat;
+    margin-right: 1px;
+
 }
 
 #logo > a {
@@ -74,58 +79,71 @@ H4 {
     text-decoration: none;
 
 }
-#logo > a:active  {
-    background-color:transparent;
-}
-#flowertop {
-    float: right;
-    height: 130px;
-    background: url(../images/flower-top.png) top right;
-    background-repeat: no-repeat;
 
+#logo > a:active {
+    background-color: transparent;
 }
 
+/*#flowertop {*/
+/*float: right;*/
+/*height: 130px;*/
+/*background: url(../images/flower-top.png) top right;*/
+/*background-repeat: no-repeat;*/
+
+/*}*/
 
 /***************************************************************
     Навигационная панель
 ***************************************************************/
-#navbar, #menu {
-    height: 38px;
-    background-color: #2497d4;
+#menu {
+    height: 89px;
+    float: right;
+    margin-right: 8px;
 }
+
 #navbar {
-	width:100%;
+    width: 100%;
+    margin-top: 1px;
 }
 
 #menu > ul {
+    height: 89px;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    /*padding: 0px;*/
+    /*margin: 0px;*/
 }
 
 #menu li, #menu li a {
+    font-weight: bold;
+    height: 88px;
+    background-color: #2497d4;
     display: block;
     float: left;
-    width: 103px;
+    width: 120px;
     color: rgb(255, 255, 255);
-    line-height: 38px;
+    line-height: 125px;
     text-align: center;
     cursor: pointer;
-	text-decoration: none;
+    text-decoration: none;
+    margin-right: 1px;
 }
 
 #menu li:hover, #menu li a:hover {
     background-color: #185d81;
 }
 
+#headerhr {
+    margin-top: 0px;
+}
+
 /***************************************************************
     Контент
 ***************************************************************/
 #content {
-    background-image: url(../images/flower-bottom.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-	width:100%;
+    /*background-image: url(../images/flower-bottom.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right top;*/
+    width: 100%;
 }
 
 .about {
@@ -136,8 +154,8 @@ H4 {
 
 .about a {
     text-decoration: none;
-	width: 240px;
-	display:block;
+    width: 240px;
+    display: block;
     height: 45px;
     background-color: #2497d4;
     text-align: center;
@@ -159,7 +177,6 @@ H4 {
     padding-top: 40px;
     height: 70px;
 }
-
 
 #monitor {
     margin-top: 40px;
@@ -188,7 +205,7 @@ H4 {
     background-image: url('../images/news_angle.png');
     background-repeat: no-repeat;
     word-wrap: break-word;
-	/*border-right:1px solid red;*/
+    /*border-right:1px solid red;*/
 }
 
 .news h4 {
@@ -217,13 +234,13 @@ H4 {
 }
 
 .news a {
-	display:block;
+    display: block;
     text-decoration: none;
     position: absolute;
     bottom: 0px;
     right: 0px;
     margin-right: 30px;
-	background-color: #2497d4;
+    background-color: #2497d4;
     height: 30px;
     width: 100px;
     text-align: center;
@@ -268,7 +285,6 @@ H4 {
     padding: 0px;
     margin: 0px;
 }
-
 
 .footer_menu li {
     text-decoration: none;
