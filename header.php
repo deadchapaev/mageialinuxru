@@ -14,7 +14,7 @@
 <body>
 <div id="container" class="container_12">
     <!--    <div id="upline" class="grid_12"></div>-->
-    <div class="clear"></div>
+<!--    <div class="clear"></div>-->
 
     <!--шапка-->
     <!--    <div id="logo" class="grid_4"><a href="/"></a></div>-->
@@ -39,6 +39,6 @@
     </div>
     <div class="clear"></div>
 
-    <HR id="headerhr">
+<!--    <HR id="headerhr">-->
 
 
