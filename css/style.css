@@ -4,10 +4,20 @@
     font-family: "Verdana";
     font-size: 14px;
     position: relative;
+	
 }
 
 body {
-    width: 1020px;
+	background-color:#E2E2E2;
+	
+}
+#container {
+	width:940px;
+	background-color:white;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 1px 6px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 1px 6px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 1px 6px 0px rgba(50, 50, 50, 1);
 }
 
 
@@ -161,17 +171,18 @@ H4 {
     Новости на главной странице
 ***************************************************************/
 .news {
-    width: 290px;
+    width: 294px;
     height: 300px;
     position: relative;
     text-align: left;
     float: left;
-    margin-left: 4px;
+    margin-left: 6px;
     margin-top: 35px;
     padding-left: 10px;
     background-image: url('../images/news_angle.png');
     background-repeat: no-repeat;
     word-wrap: break-word;
+	/*border-right:1px solid red;*/
 }
 
 .news h4 {

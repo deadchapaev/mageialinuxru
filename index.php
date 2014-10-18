@@ -34,7 +34,16 @@
             $i = 0;
             while (have_posts()) : the_post(); ?>
                 <div class="news">
-                    <H4><?php the_title(); ?></H4>
+                    <H4>
+						<?php  
+							$post_title_len = 40;
+							if (iconv_strlen(get_the_title(), "utf-8") > $post_title_len) {
+								print(mb_substr(strip_tags(get_the_title()), 0, $post_title_len) . "...");
+							} else {
+								print(get_the_title());
+							}
+						?>
+					</H4>
 
                     <div class="newsdetails">
                         <br><?php the_time('F jS, Y'); ?>
@@ -44,10 +53,14 @@
                     </div>
 
                     <p>
-                        <?php
-                        print(mb_substr(strip_tags(get_the_content()), 0, 100));
-                        print('...');
-                        ?>
+						<?php  
+							$post_len = 100;
+							if (iconv_strlen(get_the_content(), "utf-8") > $post_len) {
+								print(mb_substr(strip_tags(get_the_content()), 0, $post_len) . "...");
+							} else {
+								print(get_the_content());
+							}
+						?>
                     </p>
 
                     <a href="<?php the_permalink(); ?>">
