@@ -18,10 +18,10 @@
 
     <!--шапка-->
     <div id="logo" class="grid_4"><a href="/"></a></div>
-    <div id="flowertop" class="grid_8"></div>
+    <div id="flowertop" class="grid_8 omega"></div>
     <div class="clear"></div>
     <!--меню-->
-    <div id="navbar" class="grid_12">
+    <div id="navbar" class="grid_12 alpha">
         <div id="menu" class="grid_12 alpha">
             <ul>                
                 <li><a href="/">Главная</a></li>

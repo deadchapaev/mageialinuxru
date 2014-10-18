@@ -8,9 +8,10 @@
 }
 
 body {
-	background-color:#E2E2E2;
-	
+	/*background-color:#E2E2E2;*/
+	background-color:#EAEAEA;
 }
+
 #container {
 	width:940px;
 	background-color:white;
@@ -81,6 +82,7 @@ H4 {
     height: 130px;
     background: url(../images/flower-top.png) top right;
     background-repeat: no-repeat;
+
 }
 
 
@@ -90,6 +92,9 @@ H4 {
 #navbar, #menu {
     height: 38px;
     background-color: #2497d4;
+}
+#navbar {
+	width:100%;
 }
 
 #menu > ul {
@@ -120,6 +125,7 @@ H4 {
     background-image: url(../images/flower-bottom.png);
     background-repeat: no-repeat;
     background-position: right top;
+	width:100%;
 }
 
 .about {

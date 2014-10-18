@@ -1,6 +1,6 @@
 ﻿<?php get_header(); ?>
 
-    <div id="content" class="grid_12">
+    <div id="content" class="grid_12 alpha omega">
         <!--Описание дистра-->
         <div class="grid_5 about">
             <div class="info">
