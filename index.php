@@ -22,7 +22,7 @@
     </div>
     <div class="clear"></div>
 
-    <div id="social" class="grid_4">
+    <div id="social" class="grid_4 alpha">
         <p>
             Вы можете связаться с нами:
         </p>
@@ -48,35 +48,35 @@
     <div class="clear"></div>
 
 
-    <div id="newsblock" class="grid_8">
+    <div id="newsblock" class="grid_8 omega">
         <!--        <a href="arch"><H3>Последние новости</H3></a>-->
 
 
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
-                <div class="grid_3 news">
-                    <H4><a href="<?php the_permalink(); ?>">
+                <div class="grid_4 news">
+                    <div class="newsdetails">
+                        <br><?php the_time('F jS, Y'); ?>
+                    </div>
+
+                    <a href="<?php the_permalink(); ?>">
+                        <H4>
                             <?php
-                            $post_title_len = 40;
+                            $post_title_len = 20;
                             if (iconv_strlen(get_the_title(), "utf-8") > $post_title_len) {
                                 print(mb_substr(strip_tags(get_the_title()), 0, $post_title_len) . "...");
                             } else {
                                 print(get_the_title());
                             }
                             ?>
-                    </H4> </a>
+                        </H4>
+                    </a>
 
-                    <div class="newsdetails">
-                        <br><?php the_time('F jS, Y'); ?>
-                        <?php $category = get_the_category(); ?>
-                        <br>Категория: <?php echo $category[0]->cat_name; ?>
-                        <br> Разместил: <?php the_author(); ?>
-                    </div>
 
                     <p>
                         <?php
-                        $post_len = 50;
+                        $post_len = 100;
                         if (iconv_strlen(get_the_content(), "utf-8") > $post_len) {
                             print(mb_substr(strip_tags(get_the_content()), 0, $post_len) . "...");
                         } else {
@@ -87,7 +87,7 @@
 
 
                 </div>
-                <?php if (++$i >= 6) break;
+                <?php if (++$i >= 3) break;
 
             endwhile;
         endif; ?>

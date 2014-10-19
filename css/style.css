@@ -287,38 +287,45 @@ H4 {
     float: right;
     border-radius: 5px;
     box-shadow: 0 1px 2px #a7a7a7;
+    margin: 0;
+    top: -180px;
 }
 
 .news {
     height: 200px;
     text-align: left;
-    /*margin-left: 6px;*/
+    margin-left: 5px;
     /*margin-top: 35px;*/
     /*padding-left: 10px;*/
     word-wrap: break-word;
     /*border-right:1px solid red;*/
+
 }
 
 .news h4 {
     font-size: 12px;
+    text-decoration: none;
+    margin-left: 0;
+    color: #2497d4;
 }
 
 .news p {
     font-size: 12px;
     line-height: 1.7;
+    margin-top: 5px;
 }
 
 .newsdetails {
     font-size: 10px;
-    font-weight: bold;
-    color: #185d81;
+    /*font-weight: bold;*/
+    color: #a7a7a7;
 }
 
 .news a {
-    display: block;
+    /*display: block;*/
     text-decoration: none;
-    position: absolute;
-    cursor: pointer;
+    /*cursor: pointer;*/
+    color: #a7a7a7;
 }
 
 /*.news a:hover {*/
