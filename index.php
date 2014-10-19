@@ -26,7 +26,6 @@
         <p>
             Вы можете связаться с нами:
         </p>
-
         <div id="socicons">
             <ul>
                 <li id="ok"><a href="/"></a></li>
@@ -45,13 +44,8 @@
         </div>
     </div>
 
-    <div class="clear"></div>
-
-
     <div id="newsblock" class="grid_8 omega">
         <!--        <a href="arch"><H3>Последние новости</H3></a>-->
-
-
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
@@ -59,40 +53,23 @@
                     <div class="newsdetails">
                         <br><?php the_time('F jS, Y'); ?>
                     </div>
-
                     <a href="<?php the_permalink(); ?>">
                         <H4>
                             <?php
-                            $post_title_len = 20;
-                            if (iconv_strlen(get_the_title(), "utf-8") > $post_title_len) {
-                                print(mb_substr(strip_tags(get_the_title()), 0, $post_title_len) . "...");
-                            } else {
-                                print(get_the_title());
-                            }
+							trimAndPrint(get_the_title(), 20, "...");
                             ?>
                         </H4>
                     </a>
-
-
                     <p>
                         <?php
-                        $post_len = 100;
-                        if (iconv_strlen(get_the_content(), "utf-8") > $post_len) {
-                            print(mb_substr(strip_tags(get_the_content()), 0, $post_len) . "...");
-                        } else {
-                            print(get_the_content());
-                        }
+						trimAndPrint(get_the_content(), 100, "...");
                         ?>
                     </p>
-
-
                 </div>
-                <?php if (++$i >= 3) break;
-
+                <?php if (++$i >= 6) break;
             endwhile;
         endif; ?>
     </div>
-
-
+	<div class="clear"></div>
 
 <?php get_footer(); ?>
