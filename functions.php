@@ -4,9 +4,9 @@
     * и добавляет в конец указанную строку $endstr
 	*/
 	function trimAndPrint($string, $len, $endstr) {
-        if (iconv_strlen($string, "utf-8") > $len) {
+        if (iconv_strlen($string, "utf-8") > $len) 
             print(mb_substr(strip_tags($string), 0, $len) . $endstr);
-        } else {
+        else 
             print($string);
-        }
+        
 	}
