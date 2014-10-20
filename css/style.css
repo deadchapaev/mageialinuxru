@@ -1,75 +1,101 @@
+/***************************************************************
+    Общие параметры
+***************************************************************/
 * {
     margin: 0 auto;
     z-index: 0;
     font-family: "Verdana";
     font-size: 14px;
     position: relative;
-
 }
 
 body {
-    /*background-color:#E2E2E2;*/
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #container {
     width: 940px;
     background-color: white;
     margin: 0 auto;
-
-    /*-webkit-box-shadow: 0px 1px 1px 0px #185d81;*/
-    /*-moz-box-shadow:    0px 1px 1px 0px #185d81);*/
-    /*box-shadow:         0px 1px 1px 0px #185d81;*/
 }
 
 hr {
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image: -moz-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image: -ms-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image: -o-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
+    background-image: -webkit-linear-gradient(left, white, #6a97ae, white);
+    background-image: -moz-linear-gradient(left, white, #6a97ae, white);
+    background-image: -ms-linear-gradient(left, white, #6a97ae, white);
+    background-image: -o-linear-gradient(left, white, #6a97ae, white);
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-H3 {
+H2 {
     font-size: 24px;
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
     line-height: 0.833;
     font-weight: normal;
+	margin-top:30px;
+}
+
+H3 {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    line-height: 0.833;
+    font-weight: normal;
+	margin-top: 50px;
 }
 
 H4 {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    line-height: 1.429;
+    font-size: 20px;
+	color: black;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+H5 {
+    color: black;
+    text-decoration: none;
     font-weight: bold;
-    margin-left: 10px; /*!!*/
     margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-decoration:underline;
+}
+
+pre {
+    white-space: pre-wrap;
+	border: 1px dashed #2497D4;
+	background-color:#F9F9F9;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#upline {
+    height: 3px;
+    background-image: url('../images/upline.png');
+    background-repeat: no-repeat;
 }
 
 /***************************************************************
     Шапка
 ***************************************************************/
-
-#upline {
-    height: 3px;
-    background-image: url(../images/upline.png);
-    background-repeat: no-repeat;
-}
-
 #logo {
     margin-left: 25px;
     float: left;
     width: 261px;
     margin-top: 5px;
     height: 88px;
-    background-image: url(../images/logomageia.png);
+    background-image: url('../images/logomageia.png');
     background-repeat: no-repeat;
-    /*margin-right: 1px;*/
-
 }
 
 #logo > a {
@@ -77,33 +103,23 @@ H4 {
     width: 100%;
     height: 100%;
     text-decoration: none;
-
 }
 
 #logo > a:active {
     background-color: transparent;
 }
 
-/*#flowertop {*/
-/*float: right;*/
-/*height: 130px;*/
-/*background: url(../images/flower-top.png) top right;*/
-/*background-repeat: no-repeat;*/
-
-/*}*/
-
-/***************************************************************
-    Навигационная панель
-***************************************************************/
+/*
+ *   Навигационная панель
+ */
 #menu {
-    margin-top: 65px;
-    float: right;
+	position:absolute;
+	bottom:0;
+	right:0;
     margin-right: -1px;
-    /*margin-right: 8px;*/
 }
 
 #navbar {
-    /*margin-top: 5px;*/
     width: 100%;
     margin-top: 5px;
     box-shadow: 0 1px 2px #b9b9b9;
@@ -112,20 +128,17 @@ H4 {
     height: 100px;
 }
 
-#menu > ul {
+#menu ul {
     list-style-type: none;
-    /*padding: 0px;*/
-    /*margin: 0px;*/
 }
 
 #menu li, #menu li a {
-    /*font-weight: bold;*/
     height: 35px;
     background-color: #2497d4;
     display: block;
     float: left;
     width: 120px;
-    color: rgb(255, 255, 255);
+    color: white;
     line-height: 35px;
     text-align: center;
     cursor: pointer;
@@ -137,24 +150,71 @@ H4 {
     background-color: #185d81;
 }
 
-#headerhr {
-    margin-top: 0px;
+/***************************************************************
+    Футер
+***************************************************************/
+#footer {
+    height: 300px;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+}
+
+#footer > img {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.footer_menu {
+    position: absolute;
+    font-weight: bold;
+    top: 20px;
+    right: 60px;
+}
+
+.footer_menu > p {
+    padding-bottom: 15px;
+}
+
+.footer_menu ul {
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer_menu li {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.footer_menu li:hover {
+    color: #185d81;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: #185d81;
+    color: black;
+    font-size: 12px;
+}
+
+.copyright {
+    margin-top: 280px;
+    text-align: center;
+    font-size: 12px;
 }
 
 /***************************************************************
-    Контент
+    Главная страница
 ***************************************************************/
 #content {
-    /*background-image: url(../images/flower-bottom.png);*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: right top;*/
     width: 100%;
 }
 
 .about {
-
     height: 300px;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
     margin-top: 10px;
     border-radius: 5px;
@@ -170,7 +230,7 @@ H4 {
     background-color: #2497d4;
     text-align: center;
     line-height: 45px;
-    color: #ffffff;
+    color: white;
     cursor: pointer;
     margin-top: 25px;
 }
@@ -201,21 +261,19 @@ H4 {
 }
 
 #monitorpic {
-    background-image: url(../images/monitor.png);
+    background-image: url('../images/monitor.png');
     height: 262px;
     background-repeat: no-repeat;
     margin-left: 25px;
 }
 
-/****************************************************
-    Social
-*********************************************/
+/*
+ *  Кнопки социальных сетей
+ */
 #social {
     float: left;
     margin-top: 10px;
     height: 200px;
-    /*border-radius: 5px;*/
-    /*box-shadow: 0 1px 2px #a7a7a7;*/
 }
 
 #social p {
@@ -239,7 +297,6 @@ H4 {
     width: 40px;
     display: block;
     float: left;
-    /*line-height: 35px;*/
     cursor: pointer;
     text-decoration: none;
     margin-right: 10px;
@@ -279,10 +336,9 @@ H4 {
     background-image: url('../images/iconovk.png');
 }
 
-/***************************************************************
-    Новости на главной странице
-***************************************************************/
-
+/*
+ *  Новости на главной странице
+ */
 #newsblock {
     float: right;
     border-radius: 5px;
@@ -296,16 +352,11 @@ H4 {
     height: 200px;
     text-align: left;
     margin-left: 5px;
-    /*margin-top: 35px;*/
-    /*padding-left: 10px;*/
     word-wrap: break-word;
-    /*border-right:1px solid red;*/
-
 }
 
 .news h4 {
     font-size: 12px;
-    text-decoration: none;
     margin-left: 0;
     color: #2497d4;
 }
@@ -318,75 +369,238 @@ H4 {
 
 .newsdetails {
     font-size: 10px;
-    /*font-weight: bold;*/
     color: #a7a7a7;
 }
 
 .news a {
-    /*display: block;*/
     text-decoration: none;
-    /*cursor: pointer;*/
     color: #a7a7a7;
 }
 
-/*.news a:hover {*/
-/*background-color: #185d81;*/
-/*}*/
+/***************************************************************
+    Загрузки
+***************************************************************/
+#downloadcontainer h3 {
+    margin-bottom: 50px;
+}
+
+#downloadcontainer > table {
+    margin-top: 20px;
+	border: 1px solid #2497D4;
+}
+
+#downloadcontainer > table  td{
+    text-align:center;
+	border: 1px solid #2497D4;
+}
+
+#downloadcontainer > table  p {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.thdownload {
+    color: #2497d4;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.thlinks {
+    color: black;
+    font-weight: normal;
+    font-size: 12px;
+    width: 150px;
+}
+
+.thlinks a {
+    font-size: 12px;
+    color: #185d81;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#aftertable a:hover,
+.thlinks a:hover{
+    color: #2497d4;
+}
+
+#aftertable {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#aftertable a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #185d81;
+}
+
+#button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    float: right;
+    width: 150px;
+    height: 45px;
+    background-color: #2497d4;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    color: white;
+}
+
+#button:hover {
+    background-color: #185d81;
+}
 
 /***************************************************************
-    Футер
+    Репозиторий
 ***************************************************************/
-#footer {
-    height: 300px;
-    background-image: url('../images/logo.png');
-    background-repeat: no-repeat;
+#repocontainer table  td{
+	border: 1px solid #2497D4;	
 }
 
-#footer > img {
-    padding-top: 50px;
-    padding-left: 40px;
+#repocontainer li  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom:30px;
+}	
+
+#repocontainer ul a {
+	text-decoration:none;
+	
 }
 
-.footer_menu {
-    position: absolute;
+#repocontainer  a {
+    font-size: 12px;
+    color: #185D81;
+    text-decoration: none;
     font-weight: bold;
-    top: 20px;
-    right: 60px;
 }
 
-.footer_menu > p {
-    padding-bottom: 15px;
+#repocontainer  a:hover {
+    color: #2497D4;
+}
+			
+/***************************************************************
+    Новость
+***************************************************************/			
+#newscontent p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    word-wrap: break-word;
 }
 
-.footer_menu ul {
+#newscontent a {
+    color: #185d81;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+#newscontent a:hover {
+    color: #2497d4;
+}
+
+.singlenewsdetails {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #185d81;
+}
+
+#buttonforum a, #buttonback a {
     font-weight: normal;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.footer_menu li {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-}
-
-.footer_menu a {
-    text-decoration: none;
-    color: #185d81;
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-}
-
-.footer_menu li:hover {
-    color: #185d81;
-    text-decoration: underline;
-}
-
-.copyright {
-    margin-top: 280px;
+    background-color: #2497d4;
     text-align: center;
-    font-size: 12px;
+    text-decoration: none;
+    color: white !important;
+    font-weight: normal;
+    display:block;
+    line-height: 45px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#buttonforum a{
+    float: left;
+    width: 240px;
+}
+
+#buttonback a {
+    float: right;
+    width: 150px;
+}
+
+#buttonback:hover, #buttonforum:hover,
+#buttonback a:hover, #buttonforum a:hover {
+    background-color: #185d81;
+    color: white;
+}
+
+/***************************************************************
+    Архив новостей
+***************************************************************/	
+#newsarchcontent h3 {
+    font-size: 28px;
+}
+
+#newsarchcontent ul {
+    margin-top: 30px;
+}
+
+#newsarchcontent a {
+    color: #185d81;
+}
+
+#newsarchcontent a:hover {
+    color: #2497d4;
+}
+
+#archyear {
+    color: #185d81;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#archews {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #185d81;
+}
+
+#archews li:hover {
+    cursor: pointer;
+    color: #2497d4;
+}
+
+#archews > li > a {
+    margin: 0px auto;
+    position: relative;
+    text-decoration: none;
+}
+
+/***************************************************************
+    404
+***************************************************************/						
+#mes {
+    min-height: 140px;
+}
+
+#mes p {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+#pinguin {
+    background-image: url('../images/linux.png');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    margin-bottom: 30px;
 }

@@ -20,7 +20,7 @@ get_header(); ?>
             Русская и украинские локализации находятся на издании Europe 2.
         </p>
 
-        <table id="table" class="grid_10 push_1" border="0"  cellspacing="0" >
+        <table class="grid_10 push_1" border="0"  cellspacing="0" >
 		<tr>
 			<td colspan="2" rowspan="2">Версия ОС</td> 
 			<td rowspan="2">GUI</td> 

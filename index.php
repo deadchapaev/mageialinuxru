@@ -45,7 +45,6 @@
     </div>
 
     <div id="newsblock" class="grid_8 omega">
-        <!--        <a href="arch"><H3>Последние новости</H3></a>-->
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
