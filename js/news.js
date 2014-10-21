@@ -10,12 +10,12 @@ function left_carusel() {
     $a = $("#newsblock .news").size();
 	$curblock = $("#newsblock .news").eq($a - 1);
 	$curblock.hide();
-	$($curblock).prependTo("#newsblock").animate({ width: 'show'});
+	$($curblock).prependTo("#newsblock").animate({ width: 'show'}, 200);
 }
 
 function right_carusel() {
 	$curblock = $("#newsblock .news").eq(0);
-    $($curblock).animate({ width: 'hide' }, function() {
+    $($curblock).animate({ width: 'hide' }, 200, function() {
 		$($curblock).appendTo("#newsblock").show(); 
 	}); 
 }
