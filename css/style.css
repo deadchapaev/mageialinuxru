@@ -346,6 +346,9 @@ table {
     margin: 0;
     position:relative;
 	margin-top:20px;
+	height:225px;
+	
+	overflow-y:hidden;
 }
 
 .news {
@@ -353,6 +356,7 @@ table {
     text-align: left;
     margin-left: 5px;
     word-wrap: break-word;
+	margin-bottom:25px;
 }
 
 .news h4 {
@@ -377,6 +381,39 @@ table {
     color: #a7a7a7;
 }
 
+#leftarrow,
+#rightarrow {
+	position:absolute;
+	cursor: pointer;
+	/*border:1px solid red;*/
+	background-color:#2497D4;
+	color:white;
+	height:20px;
+	bottom:0;
+	text-align:center;
+	font-size:12px;
+	line-height: 20px;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;	
+	
+}
+#leftarrow {
+	right:56px;
+	width:55px;
+}
+#rightarrow {
+	right:0;
+	width:55px;
+}
+
+#leftarrow:hover,
+#rightarrow:hover {
+	background-color:#185D81;
+
+}
 /***************************************************************
     Загрузки
 ***************************************************************/
@@ -466,6 +503,7 @@ table {
     margin-left: auto;
     margin-right: auto;
 	margin-bottom:30px;
+	border:1px solid #dee;
 }	
 
 #repocontainer ul a {

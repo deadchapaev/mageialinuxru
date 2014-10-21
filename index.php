@@ -45,6 +45,8 @@
     </div>
 
     <div id="newsblock" class="grid_8 omega">
+		<div id="leftarrow">назад</div>
+		<div id="rightarrow">вперёд</div>
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
