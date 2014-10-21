@@ -7,7 +7,7 @@ Template Name: Репозиторий
     get_header(); ?>
 
 
-    <div id="repocontainer" class="grid_12" xmlns="http://www.w3.org/1999/html">
+    <div id="repocontainer" class="grid_12">
 		<h3>Репозиторий</h3>
 		
 		<br>
@@ -42,34 +42,33 @@ Template Name: Репозиторий
 		
 			<li>
 				<p>Откройте в веб-браузере <b>Firefox</b> страницу: <a href="http://urpmi.mageialinux.ru/">http://urpmi.mageialinux.ru/</a> или <a href="http://xxblx.bitbucket.org/urpmi/">http://xxblx.bitbucket.org/urpmi/</a></p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/ey4f2tad.bmp" width="40%" height="40%"/>
+				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/ey4f2tad.bmp" alt="mainform"/>
 			</li>
 		
 			<li>
 				<p>Выберите версию (релиз) и архитектуру Mageia</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/g0b8ract.bmp" width="40%" height="40%"/>
+				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/g0b8ract.bmp" alt="changearch"/>
 			</li>
 			
 			<li>
 				<p>Нажмите кнопку "Добавить" в форме "Репозиторий MRC"</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/fg1y76bc.bmp" width="40%" height="40%"/>
+				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/fg1y76bc.bmp" alt="add"/>
 			</li>
 		
 			<li>
 				<p>Открыть в - Добавить источник urpmi - ОК</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/6o1jmadn.bmp" width="40%" height="40%"/>
+				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/6o1jmadn.bmp" alt="addsrc"/>
 			</li>
 			
 			<li>
 				<p>Введите root-пароль - Аутентификация</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/hfg730bv.bmp" width="40%" height="40%"/>
+				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/hfg730bv.bmp" alt="rootpass"/>
 			</li>
 			
 			<li>
 				<p>Нажмите "Да"</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/4gwta3mr.bmp" width="40%" height="40%"/>
-			</li>
-		
+				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/4gwta3mr.bmp" alt="ok"/>
+			</li>		
 		</ol>
 
 		<h5 id="easyurpmi">Easy urpmi</h5>

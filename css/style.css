@@ -432,7 +432,7 @@ table {
     -o-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
-    user-select: none;
+    -ms-user-select: none;
 
 }
 
@@ -544,6 +544,8 @@ table {
     margin-right: auto;
     margin-bottom: 30px;
     border: 1px solid #dee;
+	width:40%;
+	height:40%;
 }
 
 #repocontainer ul,

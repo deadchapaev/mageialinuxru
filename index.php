@@ -45,8 +45,8 @@
     </div>
 
     <div id="newsblock" class="grid_8 omega">
-		<div id="leftarrow"> < </div>
-		<div id="rightarrow"> > </div>
+		<div id="leftarrow"> &lt; </div>
+		<div id="rightarrow"> &gt; </div>
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
