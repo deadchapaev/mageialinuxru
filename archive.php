@@ -24,6 +24,5 @@ get_header(); ?>
     </div>
 
     <div class="clear"></div>
-    <hr>
 
 <?php get_footer(); ?>

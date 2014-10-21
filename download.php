@@ -118,7 +118,6 @@ get_header(); ?>
         </a>
 
         <div class="clear"></div>
-        <hr>
 
     </div>
 

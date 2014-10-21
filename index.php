@@ -30,9 +30,9 @@
             <ul>
                 <li id="ok"><a href="/"></a></li>
                 <li id="g"><a href="/"></a></li>
-                <li id="tw"><a href="/"></a></li>
+                <li id="tw"><a href="https://twitter.com/Mageia_RUS"></a></li>
                 <li id="mail"><a href="/"></a></li>
-                <li id="vk"><a href="/"></a></li>
+                <li id="vk"><a href="http://vk.com/mrc.mageia"></a></li>
             </ul>
         </div>
         <div id="otherinfo">

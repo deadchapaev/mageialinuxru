@@ -184,6 +184,10 @@ table {
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
 }
+ #footer hr {
+	margin-top:-35px;
+	margin-bottom:-35px;
+ }
 
 #footer > img {
     padding-top: 50px;
@@ -679,6 +683,28 @@ table {
     text-decoration: none;
 }
 
+/***************************************************************
+    mrcfeed
+***************************************************************/
+#mrcfeed {
+
+}
+
+#mrcfeed > table {
+    margin-top: 20px;
+    border: 1px solid #2497D4;
+}
+
+#mrcfeed > table td,
+#mrcfeed > table th {
+    text-align: center;
+    border: 1px solid #2497D4;
+}
+
+#mrcfeed > table p {
+    font-weight: normal;
+    font-size: 12px;
+}
 /***************************************************************
     404
 ***************************************************************/

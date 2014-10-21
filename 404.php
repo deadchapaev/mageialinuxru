@@ -5,5 +5,4 @@ get_header(); ?>
         <div id="pinguin" class="grid_6 push_4"></div>
     </div>
     <div class="clear"></div>
-        <hr>
 <?php get_footer(); ?>

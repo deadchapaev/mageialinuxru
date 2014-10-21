@@ -22,6 +22,5 @@
     <?php endwhile;
 endif; ?>
 
-    <hr>
 </div>
 <?php get_footer(); ?>
