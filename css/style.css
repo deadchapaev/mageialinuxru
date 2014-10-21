@@ -10,7 +10,23 @@
 }
 
 body {
-    background-color: white;
+    /*background-color: white;*/
+	
+	/*точечки*/
+	background-image:url('../images/bg-139.png');
+	background-image:url('../images/bg-59.png');
+	
+	/*плетение*/
+	background-image:url('../images/bg-137.png');
+	
+	/*квадраты*/
+	background-image:url('../images/bg-269.png');
+	/*узор из прямоугольников*/
+	background-image:url('../images/bg-36.png');
+
+	/*царапки*/
+	background-image:url('../images/bg-6.png');
+	
 }
 
 #container {
@@ -360,7 +376,7 @@ table {
     margin: 0;
     position: relative;
     margin-top: 40px;
-    height: 200px;
+    height: 215px;
     overflow-y: hidden;
     /*background-image: url('../images/newsbck.jpg');*/
     /*background-repeat: no-repeat;*/
@@ -530,9 +546,23 @@ table {
     border: 1px solid #dee;
 }
 
+#repocontainer ul,
+#repocontainer ol   {
+	margin-left:0px;
+}
+
 #repocontainer ul a {
     text-decoration: none;
+}
 
+
+#repocontainer ol > li {
+	margin-left:-20px;
+}
+
+#repocontainer > ul > li {
+	margin-left:-40px;
+	list-style-type: none;
 }
 
 #repocontainer a {
