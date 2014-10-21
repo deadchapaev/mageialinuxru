@@ -36,7 +36,7 @@ H2 {
     text-decoration: none;
     line-height: 0.833;
     font-weight: normal;
-	margin-top:30px;
+    margin-top: 30px;
 }
 
 H3 {
@@ -45,12 +45,12 @@ H3 {
     text-decoration: none;
     line-height: 0.833;
     font-weight: normal;
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 H4 {
     font-size: 20px;
-	color: black;
+    color: black;
     text-decoration: none;
     font-weight: normal;
     margin-top: 25px;
@@ -61,22 +61,22 @@ H5 {
     text-decoration: none;
     font-weight: bold;
     margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 14px;
-	text-decoration:underline;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 pre {
     white-space: pre-wrap;
-	border: 1px dashed #2497D4;
-	background-color:#F9F9F9;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:10px;
+    border: 1px dashed #2497D4;
+    background-color: #F9F9F9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 #upline {
@@ -109,19 +109,19 @@ table {
     background-color: transparent;
 }
 
-/*
- *   Навигационная панель
- */
+/*Навигационная панель
+*/
 #menu {
-	position:absolute;
-	bottom:0;
-	right:0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     margin-right: -1px;
 }
 
 #navbar {
+    margin-left: 0px;
     width: 100%;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
     box-shadow: 0 1px 2px #b9b9b9;
     border-top: 5px solid #2497d4;
     border-radius: 0 0 5px 5px;
@@ -144,6 +144,10 @@ table {
     cursor: pointer;
     text-decoration: none;
     margin-right: 1px;
+}
+
+#liborder, #liborder a{
+    border-radius:0 0 5px 0;
 }
 
 #menu li:hover, #menu li a:hover {
@@ -213,10 +217,11 @@ table {
 }
 
 .about {
+    margin-left: 0;
     height: 300px;
     color: black;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1px;
     border-radius: 5px;
     box-shadow: 0 1px 2px #a7a7a7;
 }
@@ -344,33 +349,37 @@ table {
     border-radius: 5px;
     box-shadow: 0 1px 2px #a7a7a7;
     margin: 0;
-    position:relative;
-	margin-top:20px;
-	height:225px;
-	overflow-y:hidden;
+    position: relative;
+    margin-top: 20px;
+    height: 225px;
+
+    overflow-y: hidden;
 }
 
 .news {
     height: 200px;
     text-align: left;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     word-wrap: break-word;
-	margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
 .news h4 {
+    margin-top: 5px;
     font-size: 12px;
     margin-left: 0;
     color: #2497d4;
+    font-weight: bold;
 }
 
 .news p {
     font-size: 12px;
     line-height: 1.7;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .newsdetails {
+    margin-top: 0;
     font-size: 10px;
     color: #a7a7a7;
 }
@@ -382,37 +391,40 @@ table {
 
 #leftarrow,
 #rightarrow {
-	position:absolute;
-	cursor: pointer;
-	/*border:1px solid red;*/
-	background-color:#2497D4;
-	color:white;
-	height:20px;
-	bottom:0;
-	text-align:center;
-	font-size:12px;
-	line-height: 20px;
-	-moz-user-select: -moz-none;
-	-o-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;	
-	
+    position: absolute;
+    cursor: pointer;
+    /*border:1px solid red;*/
+    background-color: #2497D4;
+    color: white;
+    height: 20px;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
 }
+
 #leftarrow {
-	right:56px;
-	width:55px;
+    right: 56px;
+    width: 55px;
 }
+
 #rightarrow {
-	right:0;
-	width:55px;
+    right: 0;
+    width: 55px;
 }
 
 #leftarrow:hover,
 #rightarrow:hover {
-	background-color:#185D81;
+    background-color: #185D81;
 
 }
+
 /***************************************************************
     Загрузки
 ***************************************************************/
@@ -422,15 +434,15 @@ table {
 
 #downloadcontainer > table {
     margin-top: 20px;
-	border: 1px solid #2497D4;
+    border: 1px solid #2497D4;
 }
 
-#downloadcontainer > table  td{
-    text-align:center;
-	border: 1px solid #2497D4;
+#downloadcontainer > table td {
+    text-align: center;
+    border: 1px solid #2497D4;
 }
 
-#downloadcontainer > table  p {
+#downloadcontainer > table p {
     font-weight: normal;
     font-size: 12px;
 }
@@ -457,7 +469,7 @@ table {
 }
 
 #aftertable a:hover,
-.thlinks a:hover{
+.thlinks a:hover {
     color: #2497d4;
 }
 
@@ -493,37 +505,37 @@ table {
 /***************************************************************
     Репозиторий
 ***************************************************************/
-#repocontainer table  td{
-	border: 1px solid #2497D4;	
+#repocontainer table td {
+    border: 1px solid #2497D4;
 }
 
-#repocontainer li  img {
+#repocontainer li img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-	margin-bottom:30px;
-	border:1px solid #dee;
-}	
-
-#repocontainer ul a {
-	text-decoration:none;
-	
+    margin-bottom: 30px;
+    border: 1px solid #dee;
 }
 
-#repocontainer  a {
+#repocontainer ul a {
+    text-decoration: none;
+
+}
+
+#repocontainer a {
     font-size: 12px;
     color: #185D81;
     text-decoration: none;
     font-weight: bold;
 }
 
-#repocontainer  a:hover {
+#repocontainer a:hover {
     color: #2497D4;
 }
-			
+
 /***************************************************************
     Новость
-***************************************************************/			
+***************************************************************/
 #newscontent p {
     margin-top: 20px;
     font-size: 14px;
@@ -555,7 +567,7 @@ table {
     text-decoration: none;
     color: white !important;
     font-weight: normal;
-    display:block;
+    display: block;
     line-height: 45px;
     cursor: pointer;
     height: 45px;
@@ -563,7 +575,7 @@ table {
     margin-top: 50px;
 }
 
-#buttonforum a{
+#buttonforum a {
     float: left;
     width: 240px;
 }
@@ -581,7 +593,7 @@ table {
 
 /***************************************************************
     Архив новостей
-***************************************************************/	
+***************************************************************/
 #newsarchcontent h3 {
     font-size: 28px;
 }
@@ -624,7 +636,7 @@ table {
 
 /***************************************************************
     404
-***************************************************************/						
+***************************************************************/
 #mes {
     min-height: 140px;
 }
