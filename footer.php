@@ -1,6 +1,29 @@
 <!--Футер-->
 <div id="footer" class="grid_12">
-	<hr>
+<!--	<hr>-->
+
+    <div id="social" class="grid_4 alpha">
+        <p>
+            Вы можете связаться с нами:
+        </p>
+
+        <div id="socicons">
+            <ul>
+                <li id="ok"><a href="/"></a></li>
+                <li id="g"><a href="/"></a></li>
+                <li id="tw"><a href="https://twitter.com/Mageia_RUS"></a></li>
+                <li id="mail"><a href="/"></a></li>
+                <li id="vk"><a href="http://vk.com/mrc.mageia"></a></li>
+            </ul>
+        </div>
+        <div id="otherinfo">
+            <p>
+                <b>Поддержка</b><br><br>
+                <b>icq:</b> 12345678910 <br>
+                <b>skype</b>: mageialinuxru
+            </p>
+        </div>
+    </div>
 	<div class="footer_menu">
         <p>Карта сайта
         <ul>

@@ -1,6 +1,8 @@
 ﻿<?php get_header(); ?>
 
     <div id="content" class="grid_12 alpha omega">
+        <div class="titleline1"><p>Продукты и описание</p></div>
+        <div class="clear"></div>
         <!--Описание дистра-->
         <div class="grid_4 about">
             <div class="info">
@@ -22,48 +24,31 @@
     </div>
     <div class="clear"></div>
 
-    <div id="social" class="grid_4 alpha">
-        <p>
-            Вы можете связаться с нами:
-        </p>
-        <div id="socicons">
-            <ul>
-                <li id="ok"><a href="/"></a></li>
-                <li id="g"><a href="/"></a></li>
-                <li id="tw"><a href="https://twitter.com/Mageia_RUS"></a></li>
-                <li id="mail"><a href="/"></a></li>
-                <li id="vk"><a href="http://vk.com/mrc.mageia"></a></li>
-            </ul>
-        </div>
-        <div id="otherinfo">
-            <p>
-                <b>Поддержка</b><br><br>
-                <b>icq:</b> 12345678910 <br>
-                <b>skype</b>: mageialinuxru
-            </p>
-        </div>
-    </div>
+    <div class="titleline1"><p>Последние новости</p></div>
 
-    <div id="newsblock" class="grid_8 omega">
-		<div id="leftarrow"> &lt; </div>
-		<div id="rightarrow"> &gt; </div>
+    <div id="newsblock" class="grid_12">
+
+
+        <div id="leftarrow"> &lt; </div>
+        <div id="rightarrow"> &gt; </div>
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
-                <div class="grid_4 news">
+                <div class="grid_3 news">
                     <div class="newsdetails">
                         <br><?php the_time('F jS, Y'); ?>
                     </div>
                     <a href="<?php the_permalink(); ?>">
                         <H4>
                             <?php
-							trimAndPrint(get_the_title(), 20, "...");
+                            trimAndPrint(get_the_title(), 20, "...");
                             ?>
                         </H4>
                     </a>
+
                     <p>
                         <?php
-						trimAndPrint(get_the_content(), 100, "...");
+                        trimAndPrint(get_the_content(), 100, "...");
                         ?>
                     </p>
                 </div>
@@ -71,6 +56,6 @@
             endwhile;
         endif; ?>
     </div>
-	<div class="clear"></div>
+    <div class="clear"></div>
 
 <?php get_footer(); ?>
