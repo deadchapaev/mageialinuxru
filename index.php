@@ -41,7 +41,7 @@
                     <a href="<?php the_permalink(); ?>">
                         <H4>
                             <?php
-                            trimAndPrint(get_the_title(), 20, "...");
+                            trimAndPrint(get_the_title(), 30, "...");
                             ?>
                         </H4>
                     </a>

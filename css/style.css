@@ -11,22 +11,7 @@
 
 body {
     background-color: white;
-
-    /*точечки*/
     background-image: url('../images/bg-139.png');
-    /*background-image:url('../images/bg-59.png');*/
-    /**/
-    /*плетение*/
-    /*background-image:url('../images/bg-137.png');*/
-    /**/
-    /*квадраты*/
-    /*background-image:url('../images/bg-269.png');*/
-    /*узор из прямоугольников*/
-    /*background-image:url('../images/bg-36.png');*/
-
-    /*царапки*/
-    /*background-image:url('../images/bg-6.png');*/
-
 }
 
 #container {
@@ -121,8 +106,6 @@ table {
     background-color: transparent;
 }
 
-/*Навигационная панель
-*/
 #navbar {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -132,6 +115,9 @@ table {
     height: 168px;
 }
 
+/*
+ *  Верхнее меню сайта
+ */
 #uppermenu {
     position: absolute;
     top: 0;
@@ -140,6 +126,9 @@ table {
 
 #uppermenu ul {
     list-style-type: none;
+	width:140px;
+	height:35px;
+	
 }
 
 #uppermenu li, #uppermenu li a {
@@ -153,25 +142,29 @@ table {
     line-height: 35px;
     text-align: center;
     cursor: pointer;
-    text-decoration: underline;
 }
+
 
 #uppermenu li:hover, #uppermenu li a:hover {
     color: #2497d4;
 }
-
+/*
+ *  Основное меню сайта
+ */
 #menu {
     float: right;
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-right: -1px;
+    margin-right: -2px;
 }
 
 #menu ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     list-style-type: none;
+	height:35px;
+	width:555px;
 }
 
 #menu li, #menu li a {
