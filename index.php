@@ -24,12 +24,12 @@
 </div>
 <div class="clear"></div>
 <div class="garmblock">
-    <div class="garm1">
-        <div class="garmhead1">
+    <div class="garm">
+        <div class="garmhead">
             Mageia - это социальное программное обеспечение
         </div>
     </div>
-    <div class="garmcontent1">
+    <div class="garmcontent">
         <ul>
             <li>Мы, как сообщество, всегда ценим наших пользователей. Мы всегда находимся в тесном контакте с нашим
                 кругом пользователей, поскольку пользователи являются неотъемлемой частью сообщества, как и его
@@ -49,10 +49,10 @@
             </li>
         </ul>
     </div>
-    <div class="garm2">
-        <div class="garmhead2">Mageia - это мощная технология</div>
+    <div class="garm">
+        <div class="garmhead">Mageia - это мощная технология</div>
     </div>
-    <div class="garmcontent2">
+    <div class="garmcontent">
         <ul>
             <li>Мы, как проект свободного программного обеспечения, операционная система, постоянно внедряем
                 инновации, чтобы оставаться на переднем рубеже вычислительных технологий.
@@ -71,12 +71,12 @@
             </li>
         </ul>
     </div>
-    <div class="garm3">
-        <div class="garmhead3">
+    <div class="garm">
+        <div class="garmhead">
             Mageia - это знание
         </div>
     </div>
-    <div class="garmcontent3">
+    <div class="garmcontent">
         <ul>
             <li>Программное обеспечение является неотъемлемой частью нашей повседневной жизни, почти любой его сферы,
                 дома и во всем мире, а сердцем программного обеспечения является программный код. Мы будем изучать
@@ -93,12 +93,12 @@
 
         </ul>
     </div>
-    <div class="garm4">
-        <div class="garmhead4">
+    <div class="garm">
+        <div class="garmhead">
             Mageia - это качество
         </div>
     </div>
-    <div class="garmcontent4">
+    <div class="garmcontent">
         <ul>
             <li>Mageia будет основана на требованиях относительно надлежащего качества и стабильности.</li>
             <li>Mageia будет оставаться совместимой со стандартами свободного программного обеспечения.</li>
@@ -108,12 +108,12 @@
 
         </ul>
     </div>
-    <div class="garm5">
-        <div class="garmhead5">
+    <div class="garm">
+        <div class="garmhead">
             Mageia - это открытость отношений
         </div>
     </div>
-    <div class="garmcontent5">
+    <div class="garmcontent">
         <ul>
             <li>Все вопросы будущего дистрибутива будут решаться сообществом.</li>
             <li>Мы будем сотрудничать с другими дистрибутивами свободного программного обеспечения, разработчиками ядра

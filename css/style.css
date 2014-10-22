@@ -784,7 +784,7 @@ table {
     margin-top: 40px;
 }
 
-.garm1, .garm2, .garm3, .garm4, .garm5 {
+.garm {
     color: black;
     margin: 0;
     margin-top: 1px;
@@ -792,22 +792,20 @@ table {
     background-color: #ddeeee;
     cursor: pointer;
     text-align: center;
-
 }
 
-.garm1:hover, .garm2:hover, .garm3:hover, .garm4:hover, .garm5:hover {
+.garm:hover{
     background-color: #2497d4;
     color: white;
 }
 
-.garmhead1, .garmhead2, .garmhead3, .garmhead4, .garmhead5 {
+.garmhead {
     margin: 0;
     margin-left: 20px;
     padding-top: 13px;
     font-size: 13px;
     text-align: left;
     font-weight: bold;
-
 }
 
 .garmblock ul {
@@ -818,4 +816,3 @@ table {
     line-height: 18px;
     font-size: 12px;
 }
-
