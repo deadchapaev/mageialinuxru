@@ -24,7 +24,9 @@
             </p>
         </div>
     </div>
-	<div class="footer_menu">
+	
+	
+	<div class="footer_menu grid_2 push_6 alpha">
         <p>Карта сайта
         <ul>
             <li><a href="/">Главная</a></li>
@@ -37,7 +39,9 @@
 			<li><a href="/mrc-feed">mrc-feed</a></li>
         </ul>
     </div>
-    <div class="grid_5 prefix_3 copyright">copyright 2014 - Mageia Russian Community</div>
+	<div class="clear"></div>
+    <div class="grid_12 copyright">copyright 2014 - Mageia Russian Community</div>
+	<div class="clear"></div>
 </div>
 <div class="clear"></div>
 </div>

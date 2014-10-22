@@ -19,8 +19,8 @@
         <div id="logo"><a href="/"></a></div>
         <div id="uppermenu">
             <ul>
-                <li><a href="/">Архив</a></li>
-                <li><a href="/">mrc-feed</a></li>
+                <li><a href="/arch">Архив</a></li>
+                <li><a href="/mrc-feed">mrc-feed</a></li>
             </ul>
         </div>
 

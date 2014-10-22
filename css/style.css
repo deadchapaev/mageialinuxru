@@ -227,6 +227,7 @@ table {
     text-align: center;
     margin-top: 20px;
     border-radius: 5px;
+	margin-left:50px;
 }
 
 .about a {
@@ -240,7 +241,7 @@ table {
     line-height: 45px;
     color: white;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .about a:hover {
@@ -660,12 +661,9 @@ table {
     padding-top: 50px;
     padding-left: 40px;
 }
-
 .footer_menu {
-    position: absolute;
     font-weight: bold;
-    top: 60px;
-    right: 60px;
+	margin-top:65px;
 }
 
 .footer_menu > p {
@@ -697,9 +695,10 @@ table {
 }
 
 .copyright {
-    margin-top: 280px;
+	width:100%;
     text-align: center;
     font-size: 12px;
+	margin-top:63px;
 }
 
 /*

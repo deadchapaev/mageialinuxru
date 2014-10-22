@@ -18,7 +18,7 @@
         </div>
 
         <!--Монитор-->
-        <div id="monitor" class="grid_6 push_1">
+        <div id="monitor" class="grid_6 push_2">
             <div id="monitorpic"></div>
         </div>
     </div>
