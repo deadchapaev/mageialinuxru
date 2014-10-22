@@ -767,3 +767,33 @@ table {
 #vk {
     background-image: url('../images/iconovk.png');
 }
+
+/*
+* гаромшка
+*/
+.garmblock {
+    margin-top: 40px;
+}
+
+.garm1, .garm2 {
+    color: black;
+    margin: 0;
+    margin-top: 1px;
+    height: 40px;
+    background-color:#ddeeee;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.garm1:hover, .garm2:hover{
+    background-color: #2497d4;
+    color: white;
+}
+
+.garmhead1, .garmhead2 {
+    margin: 0;
+    padding-top: 13px;
+    font-size: 16px;
+    text-align: center;
+}
