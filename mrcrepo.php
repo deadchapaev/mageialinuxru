@@ -6,8 +6,8 @@ Template Name: Репозиторий
 <?php
     get_header(); ?>
 
+	<div id="repocontainer" class="grid_12">
 
-    <div id="repocontainer" class="grid_12">
 		<h3>Репозиторий</h3>
 		
 		<br>
@@ -32,6 +32,8 @@ Template Name: Репозиторий
 		
 		<h4 id="OneClick">Подключение репозитория Mageia Russian Community "в один клик"</h4>
 		
+		
+		
 		<h5>OneClick URPMI</h5>
 		<ol>
 			<li><p>Для подключения репозитория Mageia Russian Community "в один клик" можно использовать веб-утилиту
@@ -41,33 +43,51 @@ Template Name: Репозиторий
 			</li>
 		
 			<li>
-				<p>Откройте в веб-браузере <b>Firefox</b> страницу: <a href="http://urpmi.mageialinux.ru/">http://urpmi.mageialinux.ru/</a> или <a href="http://xxblx.bitbucket.org/urpmi/">http://xxblx.bitbucket.org/urpmi/</a></p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/ey4f2tad.bmp" alt="mainform"/>
+				Откройте в веб-браузере <b>Firefox</b> страницу: <a href="http://urpmi.mageialinux.ru/">http://urpmi.mageialinux.ru/</a> или <a href="http://xxblx.bitbucket.org/urpmi/">http://xxblx.bitbucket.org/urpmi/</a>
+				<div  class="spoiler-wrap">
+					<div class="spoiler-head folded">скриншот</div>
+					<div class="spoiler-body"><br><div class= "text"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/ey4f2tad.bmp" alt="mainform"/></div></div>
+				</div>
 			</li>
 		
 			<li>
-				<p>Выберите версию (релиз) и архитектуру Mageia</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/g0b8ract.bmp" alt="changearch"/>
+				Выберите версию (релиз) и архитектуру Mageia
+				<div class="spoiler-wrap">
+					<div class="spoiler-head folded">скриншот</div>
+					<div class="spoiler-body"><br><div class= "text"><br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/g0b8ract.bmp" alt="changearch"/></div></div>
+				</div>
 			</li>
 			
 			<li>
-				<p>Нажмите кнопку "Добавить" в форме "Репозиторий MRC"</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/fg1y76bc.bmp" alt="add"/>
+				Нажмите кнопку "Добавить" в форме "Репозиторий MRC"				
+				<div class="spoiler-wrap">
+					<div class="spoiler-head folded">скриншот</div>
+					<div class="spoiler-body"><br><div class= "text"><br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/fg1y76bc.bmp" alt="add"/></div></div>
+				</div>
 			</li>
 		
 			<li>
-				<p>Открыть в - Добавить источник urpmi - ОК</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/6o1jmadn.bmp" alt="addsrc"/>
+				Открыть в - Добавить источник urpmi - ОК
+				<div class="spoiler-wrap">
+					<div class="spoiler-head folded">скриншот</div>
+					<div class="spoiler-body"><br><div class= "text"><br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/6o1jmadn.bmp" alt="addsrc"/></div></div>
+				</div>				
 			</li>
 			
 			<li>
-				<p>Введите root-пароль - Аутентификация</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/hfg730bv.bmp" alt="rootpass"/>
+				Введите root-пароль - Аутентификация
+				<div class="spoiler-wrap">
+					<div class="spoiler-head folded">скриншот</div>
+					<div class="spoiler-body"><br><div class= "text"><br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/hfg730bv.bmp" alt="rootpass"/></div></div>
+				</div>				
 			</li>
 			
 			<li>
-				<p>Нажмите "Да"</p>
-				<br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/4gwta3mr.bmp" alt="ok"/>
+				Нажмите "Да"
+				<div class="spoiler-wrap">
+					<div class="spoiler-head folded">скриншот</div>
+					<div class="spoiler-body"><br><div class= "text"><br><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pages/mrsrepo/4gwta3mr.bmp" alt="ok"/></div></div>
+				</div>				
 			</li>		
 		</ol>
 

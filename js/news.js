@@ -11,10 +11,6 @@ function left_carusel() {
 	$curblock = $("#newsblock .news").eq($a - 1);
 	$curblock.hide()
 	$($curblock).prependTo("#newsblock").animate({ width: 'show'}, 100);
-		
-	
-	
-	
 }
 
 function right_carusel() {
@@ -23,6 +19,18 @@ function right_carusel() {
 		$($curblock).appendTo("#newsblock").show(); 
 	}); 
 }
+
+
+jQuery(document).ready(function(){
+	// Закроем все спойлеры изначально
+	jQuery('.spoiler-body').hide()
+	// по клику отключаем класс closed, включаем open, затем для следующего
+	// элемента после блока .spoiler-head (т.е. .spoiler-body) показываем текст спойлера
+	jQuery('.spoiler-head').click(function(){
+	jQuery(this).toggleClass("closed").toggleClass("open").next().toggle()
+	})
+});
+
 
 
 /*

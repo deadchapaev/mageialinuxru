@@ -82,6 +82,13 @@ table {
     border-collapse: collapse;
 }
 
+.spoiler-head {
+	text-decoration:underline;
+	cursor: pointer;
+	color: #2497D4;
+	
+}
+
 /***************************************************************
     Шапка
 ***************************************************************/
