@@ -22,12 +22,9 @@ function right_carusel() {
 
 
 jQuery(document).ready(function(){
-	// Закроем все спойлеры изначально
-	jQuery('.spoiler-body').hide()
-	// по клику отключаем класс closed, включаем open, затем для следующего
-	// элемента после блока .spoiler-head (т.е. .spoiler-body) показываем текст спойлера
+	jQuery('.spoiler-body').hide();
 	jQuery('.spoiler-head').click(function(){
-	jQuery(this).toggleClass("closed").toggleClass("open").next().toggle()
+		jQuery(this).toggleClass("closed").toggleClass("open").next().toggle()
 	})
 });
 
