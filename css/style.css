@@ -83,10 +83,10 @@ table {
 }
 
 .spoiler-head {
-	text-decoration:underline;
-	cursor: pointer;
-	color: #2497D4;
-	
+    text-decoration: underline;
+    cursor: pointer;
+    color: #2497D4;
+
 }
 
 /***************************************************************
@@ -118,7 +118,7 @@ table {
     font-size: 13px;
     margin-left: 0px;
     width: 100%;
-    box-shadow: 0 1px 2px #b9b9b9;
+    /*box-shadow: 0 1px 2px #b9b9b9;*/
     height: 168px;
 }
 
@@ -238,6 +238,7 @@ table {
     display: block;
     height: 45px;
     background-color: #2497d4;
+
     text-align: center;
     line-height: 45px;
     color: white;
@@ -794,18 +795,51 @@ table {
     text-align: center;
 }
 
-.garm:hover{
+.garm:hover {
     background-color: #2497d4;
     color: white;
 }
 
+.garmpic, .garmpicsocial, .garmpictech, .garmpicquality, .garmpic1 {
+    margin-left: 10px;
+    margin-top: 7px;
+    float: left;
+    width: 26px;
+    height: 26px;
+}
+
+.garmpic {
+    background-image: url('../images/iconlinux.png');
+    background-repeat: no-repeat;
+}
+
+.garmpicsocial {
+    background-image: url('../images/iconsoc.png');
+    background-repeat: no-repeat;
+}
+
+.garmpictech {
+    background-image: url('../images/icontech.png');
+    background-repeat: no-repeat;
+}
+
+.garmpicquality {
+    background-image: url('../images/iconquality.png');
+    background-repeat: no-repeat;
+}
+
+.garmpic1 {
+    background-image: url('../images/icon1.png');
+    background-repeat: no-repeat;
+}
+
 .garmhead {
     margin: 0;
-    margin-left: 20px;
+    margin-left: 50px;
     padding-top: 13px;
     font-size: 13px;
     text-align: left;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .garmblock ul {

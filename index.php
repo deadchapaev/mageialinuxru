@@ -25,6 +25,7 @@
 <div class="clear"></div>
 <div class="garmblock">
     <div class="garm">
+        <div class="garmpic1"></div>
         <div class="garmhead">
             Mageia - это социальное программное обеспечение
         </div>
@@ -50,6 +51,7 @@
         </ul>
     </div>
     <div class="garm">
+        <div class="garmpic"></div>
         <div class="garmhead">Mageia - это мощная технология</div>
     </div>
     <div class="garmcontent">
@@ -72,6 +74,7 @@
         </ul>
     </div>
     <div class="garm">
+        <div class="garmpictech"></div>
         <div class="garmhead">
             Mageia - это знание
         </div>
@@ -94,6 +97,7 @@
         </ul>
     </div>
     <div class="garm">
+        <div class="garmpicquality"></div>
         <div class="garmhead">
             Mageia - это качество
         </div>
@@ -109,6 +113,7 @@
         </ul>
     </div>
     <div class="garm">
+        <div class="garmpicsocial"></div>
         <div class="garmhead">
             Mageia - это открытость отношений
         </div>
