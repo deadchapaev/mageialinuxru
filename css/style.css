@@ -177,7 +177,7 @@ table {
 #menu li, #menu li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    background-color: #2497d4;
+    background-color: #435779;
     height: 35px;
     display: block;
     float: left;
@@ -196,7 +196,7 @@ table {
 }
 
 #menu li:hover, #menu li a:hover {
-    background-color: #185d81;
+    background-color: #2497d4;
 }
 
 /***************************************************************
@@ -237,8 +237,7 @@ table {
     width: 240px;
     display: block;
     height: 45px;
-    background-color: #2497d4;
-
+    background-color: #435779;
     text-align: center;
     line-height: 45px;
     color: white;
@@ -247,7 +246,7 @@ table {
 }
 
 .about a:hover {
-    background-color: #185d81;
+    background-color: #2497d4;
 }
 
 .info {
@@ -648,11 +647,17 @@ table {
     margin-left: 0;
     width: 100%;
     margin-top: 40px;
-    height: 300px;
-    background-color: #ddeeee;
-    border-top: 5px solid #2497d4;
-    border-bottom: 20px solid slategray;
+       /*border-top: 5px solid #2497d4;*/
+}
 
+.footer_top {
+    height: 230px;
+    background-color: #ddeeee;;
+}
+
+.footer_bottom {
+    height: 70px;
+    background-color: slategrey;
 }
 
 #footer hr {
@@ -708,75 +713,75 @@ table {
 /*
  *  Кнопки социальных сетей
  */
-#social {
+/*#social {*/
     /*background-image:url('../images/bg-139.png');*/
-    margin-left: 20px;
-    float: left;
-    margin-top: 40px;
-    height: 200px;
-}
+    /*margin-left: 20px;*/
+    /*float: left;*/
+    /*margin-top: 40px;*/
+    /*height: 200px;*/
+/*}*/
 
-#social p {
-    margin-top: 20px;
-    text-align: center;
-}
+/*#social p {*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+/*}*/
 
-#socicons {
-    margin-top: 20px;
-    height: 40px;
-    margin-left: 30px;
-}
+/*#socicons {*/
+    /*margin-top: 20px;*/
+    /*height: 40px;*/
+    /*margin-left: 30px;*/
+/*}*/
 
-#socicons ul {
-    list-style-type: none;
-    padding: 0px;
-}
+/*#socicons ul {*/
+    /*list-style-type: none;*/
+    /*padding: 0px;*/
+/*}*/
 
-#socicons li, #socicons li a {
-    height: 40px;
-    width: 40px;
-    display: block;
-    float: left;
-    cursor: pointer;
-    text-decoration: none;
-    margin-right: 10px;
-}
+/*#socicons li, #socicons li a {*/
+    /*height: 40px;*/
+    /*width: 40px;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*cursor: pointer;*/
+    /*text-decoration: none;*/
+    /*margin-right: 10px;*/
+/*}*/
 
-#otherinfo {
-    margin-top: 20px;
-    border-top: 5px solid #2497d4;
-    border-radius: 0 0 5px 5px;
-}
+/*#otherinfo {*/
+    /*margin-top: 20px;*/
+    /*border-top: 5px solid #2497d4;*/
+    /*border-radius: 0 0 5px 5px;*/
+/*}*/
 
-#otherinfo p {
-    color: slategrey;
-    font-weight: bold;
-    margin-top: 10px;
-}
+/*#otherinfo p {*/
+    /*color: slategrey;*/
+    /*font-weight: bold;*/
+    /*margin-top: 10px;*/
+/*}*/
 
-#menu li:hover, #menu li a:hover {
-    background-color: #185d81;
-}
+/*#menu li:hover, #menu li a:hover {*/
+    /*background-color: #185d81;*/
+/*}*/
 
-#ok {
-    background-image: url('../images/iconok.png');
-}
+/*#ok {*/
+    /*background-image: url('../images/iconok.png');*/
+/*}*/
 
-#g {
-    background-image: url('../images/icong.png');
-}
+/*#g {*/
+    /*background-image: url('../images/icong.png');*/
+/*}*/
 
-#tw {
-    background-image: url('../images/icontw.png');
-}
+/*#tw {*/
+    /*background-image: url('../images/icontw.png');*/
+/*}*/
 
-#mail {
-    background-image: url('../images/iconm.png');
-}
+/*#mail {*/
+    /*background-image: url('../images/iconm.png');*/
+/*}*/
 
-#vk {
-    background-image: url('../images/iconovk.png');
-}
+/*#vk {*/
+    /*background-image: url('../images/iconovk.png');*/
+/*}*/
 
 /*
 * гаромшка
@@ -796,7 +801,7 @@ table {
 }
 
 .garm:hover {
-    background-color: #2497d4;
+    background-color: #435779;
     color: white;
 }
 
