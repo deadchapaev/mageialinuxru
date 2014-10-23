@@ -135,7 +135,7 @@
         </ul>
     </div>
 </div>
-
+<div class="newshead">Последние новости</div>
 <div id="newsblock" class="grid_12">
 
 
