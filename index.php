@@ -18,9 +18,7 @@
     </div>
 
     <!--Монитор-->
-    <div id="monitor" class="grid_6 push_2">
-        <div id="monitorpic"></div>
-    </div>
+    <div id="photo_container"></div>
 </div>
 <div class="clear"></div>
 <div class="garmblock">
