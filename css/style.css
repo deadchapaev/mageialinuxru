@@ -388,6 +388,52 @@ table {
     background-color: #ddeeee;
 
 }
+/*
+ *  Слайдшоу
+ */
+.slider_wrap {
+	margin-top:30px;
+	width:540px;
+	height:300px;
+	position:relative;
+	overflow:hidden;
+}
+.slider_wrap img {
+	width:500px;
+	display:none;
+	position:absolute;
+	top:0;
+	left:20px;	
+}
+.slider_wrap img:first-child {
+	display:block;
+}
+.slider_wrap span {
+	margin-top:-13px;
+	width:15px;
+	height:26px;
+	display:block;
+	position:absolute;
+	top:50%;
+	cursor:pointer;
+	background:url(../images/slider2_arrow.png) no-repeat;
+}
+
+.slider_wrap span.next {
+	right:0;
+	background-position:-15px 0;
+}
+.slider_wrap span.next:hover {
+	background-position:-15px -26px;
+}
+
+.slider_wrap span.prev {
+	left:0;
+	background-position: 0 0;
+}
+.slider_wrap span.prev:hover {
+	background-position: 0 -26px;
+}
 
 /***************************************************************
     Загрузки

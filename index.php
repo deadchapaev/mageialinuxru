@@ -16,9 +16,13 @@
         </div>
         <a href="/download">Загрузите прямо сейчас</a>
     </div>
-
-    <!--Монитор-->
-    <div id="photo_container"></div>
+    
+	<div id="slider" class="slider_wrap">	
+		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/Mageia_1.jpg" alt="" />
+		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/mate.png" alt="" />
+		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/mageiawelcome1.png" alt="" />
+		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/mageia-2-desktop-550.jpg" alt="" />		
+	</div>
 </div>
 <div class="clear"></div>
 <div class="garmblock">

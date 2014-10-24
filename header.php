@@ -5,35 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/960px.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css"/>
-    <!-- jQuery Image Scale Carousel CSS & JS -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lib.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jQuery.isc.css" type="text/css"/>
-	
-	
+
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.js" charset="utf-8"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mrc.js" charset="utf-8"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-image-scale-carousel.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script>
-        var carousel_images = [
-            "https://pp.vk.me/c617827/v617827464/123d/mVQxikpdwO8.jpg",
-            "https://pp.vk.me/c617827/v617827464/1192/mZZb5hgjT2Q.jpg",
-            "https://pp.vk.me/c617827/v617827464/11b6/A8044TgWYDk.jpg",
-            "https://pp.vk.me/c617827/v617827464/11d1/XMuESudvNI4.jpg",
-            "https://pp.vk.me/c617827/v617827464/11fe/d5ohGlcKxmw.jpg",
-            "https://pp.vk.me/c617827/v617827464/1210/-n1jOFZLtHM.jpg"
-        ];
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slide.js" charset="utf-8"></script>
 
-        // Example with autoplay
-        $(window).load(function () {
-            $("#photo_container").isc({
-                imgArray: carousel_images,
-                autoplay: true,
-                autoplayTimer: 5000 // 5 seconds.
-            });
-        });
-    </script>
-	
 	<title>mageialinux.ru</title>
 </head>
 
