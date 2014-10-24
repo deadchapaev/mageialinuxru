@@ -1,13 +1,12 @@
 <?php get_header(); ?>
 <div class="titleline1"><p>Новость</p></div>
 <div id="newscontent" class="grid_12">
-<?php if (have_posts()) :
-    while (have_posts()) : the_post(); ?>
+	<?php if (have_posts()) : the_post(); ?>
 
         <H3><?php the_title(); ?></H3>
 
         <div class="singlenewsdetails">
-            <br><?php the_time('F jS, Y'); ?>
+            <?php the_time('F jS, Y'); ?>
             <?php $category = get_the_category(); ?>
             <br>Категория: <?php echo $category[0]->cat_name; ?>
             <br> Разместил: <?php the_author(); ?>
@@ -19,8 +18,6 @@
         <div id="buttonback" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 
         <div class="clear"></div>
-    <?php endwhile;
-endif; ?>
-
+    <?php endif; ?>
 </div>
 <?php get_footer(); ?>

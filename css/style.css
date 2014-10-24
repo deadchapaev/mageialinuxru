@@ -71,7 +71,7 @@ H5 {
 
 pre {
     white-space: pre-wrap;
-    border: 1px dashed #2497D4;
+    border: 1px dashed #435779;
     background-color: #F9F9F9;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -80,13 +80,17 @@ pre {
 
 table {
     border-collapse: collapse;
+	border-color:#435779 !important;
+}
+
+table td, table th {
+	border-color:#435779 !important;
 }
 
 .spoiler-head {
     text-decoration: underline;
     cursor: pointer;
     color: #2497D4;
-
 }
 
 /*
@@ -100,9 +104,9 @@ table {
     cursor: pointer;
     color: white;
 }
+
 .button a{
-	width: 100%;
-	
+	width: 100%;	
     height: 100%;
     background-color: #435779 !important;
 	color: white !important;
@@ -114,7 +118,6 @@ table {
 	text-decoration: none;   
 	font-weight: normal !important;	
 }
-
 
 .button:hover,
 .button a:hover {
@@ -156,7 +159,6 @@ table {
     font-size: 13px;
     margin-left: 0px;
     width: 100%;
-    /*box-shadow: 0 1px 2px #b9b9b9;*/
     height: 168px;
 }
 
@@ -240,33 +242,22 @@ table {
     height: 200px;
 }
 
-.footer_bottom {
-    color: white;
-    width: 100%;
-    height: 15px;
-    /*background-color: #ddeeee;*/
-    background-color: #435779;
-    margin-top: 20px;
-    font-size: 12px;
-    text-align: center;
-}
-
-.usfllinks, .sitemap, .infoblock, .infoabout {
+.footer_top .grid_3 {
     margin-top: 40px;
 }
 
-.usfllinks h1, .sitemap h1, .infoblock h1, .infoabout h1 {
+.footer_top h1 {
     margin-left: 40px;
     color: #435779;
     font-size: 12px;
 }
 
-.usfllinks ul, .sitemap ul, .infoblock ul, .infoabout ul {
+.footer_top ul {
     margin-top: 20px;
     list-style: none;
 }
 
-.usfllinks ul li, .sitemap ul li, .infoblock ul li, .infoabout ul li {
+.footer_top ul  li {
     text-decoration: none;
     line-height: 20px;
 }
@@ -276,10 +267,14 @@ table {
     margin-right: 10px;
 }
 
-.usfllinks ul li a, .sitemap ul li a, .infoblock ul li a {
+.footer_top ul  li  a {
     text-decoration: none;
     color: #6a97ae;
     font-size: 12px;
+}
+
+.footer_top ul  li  a:hover {
+    color: #435779;
 }
 
 #vk {
@@ -296,9 +291,14 @@ table {
     cursor: pointer;
 }
 
-
-.usfllinks ul li a:hover, .sitemap ul li a:hover, .infoblock ul li a:hover {
-    color: #435779;
+.footer_bottom {
+    color: white;
+    width: 100%;
+    height: 15px;
+    background-color: #435779;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
 }
 
 /*
@@ -459,6 +459,7 @@ table {
 #leftarrow {
     right: 56px;
 }
+
 #rightarrow {
     right: 0;
 }
@@ -730,7 +731,6 @@ table {
 	margin-top: 50px;
 }
 
-
 /***************************************************************
     Архив новостей
 ***************************************************************/
@@ -775,13 +775,13 @@ table {
 ***************************************************************/
 #mrcfeed > table {
     margin-top: 20px;
-    border: 1px solid #2497D4;
+    border: 1px solid;
 }
 
 #mrcfeed > table td,
 #mrcfeed > table th {
     text-align: center;
-    border: 1px solid #2497D4;
+    border: 1px solid;
 }
 
 #mrcfeed > table p {
