@@ -5,19 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/960px.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css"/>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.js"
-            charset="utf-8"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mrc.js" charset="utf-8"></script>
-
-    <script src="http://www.google.com/jsapi"></script>
-    <script>google.load("jquery", "1");</script>
     <!-- jQuery Image Scale Carousel CSS & JS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lib.css" type="text/css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jQuery.isc.css" type="text/css"/>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-image-scale-carousel.js" type="text/javascript"
-            charset="utf-8"></script>
-    <title>mageialinux.ru</title>
-
+	
+	
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.js" charset="utf-8"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mrc.js" charset="utf-8"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-image-scale-carousel.js" type="text/javascript" charset="utf-8"></script>
+    
     <script>
         var carousel_images = [
             "https://pp.vk.me/c617827/v617827464/123d/mVQxikpdwO8.jpg",
@@ -28,13 +24,6 @@
             "https://pp.vk.me/c617827/v617827464/1210/-n1jOFZLtHM.jpg"
         ];
 
-        // Example without autoplay
-        /*$(window).load(function () {
-         $("#photo_container").isc({
-         imgArray: carousel_images
-         });
-         });*/
-
         // Example with autoplay
         $(window).load(function () {
             $("#photo_container").isc({
@@ -44,6 +33,8 @@
             });
         });
     </script>
+	
+	<title>mageialinux.ru</title>
 </head>
 
 <body>
