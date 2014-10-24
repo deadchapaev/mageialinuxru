@@ -453,16 +453,14 @@ table {
     -webkit-user-select: none;
     -ms-user-select: none;
     margin-right: 9px;
+	width: 55px;
 }
 
 #leftarrow {
     right: 56px;
-    width: 55px;
 }
-
 #rightarrow {
     right: 0;
-    width: 55px;
 }
 
 /*
@@ -579,7 +577,6 @@ table {
     -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    /*font-weight: bold;*/
 }
 
 .garmblock ul {
@@ -620,25 +617,6 @@ table {
     font-weight: bold;
 }
 
-.thlinks {
-    color: black;
-    font-weight: normal;
-    font-size: 12px;
-    width: 150px;
-}
-
-.thlinks a {
-    font-size: 12px;
-    color: #185d81;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#aftertable a:hover,
-.thlinks a:hover {
-    color: #2497d4;
-}
-
 #aftertable {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -650,12 +628,15 @@ table {
     color: #185d81;
 }
 
+#aftertable a:hover{
+    color: #2497d4;
+}
+
 #button {
     margin-top: 20px;
     margin-bottom: 30px;
     float: right;
     width: 150px;
-    height: 45px;
 }
 
 /***************************************************************
@@ -753,10 +734,6 @@ table {
 /***************************************************************
     Архив новостей
 ***************************************************************/
-#newsarchcontent h3 {
-    font-size: 28px;
-}
-
 #newsarchcontent ul {
     margin-top: 30px;
 }

@@ -3,14 +3,17 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Русскоязычное сообщество пользователей Mageia / Mageia Russian Community &mdash; Русскоязычное сообщество пользователей Mageia" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/960px.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css"/>
+	
+	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico"/>
 
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.js" charset="utf-8"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mrc.js" charset="utf-8"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slide.js" charset="utf-8"></script>
 
-	<title>mageialinux.ru</title>
+	<title>Русскоязычное сообщество пользователей Mageia</title>
 </head>
 
 <body>
