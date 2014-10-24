@@ -6,7 +6,7 @@ Template Name: Загрузки
 <?php
 get_header(); ?>
 
-<div class="titleline1"><p>Загрузить Mageia</p></div>
+	<div class="titleline1"><p>Загрузить Mageia</p></div>
     <div id="downloadcontainer" class="grid_12">
         <br>
 
@@ -111,9 +111,8 @@ get_header(); ?>
         </div>
         <div class="clear"></div>
 
-        <a href="javascript:javascript:history.go(-1)">
-            <div id="button">Назад</div>
-        </a>
+		<div id="button" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
+        
 
         <div class="clear"></div>
 

@@ -55,6 +55,6 @@ Template Name: mrc-feed
 
     </table>
 
-	<div id="buttonback"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
+	<div id="buttonback" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 </div>
 <?php get_footer(); ?>

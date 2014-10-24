@@ -88,6 +88,40 @@ table {
     color: #2497D4;
 
 }
+
+/*
+ *  Заготовка для кнопочки
+ */
+.button {
+    font-weight: normal;
+    background-color: #435779;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    color: white;
+}
+.button a{
+	width: 100%;
+	
+    height: 100%;
+    background-color: #435779 !important;
+	color: white !important;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+	display: block;
+	font-size: 15px !important;
+	text-decoration: none;   
+	font-weight: normal !important;	
+}
+
+
+.button:hover,
+.button a:hover {
+    background-color: #DEE !important;
+	color: #435779 !important;
+}
+
 /*
 ================================================================
     ПАРАМЕТРЫ ШАБЛОНА (шапка, подвал и тд)
@@ -139,7 +173,6 @@ table {
     list-style-type: none;
     width: 140px;
     height: 35px;
-
 }
 
 #uppermenu li, #uppermenu li a {
@@ -192,11 +225,6 @@ table {
     cursor: pointer;
     text-decoration: none;
     margin-right: 1px;
-    /*font-weight: bold;*/
-}
-
-#liborder, #liborder a {
-    /*border-radius: 0 0 5px 0;*/
 }
 
 #menu li:hover, #menu li a:hover {
@@ -207,7 +235,6 @@ table {
 /***************************************************************
     Футер
 ***************************************************************/
-
 .footer_top {
     width: 100%;
     height: 200px;
@@ -303,7 +330,6 @@ table {
 }
 
 .about {
-
     height: 300px;
     color: black;
     text-align: center;
@@ -312,23 +338,9 @@ table {
     margin-left: 50px;
 }
 
-.about a {
-    font-size: 15px;
-    text-decoration: none;
-    width: 240px;
-    display: block;
-    height: 45px;
-    background-color: #435779;
-    text-align: center;
-    line-height: 45px;
-    color: white;
-    cursor: pointer;
-    margin-top: 35px;
-}
-
-.about a:hover {
-    background-color: #ddeeee;
-    color: #435779;
+.about .button{
+	margin-top: 35px;
+	width:240px;
 }
 
 .info {
@@ -337,7 +349,6 @@ table {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .detail {
@@ -375,7 +386,6 @@ table {
     margin-top: 20px;
     height: 230px;
     overflow-y: hidden;
-
 }
 
 .newshead {
@@ -392,7 +402,6 @@ table {
 .news {
     height: 200px;
     text-align: left;
-    /*margin-left: 5px;*/
     word-wrap: break-word;
     margin-bottom: 25px;
     box-shadow: 0 1px 2px #b9b9b9;
@@ -432,14 +441,9 @@ table {
 
 #leftarrow,
 #rightarrow {
-
     position: absolute;
-    cursor: pointer;
-    background-color: #435779;
-    color: white;
     height: 20px;
     bottom: 0;
-    text-align: center;
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
@@ -454,20 +458,13 @@ table {
 #leftarrow {
     right: 56px;
     width: 55px;
-    z-index: 999;
 }
 
 #rightarrow {
     right: 0;
     width: 55px;
-    z-index: 999;
 }
 
-#leftarrow:hover,
-#rightarrow:hover {
-    background-color: #ddeeee;
-
-}
 /*
  *  Слайдшоу
  */
@@ -656,19 +653,9 @@ table {
 #button {
     margin-top: 20px;
     margin-bottom: 30px;
-    font-weight: normal;
     float: right;
     width: 150px;
     height: 45px;
-    background-color: #2497d4;
-    text-align: center;
-    line-height: 45px;
-    cursor: pointer;
-    color: white;
-}
-
-#button:hover {
-    background-color: #185d81;
 }
 
 /***************************************************************
@@ -745,35 +732,23 @@ table {
 }
 
 #buttonforum a, #buttonback a {
-    font-weight: normal;
-    background-color: #2497d4;
-    text-align: center;
-    text-decoration: none;
-    color: white !important;
-    font-weight: normal;
-    display: block;
-    line-height: 45px;
-    cursor: pointer;
-    height: 45px;
     margin-bottom: 50px;
-    margin-top: 50px;
 }
 
-#buttonforum a {
+#buttonforum {
     float: left;
     width: 240px;
+	height: 45px;
+	margin-top: 50px;
 }
 
-#buttonback a {
+#buttonback {
     float: right;
     width: 150px;
+	height: 45px;
+	margin-top: 50px;
 }
 
-#buttonback:hover, #buttonforum:hover,
-#buttonback a:hover, #buttonforum a:hover {
-    background-color: #185d81;
-    color: white;
-}
 
 /***************************************************************
     Архив новостей
@@ -821,10 +796,6 @@ table {
 /***************************************************************
     mrcfeed
 ***************************************************************/
-#mrcfeed {
-
-}
-
 #mrcfeed > table {
     margin-top: 20px;
     border: 1px solid #2497D4;

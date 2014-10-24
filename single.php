@@ -15,8 +15,8 @@
 
         <?php the_content(','); ?>
         
-        <div id="buttonforum"><a href="http://forum.mageialinux.ru/">Обсудить новость на форуме</a></div>
-        <div id="buttonback"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
+        <div id="buttonforum" class="button"><a href="http://forum.mageialinux.ru/">Обсудить новость на форуме</a></div>
+        <div id="buttonback" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 
         <div class="clear"></div>
     <?php endwhile;

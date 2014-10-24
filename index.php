@@ -14,7 +14,8 @@
             Тысячи людей и десятки организаций по всему миру выбирают Mageia для повседневного использования дома и
             в офисе.
         </div>
-        <a href="/download">Загрузите прямо сейчас</a>
+		<div class="button"><a href="/download">Загрузите прямо сейчас</a></div>
+        
     </div>
     
 	<div id="slider" class="slider_wrap">	
@@ -142,8 +143,8 @@
     <div id="newsblock" class="grid_12">
 
 
-        <div id="leftarrow"> &lt; </div>
-        <div id="rightarrow"> &gt; </div>
+        <div id="leftarrow" class="button"> &lt; </div>
+        <div id="rightarrow" class="button"> &gt; </div>
         <?php if (have_posts()) :
             $i = 0;
             while (have_posts()) : the_post(); ?>
