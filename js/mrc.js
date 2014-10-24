@@ -14,7 +14,7 @@ $(document).ready(function(){
 $(document).ready(function () {
     $('.garmcontent').hide();
 	$('.garm').click(function(){
-		$(this).toggleClass("closed").toggleClass("open").next().toggle('fast');
+		$(this).toggleClass("closed").toggleClass("open").next().toggle(100);
 	})
 });
 
@@ -36,4 +36,3 @@ $(document).on('click', '#leftarrow', function () {
 	});
 	
 });
-
