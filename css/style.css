@@ -201,6 +201,82 @@ table {
 }
 
 /***************************************************************
+    Футер
+***************************************************************/
+
+.footer_top {
+    width: 100%;
+    height: 200px;
+}
+
+.footer_bottom {
+    color: white;
+    width: 100%;
+    height: 15px;
+    /*background-color: #ddeeee;*/
+    background-color: #435779;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.usfllinks, .sitemap, .infoblock, .infoabout {
+    margin-top: 40px;
+}
+
+.usfllinks h1, .sitemap h1, .infoblock h1, .infoabout h1 {
+    margin-left: 40px;
+    color: #435779;
+    font-size: 12px;
+}
+
+.usfllinks ul, .sitemap ul, .infoblock ul, .infoabout ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.usfllinks ul li, .sitemap ul li, .infoblock ul li, .infoabout ul li {
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.infoabout ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.usfllinks ul li a, .sitemap ul li a, .infoblock ul li a {
+    text-decoration: none;
+    color: #6a97ae;
+    font-size: 12px;
+}
+
+#vk {
+    height: 32px;
+    width: 32px;
+    background-image:  url('../images/iconovk.png');
+    cursor: pointer;
+}
+
+#tweeter {
+    height: 32px;
+    width: 32px;
+    background-image:  url('../images/icontw.png');
+    cursor: pointer;
+}
+
+
+.usfllinks ul li a:hover, .sitemap ul li a:hover, .infoblock ul li a:hover {
+    color: #435779;
+}
+
+/*
+================================================================
+    СТРАНИЦЫ САЙТА
+================================================================
+*/
+
+/***************************************************************
     Главная страница
 ***************************************************************/
 #content {
@@ -434,6 +510,84 @@ table {
 }
 .slider_wrap span.prev:hover {
 	background-position: 0 -26px;
+}
+
+/*
+*   гаромшка
+*/
+.garmblock {
+    margin-top: 40px;
+}
+
+.garm {
+    color: black;
+    margin: 0;
+    margin-top: 1px;
+    height: 40px;
+    background-color: #ddeeee;
+    cursor: pointer;
+    text-align: center;
+}
+
+.garm:hover {
+    background-color: #435779;
+    color: white;
+}
+
+.garmpic, .garmpicsocial, .garmpictech, .garmpicquality, .garmpic1 {
+    margin-left: 10px;
+    margin-top: 7px;
+    float: left;
+    width: 26px;
+    height: 26px;
+}
+
+.garmpic {
+    background-image: url('../images/iconlinux.png');
+    background-repeat: no-repeat;
+}
+
+.garmpicsocial {
+    background-image: url('../images/iconsoc.png');
+    background-repeat: no-repeat;
+}
+
+.garmpictech {
+    background-image: url('../images/icontech.png');
+    background-repeat: no-repeat;
+}
+
+.garmpicquality {
+    background-image: url('../images/iconquality.png');
+    background-repeat: no-repeat;
+}
+
+.garmpic1 {
+    background-image: url('../images/icon1.png');
+    background-repeat: no-repeat;
+}
+
+.garmhead {
+    margin: 0;
+    margin-left: 50px;
+    padding-top: 13px;
+    font-size: 13px;
+    text-align: left;
+	-moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    /*font-weight: bold;*/
+}
+
+.garmblock ul {
+    margin: 20px;
+}
+
+.garmblock ul li {
+    line-height: 18px;
+    font-size: 12px;
 }
 
 /***************************************************************
@@ -701,152 +855,4 @@ table {
     background-repeat: no-repeat;
     opacity: 0.7;
     margin-bottom: 30px;
-}
-
-/***************************************************************
-    Футер
-***************************************************************/
-
-.footer_top {
-    width: 100%;
-    height: 200px;
-}
-
-.footer_bottom {
-    color: white;
-    width: 100%;
-    height: 15px;
-    /*background-color: #ddeeee;*/
-    background-color: #435779;
-    margin-top: 20px;
-    font-size: 12px;
-    text-align: center;
-}
-
-.usfllinks, .sitemap, .infoblock, .infoabout {
-    margin-top: 40px;
-}
-
-.usfllinks h1, .sitemap h1, .infoblock h1, .infoabout h1 {
-    margin-left: 40px;
-    color: #435779;
-    font-size: 12px;
-}
-
-.usfllinks ul, .sitemap ul, .infoblock ul, .infoabout ul {
-    margin-top: 20px;
-    list-style: none;
-}
-
-.usfllinks ul li, .sitemap ul li, .infoblock ul li, .infoabout ul li {
-    text-decoration: none;
-    line-height: 20px;
-}
-
-.infoabout ul li {
-    float: left;
-    margin-right: 10px;
-}
-
-.usfllinks ul li a, .sitemap ul li a, .infoblock ul li a {
-    text-decoration: none;
-    color: #6a97ae;
-    font-size: 12px;
-}
-
-#vk {
-    height: 32px;
-    width: 32px;
-    background-image:  url('../images/iconovk.png');
-    cursor: pointer;
-}
-
-#tweeter {
-    height: 32px;
-    width: 32px;
-    background-image:  url('../images/icontw.png');
-    cursor: pointer;
-}
-
-
-.usfllinks ul li a:hover, .sitemap ul li a:hover, .infoblock ul li a:hover {
-    color: #435779;
-}
-
-/*
-* гаромшка
-*/
-.garmblock {
-    margin-top: 40px;
-}
-
-.garm {
-    color: black;
-    margin: 0;
-    margin-top: 1px;
-    height: 40px;
-    background-color: #ddeeee;
-    cursor: pointer;
-    text-align: center;
-}
-
-.garm:hover {
-    background-color: #435779;
-    color: white;
-}
-
-.garmpic, .garmpicsocial, .garmpictech, .garmpicquality, .garmpic1 {
-    margin-left: 10px;
-    margin-top: 7px;
-    float: left;
-    width: 26px;
-    height: 26px;
-}
-
-.garmpic {
-    background-image: url('../images/iconlinux.png');
-    background-repeat: no-repeat;
-}
-
-.garmpicsocial {
-    background-image: url('../images/iconsoc.png');
-    background-repeat: no-repeat;
-}
-
-.garmpictech {
-    background-image: url('../images/icontech.png');
-    background-repeat: no-repeat;
-}
-
-.garmpicquality {
-    background-image: url('../images/iconquality.png');
-    background-repeat: no-repeat;
-}
-
-.garmpic1 {
-    background-image: url('../images/icon1.png');
-    background-repeat: no-repeat;
-}
-
-.garmhead {
-    margin: 0;
-    margin-left: 50px;
-    padding-top: 13px;
-    font-size: 13px;
-    text-align: left;
-	-moz-user-select: -moz-none;
-    -o-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    /*font-weight: bold;*/
-}
-
-.garmblock ul {
-    margin: 20px;
-}
-
-.garmblock ul li {
-    line-height: 18px;
-    font-size: 12px;
 }
