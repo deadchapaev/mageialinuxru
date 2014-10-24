@@ -152,17 +152,16 @@
                     <div class="newsdetails">
                         <br><?php the_time('F jS, Y'); ?>
                     </div>
-                    <a href="<?php the_permalink(); ?>">
                         <H4>
+						<a href="<?php the_permalink(); ?>">
                             <?php
                             trimAndPrint(get_the_title(), 30, "...");
                             ?>
+						</a>
                         </H4>
-                    </a>
-
                     <p>
                         <?php
-                        trimAndPrint(get_the_content(), 100, "...");
+                        trimAndPrint(get_the_content(), 120, "...");
                         ?>
                     </p>
                 </div>
@@ -187,7 +186,5 @@ function trimAndPrint($string, $len, $endstr)
         print(mb_substr(strip_tags($string), 0, $len) . $endstr);
     else
         print($string);
-
 }
-
 ?>

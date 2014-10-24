@@ -90,7 +90,18 @@ table td, table th {
 .spoiler-head {
     text-decoration: underline;
     cursor: pointer;
-    color: #2497D4;
+    color: #435779;
+}
+
+a {    
+	color: #435779;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none !important;
+}
+
+a:hover {
+	color: #6a97ae;    
 }
 
 /*
@@ -147,7 +158,6 @@ table td, table th {
     display: block;
     width: 100%;
     height: 100%;
-    text-decoration: none;
 }
 
 #logo > a:active {
@@ -169,6 +179,9 @@ table td, table th {
     position: absolute;
     top: 0;
     right: 0;
+}
+#uppermenu a {
+	text-decoration: underline;
 }
 
 #uppermenu ul {
@@ -225,7 +238,6 @@ table td, table th {
     line-height: 35px;
     text-align: center;
     cursor: pointer;
-    text-decoration: none;
     margin-right: 1px;
 }
 
@@ -268,7 +280,6 @@ table td, table th {
 }
 
 .footer_top ul  li  a {
-    text-decoration: none;
     color: #6a97ae;
     font-size: 12px;
 }
@@ -399,6 +410,13 @@ table td, table th {
     margin-left: 40px;
 }
 
+.news h4 {
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
 .news {
     height: 200px;
     text-align: left;
@@ -406,18 +424,6 @@ table td, table th {
     margin-bottom: 25px;
     box-shadow: 0 1px 2px #b9b9b9;
     margin-top: 5px;
-}
-
-.news h4 {
-    margin-top: 5px;
-    font-size: 14px;
-    margin-left: 5px;
-    color: #435779;
-    font-weight: bold;
-}
-
-.news h4:hover {
-    color: black;
 }
 
 .news p {
@@ -434,11 +440,6 @@ table td, table th {
     margin-left: 5px;
 }
 
-.news a {
-    text-decoration: none;
-    color: #a7a7a7;
-}
-
 #leftarrow,
 #rightarrow {
     position: absolute;
@@ -447,13 +448,13 @@ table td, table th {
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
+	margin-right: 9px;
+	width: 55px;
     -moz-user-select: -moz-none;
     -o-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
-    -ms-user-select: none;
-    margin-right: 9px;
-	width: 55px;
+    -ms-user-select: none;    
 }
 
 #leftarrow {
@@ -625,12 +626,6 @@ table td, table th {
 
 #aftertable a {
     font-weight: bold;
-    text-decoration: none;
-    color: #185d81;
-}
-
-#aftertable a:hover{
-    color: #2497d4;
 }
 
 #button {
@@ -662,10 +657,6 @@ table td, table th {
     margin-left: 0px;
 }
 
-#repocontainer ul a {
-    text-decoration: none;
-}
-
 #repocontainer ol > li {
     margin-left: -20px;
 }
@@ -677,14 +668,10 @@ table td, table th {
 
 #repocontainer a {
     font-size: 12px;
-    color: #185D81;
-    text-decoration: none;
     font-weight: bold;
 }
 
-#repocontainer a:hover {
-    color: #2497D4;
-}
+
 
 /***************************************************************
     Новость
@@ -697,13 +684,7 @@ table td, table th {
 }
 
 #newscontent a {
-    color: #185d81;
     font-weight: bold;
-    text-decoration: none;
-}
-
-#newscontent a:hover {
-    color: #2497d4;
 }
 
 .singlenewsdetails {
@@ -713,22 +694,21 @@ table td, table th {
     color: #185d81;
 }
 
-#buttonforum a, #buttonback a {
-    margin-bottom: 50px;
+#buttonforum ,
+#buttonback {
+	height: 45px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #buttonforum {
     float: left;
     width: 240px;
-	height: 45px;
-	margin-top: 50px;
 }
 
 #buttonback {
     float: right;
     width: 150px;
-	height: 45px;
-	margin-top: 50px;
 }
 
 /***************************************************************
@@ -736,14 +716,6 @@ table td, table th {
 ***************************************************************/
 #newsarchcontent ul {
     margin-top: 30px;
-}
-
-#newsarchcontent a {
-    color: #185d81;
-}
-
-#newsarchcontent a:hover {
-    color: #2497d4;
 }
 
 #archyear {
@@ -767,7 +739,6 @@ table td, table th {
 #archews > li > a {
     margin: 0px auto;
     position: relative;
-    text-decoration: none;
 }
 
 /***************************************************************
