@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="titleline1"><p>Новость</p></div>
 <div id="newscontent" class="grid_12">
 <?php if (have_posts()) :
     while (have_posts()) : the_post(); ?>

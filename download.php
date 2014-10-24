@@ -6,10 +6,8 @@ Template Name: Загрузки
 <?php
 get_header(); ?>
 
-
+<div class="titleline1"><p>Загрузить Mageia</p></div>
     <div id="downloadcontainer" class="grid_12">
-        <h3>Загрузить Mageia</h3>
-
         <br>
 
         <p>

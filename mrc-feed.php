@@ -4,9 +4,8 @@ Template Name: mrc-feed
 */
 ?>
 <?php get_header(); ?>
-
+<div class="titleline1"><p>Mrc-feed</p></div>
 <div id="mrcfeed" class="grid_12">
-	<h3>Mrc-feed</h3>
 	<table align="center">
 
         <tr>

@@ -5,9 +5,8 @@ Template Name: Архив новостей
 ?>
 <?php
 get_header(); ?>
-
+<div class="titleline1"><p>Архив новостей</p></div>
     <div id="newsarchcontent" class="grid_12">
-        <H3>Архив новостей</H3>
         <ul id="archews">
             <?php
             $myposts = get_posts('numberposts=-1');

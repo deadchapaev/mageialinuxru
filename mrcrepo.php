@@ -5,11 +5,9 @@ Template Name: Репозиторий
 ?>
 <?php
     get_header(); ?>
-
+	<div class="titleline1"><p>Репозиторий</p></div>
 	<div id="repocontainer" class="grid_12">
-
-		<h3>Репозиторий</h3>
-		
+	
 		<br>
 		<ul>	
 			<li>
