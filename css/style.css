@@ -471,13 +471,13 @@ a:hover {
 .slider_wrap {
 	margin-top:30px;
 	width:540px;
-	height:300px;
+	height:320px;
 	position:relative;
 	overflow:hidden;
 }
 .slider_wrap img {
 	width:500px;
-	height:300px;
+	height:320px;
 	display:none;
 	position:absolute;
 	top:0;
@@ -715,7 +715,9 @@ a:hover {
     Архив новостей
 ***************************************************************/
 #newsarchcontent ul {
-    margin-top: 30px;
+    margin-top:30px;
+	padding-left:0px;
+	list-style-type: none;
 }
 
 #archyear {
@@ -734,6 +736,10 @@ a:hover {
 #archews li:hover {
     cursor: pointer;
     color: #2497d4;
+}
+
+#newsarchcontent li:before {
+    content: "›";
 }
 
 #archews > li > a {
