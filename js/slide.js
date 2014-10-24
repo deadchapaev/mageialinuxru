@@ -3,11 +3,11 @@ $(function () {
 		el =  elWrap.find('img'),
 		indexImg = 1,
 		indexMax = el.length,
-		phase = 3000;
+		phase = 5000;
 	
 	function change () {
 		el.fadeOut(1500);
-		el.filter(':nth-child('+indexImg+')').fadeIn(500);
+		el.filter(':nth-child('+indexImg+')').fadeIn(1500);
 	}	
 		
 	function autoCange () {	
