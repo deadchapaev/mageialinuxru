@@ -30,15 +30,15 @@ $(document).on('click', '#leftarrow', function () {
 });
 
 function left_carusel() {
-    $a = $("#newsblock .news").size();
-	$curblock = $("#newsblock .news").eq($a - 1);
-	$curblock.hide()
-	$($curblock).prependTo("#newsblock").animate({ width: 'show'}, 100);
+    $len = $("#newsblock .news").size();
+	$last_block = $("#newsblock .news").eq($len - 1);
+	$($last_block).hide()
+	$($last_block).prependTo("#newsblock").animate({ width: 'show'}, 100);
 }
 
 function right_carusel() {
-	$curblock = $("#newsblock .news").eq(0);
-    $($curblock).animate({ width: 'hide' }, 100, function() {
-		$($curblock).appendTo("#newsblock").show(); 
+	$first_block = $("#newsblock .news").eq(0);
+    $($first_block).animate({ width: 'hide' }, 100, function() {
+		$($first_block).appendTo("#newsblock").show(); 
 	}); 
 }
