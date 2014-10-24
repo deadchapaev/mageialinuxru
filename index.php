@@ -135,36 +135,38 @@
         </ul>
     </div>
 </div>
-<div class="newshead">Последние новости</div>
-<div id="newsblock" class="grid_12">
+<div class="newscontainer">
+    <div class="newshead">Последние новости</div>
+    <div id="newsblock" class="grid_12">
 
 
-    <div id="leftarrow"> &lt; </div>
-    <div id="rightarrow"> &gt; </div>
-    <?php if (have_posts()) :
-        $i = 0;
-        while (have_posts()) : the_post(); ?>
-            <div class="grid_3 news">
-                <div class="newsdetails">
-                    <br><?php the_time('F jS, Y'); ?>
-                </div>
-                <a href="<?php the_permalink(); ?>">
-                    <H4>
+        <div id="leftarrow"> &lt; </div>
+        <div id="rightarrow"> &gt; </div>
+        <?php if (have_posts()) :
+            $i = 0;
+            while (have_posts()) : the_post(); ?>
+                <div class="grid_3 news">
+                    <div class="newsdetails">
+                        <br><?php the_time('F jS, Y'); ?>
+                    </div>
+                    <a href="<?php the_permalink(); ?>">
+                        <H4>
+                            <?php
+                            trimAndPrint(get_the_title(), 30, "...");
+                            ?>
+                        </H4>
+                    </a>
+
+                    <p>
                         <?php
-                        trimAndPrint(get_the_title(), 30, "...");
+                        trimAndPrint(get_the_content(), 100, "...");
                         ?>
-                    </H4>
-                </a>
-
-                <p>
-                    <?php
-                    trimAndPrint(get_the_content(), 100, "...");
-                    ?>
-                </p>
-            </div>
-            <?php if (++$i >= 6) break;
-        endwhile;
-    endif; ?>
+                    </p>
+                </div>
+                <?php if (++$i >= 6) break;
+            endwhile;
+        endif; ?>
+    </div>
 </div>
 <div class="clear"></div>
 
