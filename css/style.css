@@ -834,6 +834,11 @@ table {
     padding-top: 13px;
     font-size: 13px;
     text-align: left;
+	-moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     /*font-weight: bold;*/
 }
 
