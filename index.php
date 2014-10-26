@@ -2,7 +2,6 @@
 
 <div class="titleline1"><p>Продукты и описание</p></div>
 <div id="content" class="grid_12 alpha omega">
-    <div class="clear"></div>
     <!--Описание дистра-->
     <div class="grid_4 about">
         <div class="info">

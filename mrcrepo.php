@@ -133,7 +133,7 @@ Template Name: Репозиторий
 		<pre>urpmi.addmedia  --wget --distrib MageiaLinux.ru-x86_64- <a href="http://packages.mageialinux.ru/mageia4/x86_64/">http://packages.mageialinux.ru/mageia4/x86_64/</a></pre>
 
         
-        <div id="button" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>        
+        <div class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>        
 
         <div class="clear"></div>
 

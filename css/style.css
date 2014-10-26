@@ -246,6 +246,24 @@ a:hover {
     color: #435779;
 }
 
+/*
+ *  Серенькая линия с названием страницы
+ */
+.titleline1 {
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #ddeeee;
+    color: black;
+}
+
+.titleline1 p {
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 13px;
+}
+
 /***************************************************************
     Футер
 ***************************************************************/
@@ -328,25 +346,10 @@ a:hover {
 ***************************************************************/
 #content {
     width: 100%;
+	font-size: 13px;
 }
 
-.titleline1 {
-    margin-top: 0px;
-    width: 100%;
-    height: 40px;
-    background-color: #ddeeee;
-    color: black;
-}
-
-.titleline1 p {
-    margin-left: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    padding-top: 13px;
-}
-
-.about {
-    font-size: 13px;
+#content .about {
     height: 300px;
     color: black;
     text-align: center;
@@ -355,37 +358,23 @@ a:hover {
     margin-left: 50px;
 }
 
-.about .button {
-    margin-top: 35px;
-    width: 240px;
-}
-
-.info {
-    font-size: 13px;
+#content .info {
     height: 90px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.detail {
-    font-size: 13px;
+#content .detail {
     margin-top: 20px;
     height: 70px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#monitor {
-    margin-top: 40px;
-    height: 262px;
-}
-
-#monitorpic {
-    background-image: url('../images/monitor.png');
-    height: 262px;
-    background-repeat: no-repeat;
-    margin-left: 25px;
+#content .about .button {
+    margin-top: 35px;
+    width: 240px;
 }
 
 /*
@@ -394,6 +383,12 @@ a:hover {
 .newscontainer {
     height: 300px;
     box-shadow: 0px 1px 1px 0px #b9b9b9;
+}
+
+.newshead {
+    margin-top: 40px;
+    font-size: 18px;
+    margin-left: 20px;
 }
 
 #newsblock {
@@ -405,25 +400,7 @@ a:hover {
     overflow-y: hidden;
 }
 
-.newshead {
-    margin-top: 40px;
-    font-size: 18px;
-    margin-left: 20px;
-}
-
-#news h3 {
-    margin-top: 50px;
-    margin-left: 40px;
-}
-
-.news h4 {
-    margin-top: 5px;
-    font-size: 14px;
-    margin-left: 5px;
-    font-weight: bold;
-}
-
-.news {
+.newscontainer .news {
     height: 200px;
     text-align: left;
     word-wrap: break-word;
@@ -432,22 +409,29 @@ a:hover {
     margin-top: 5px;
 }
 
-.news p {
+.newscontainer .news h4 {
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.newscontainer .news p {
     font-size: 12px;
     line-height: 1.7;
     margin-top: 10px;
     margin-left: 5px;
 }
 
-.newsdetails {
+.newscontainer .newsdetails {
     margin-top: 0;
     font-size: 10px;
     color: #a7a7a7;
     margin-left: 5px;
 }
 
-#leftarrow,
-#rightarrow {
+.newscontainer #leftarrow,
+.newscontainer #rightarrow {
     position: absolute;
     height: 20px;
     bottom: 0;
@@ -463,11 +447,11 @@ a:hover {
     -ms-user-select: none;
 }
 
-#leftarrow {
+.newscontainer #leftarrow {
     right: 56px;
 }
 
-#rightarrow {
+.newscontainer #rightarrow {
     right: 0;
 }
 
@@ -531,7 +515,7 @@ a:hover {
     margin-top: 40px;
 }
 
-.garm {
+.garmblock .garm {
     color: black;
     margin: 0;
     margin-top: 1px;
@@ -541,10 +525,20 @@ a:hover {
     text-align: center;
 }
 
-.garm:hover {
+.garmblock .garm:hover {
     background-color: #435779;
     color: white;
 }
+
+.garmblock ul {
+    margin: 20px;
+}
+
+.garmblock ul li {
+    line-height: 18px;
+    font-size: 12px;
+}
+
 
 .garmpic, .garmpicsocial, .garmpictech, .garmpicquality, .garmpic1 {
     margin-left: 10px;
@@ -552,31 +546,27 @@ a:hover {
     float: left;
     width: 26px;
     height: 26px;
+	background-repeat: no-repeat;
 }
 
 .garmpic {
     background-image: url('../images/iconlinux.png');
-    background-repeat: no-repeat;
 }
 
 .garmpicsocial {
     background-image: url('../images/iconsoc.png');
-    background-repeat: no-repeat;
 }
 
 .garmpictech {
     background-image: url('../images/icontech.png');
-    background-repeat: no-repeat;
 }
 
 .garmpicquality {
     background-image: url('../images/iconquality.png');
-    background-repeat: no-repeat;
 }
 
 .garmpic1 {
     background-image: url('../images/icon1.png');
-    background-repeat: no-repeat;
 }
 
 .garmhead {
@@ -592,116 +582,91 @@ a:hover {
     -ms-user-select: none;
 }
 
-.garmblock ul {
-    margin: 20px;
-}
-
-.garmblock ul li {
-    line-height: 18px;
-    font-size: 12px;
-}
-
 /***************************************************************
     Загрузки
 ***************************************************************/
-.headrow {
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.osname {
-    font-weight: bold;
-    font-size: 15px;
-    color: #435779;
-}
-
-.gui {
-    font-size: 12px;
-}
-
-.ver {
-    font-size: 12px;
-}
-
-.download {
-    width: 55px;
-}
-
-.download a {
-    font-size: 12px;
-    font-weight: bold;
-    color: #435779;
-}
-
-.download a:hover {
-    color: #6a97ae;
-}
-
-.info {
-    font-size: 12px;
-}
-
 #downloadcontainer {
     margin-left: 0;
     width: 100%;
     box-shadow: 0px 1px 1px 0px #b9b9b9;
+	font-size: 13px;
 }
 
 #downloadcontainer p {
-    margin: 15px;
-    font-size: 13px;
-}
-
-#downloadcontainer a {
-    font-size: 13px;
+    margin: 15px;    
 }
 
 #downloadcontainer h3 {
     margin-bottom: 50px;
 }
 
-#downloadcontainer table {
-    margin-top: 20px;
-    /*border: 1px solid #2497D4;*/
+#downloadcontainer .headrow {
+    font-weight: bold;
 }
 
-#downloadcontainer  table td {
+#downloadcontainer .osname {
+    font-weight: bold;
+    font-size: 15px;
+    color: #435779;
+}
+
+#downloadcontainer .gui {
+    font-size: 12px;
+}
+
+#downloadcontainer table {
+    margin-top: 20px;
+}
+
+#downloadcontainer table td {
     text-align: center;
     border: 1px solid #2497D4;
 }
 
-#downloadcontainer > table p {
+#downloadcontainer table p {
     font-weight: normal;
     font-size: 12px;
 }
 
-.thdownload {
-    color: #2497d4;
-    margin-top: 10px;
+#downloadcontainer table td .ver {
     font-size: 12px;
-    font-weight: bold;
 }
 
-#aftertable {
+#downloadcontainer table .download {
+    width: 55px;
+}
+
+#downloadcontainer table .download a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #435779;
+}
+
+#downloadcontainer table .download a:hover {
+    color: #6a97ae;
+}
+
+#downloadcontainer table .info {
+    font-size: 12px;
+}
+
+#downloadcontainer #aftertable {
     margin-top: 20px;
     margin-bottom: 30px;
     padding-left: 0px;
     margin-left: 0px;
 }
 
-#aftertable a {
+#downloadcontainer #aftertable a {
     font-weight: bold;
-}
-
-#button {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    float: right;
-    width: 150px;
 }
 
 #downloadcontainer .button {
     margin-right: 10px;
+	margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+    width: 150px;
 }
 
 /***************************************************************
@@ -740,6 +705,14 @@ a:hover {
     font-weight: bold;
 }
 
+#repocontainer .button {
+    margin-right: 0px;
+	margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+    width: 150px;
+}
+
 /***************************************************************
     Новость
 ***************************************************************/
@@ -768,7 +741,7 @@ a:hover {
     font-weight: bold;
 }
 
-.singlenewsdetails {
+#newscontent .singlenewsdetails {
     margin-top: 20px;
     margin-left: 10px;
     font-size: 11px;
@@ -776,20 +749,19 @@ a:hover {
     color: black;
 }
 
-#buttonforum,
-#buttonback {
+#newscontent  .button {
     height: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#buttonforum {
+#newscontent  #buttonforum {
     margin-left: 10px;
     float: left;
     width: 240px;
 }
 
-#buttonback {
+#newscontent  #buttonback {
     margin-right: 10px;
     float: right;
     width: 120px;
@@ -804,35 +776,41 @@ a:hover {
     list-style-type: none;
 }
 
-#archyear {
+#newsarchcontent #archyear {
     color: #185d81;
     margin-top: 30px;
     font-size: 28px;
     font-weight: bold;
 }
 
-#archews {
+#newsarchcontent #archews {
     margin-top: 20px;
     line-height: 25px;
     color: #185d81;
 }
 
-#archews li:hover {
+#newsarchcontent #archews li:hover {
     cursor: pointer;
     color: #2497d4;
 }
 
-#newsarchcontent li:before {
+#newsarchcontent #archews li:before {
     content: "›";
 }
 
-#archews > li > a {
+#newsarchcontent #archews > li > a {
     margin: 0px auto;
     position: relative;
 }
 
 #newsarchcontent  > .button {
 	margin-right:0px;
+	height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	margin-right: 0px;
+    float: right;
+    width: 120px;
 }
 
 /***************************************************************
@@ -856,6 +834,12 @@ a:hover {
 
 #mrcfeed > .button {
 	margin-right:0px;
+	height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	margin-right: 0px;
+    float: right;
+    width: 120px;
 }
 
 /***************************************************************

@@ -134,7 +134,7 @@ get_header(); ?>
         </div>
         <div class="clear"></div>
 
-        <div id="button" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
+        <div class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 
 
         <div class="clear"></div>
