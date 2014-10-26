@@ -8,7 +8,8 @@
             <li><a href="http://www.mageia.org">mageia.org</a></li>
             <li><a href="http://pingvinus.ru/">pingvinus.ru</a></li>
             <li><a href="http://www.linux.org/">linux.org</a></li>
-
+			<li><a href="http://www.hostedredmine.com/">hostedredmine.com</a></li>
+			<li><a href="https://github.com/">github.com</a></li>
         </ul>
     </div>
 
