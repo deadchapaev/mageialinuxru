@@ -288,6 +288,11 @@ a:hover {
     color: #435779;
 }
 
+#vk > a,
+#tweeter > a{ 
+	display:block;
+	height:100%;
+}
 #vk {
     height: 32px;
     width: 32px;

@@ -1,7 +1,7 @@
 ﻿<?php get_header(); ?>
 
 <div class="titleline1"><p>Продукты и описание</p></div>
-<div id="content" class="grid_12 alpha omega" xmlns="http://www.w3.org/1999/html">
+<div id="content" class="grid_12 alpha omega">
     <div class="clear"></div>
     <!--Описание дистра-->
     <div class="grid_4 about">

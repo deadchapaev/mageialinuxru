@@ -52,7 +52,7 @@ get_header(); ?>
                         href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso">скачать</a>
                 </td>
                 <td class="download"><a
-                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso&torrent=1">скачать</a>
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
 
@@ -61,7 +61,7 @@ get_header(); ?>
                 <td class="download"><a
                         href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso">скачать</a></td>
                 <td class="download"><a
-                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-x86_64-DVD.iso&torrent=1">скачать</a>
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-x86_64-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
 
@@ -79,7 +79,7 @@ get_header(); ?>
                         href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso">скачать</a>
                 </td>
                 <td class="download"><a
-                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso&torrent=1">скачать</a>
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
             <tr>
@@ -88,7 +88,7 @@ get_header(); ?>
                         href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso">скачать</a>
                 </td>
                 <td class="download"><a
-                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso&torrent=1">скачать</a>
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
             <tr>
@@ -98,7 +98,7 @@ get_header(); ?>
                         href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso">скачать</a>
                 </td>
                 <td class="download"><a
-                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso&torrent=1">скачать</a>
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
             <tr>
@@ -107,7 +107,7 @@ get_header(); ?>
                         href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso">скачать</a>
                 </td>
                 <td class="download"><a
-                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso&torrent=1">скачать</a>
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
         </table>

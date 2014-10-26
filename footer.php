@@ -37,8 +37,8 @@
         <h1>Соцсети:</h1>
         <hr>
         <ul>
-            <a href="http://vk.com/mrc.mageia"><li id="vk"></li></a>
-            <a href="https://twitter.com/Mageia_RUS"><li id="tweeter"></li></a>
+            <li id="vk"><a href="http://vk.com/mrc.mageia"></a></li>
+            <li id="tweeter"><a href="https://twitter.com/Mageia_RUS"></a></li>
         </ul>
     </div>
 </div>

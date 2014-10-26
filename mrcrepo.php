@@ -92,13 +92,15 @@ Template Name: Репозиторий
 		<h5 id="easyurpmi">Easy urpmi</h5>
 
 		<p>Так же вы можете воспользоваться easy urpmi. Необходимо зайти по любой из ссылок:
-			<ul>
+		</p>		
+		<ul>
 				<li><a href="http://easyurpmi.mageialinux.ru/">http://easyurpmi.mageialinux.ru/</a></li>
 				<li><a href="http://linux.mageia.tk/easyurpmi/">http://linux.mageia.tk/easyurpmi/</a></li>
 				<li><a href="http://urpmi.mageia.tk/">http://urpmi.mageia.tk/</a></li>
 				<li><a href="http://easyurpmi.mageia.tk/">http://easyurpmi.mageia.tk/</a></li>
 			</ul>
-			<br>Выбрать версию, архитектуру, выбрать нужный источник, нажать кнопку на добавление источника и затем в новом окне нажать Открыть.
+		<p>
+		<br>Выбрать версию, архитектуру, выбрать нужный источник, нажать кнопку на добавление источника и затем в новом окне нажать Открыть.
 		</p>
 
 
