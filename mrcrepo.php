@@ -14,7 +14,6 @@ Template Name: Репозиторий
 				Подключение репозитория Mageia Russian Community "в один клик"
 				<ul>
 					<li><a href="#OneClick">OneClick URPMI</a></li>
-					<li><a href="#easyurpmi">Easy urpmi</a></li> 
 				</ul>
 			</li>
 			<li>
@@ -88,22 +87,6 @@ Template Name: Репозиторий
 				</div>				
 			</li>		
 		</ol>
-
-		<h5 id="easyurpmi">Easy urpmi</h5>
-
-		<p>Так же вы можете воспользоваться easy urpmi. Необходимо зайти по любой из ссылок:
-		</p>		
-		<ul>
-				<li><a href="http://easyurpmi.mageialinux.ru/">http://easyurpmi.mageialinux.ru/</a></li>
-				<li><a href="http://linux.mageia.tk/easyurpmi/">http://linux.mageia.tk/easyurpmi/</a></li>
-				<li><a href="http://urpmi.mageia.tk/">http://urpmi.mageia.tk/</a></li>
-				<li><a href="http://easyurpmi.mageia.tk/">http://easyurpmi.mageia.tk/</a></li>
-			</ul>
-		<p>
-		<br>Выбрать версию, архитектуру, выбрать нужный источник, нажать кнопку на добавление источника и затем в новом окне нажать Открыть.
-		</p>
-
-
 
 		<h4>Подключение репозитория Mageia Russian Community через консоль</h4>
 
