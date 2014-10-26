@@ -700,8 +700,8 @@ a:hover {
     width: 150px;
 }
 
-.button {
-    margin-right: 20px;
+#downloadcontainer .button {
+    margin-right: 10px;
 }
 
 /***************************************************************
@@ -831,6 +831,10 @@ a:hover {
     position: relative;
 }
 
+#newsarchcontent  > .button {
+	margin-right:0px;
+}
+
 /***************************************************************
     mrcfeed
 ***************************************************************/
@@ -848,6 +852,10 @@ a:hover {
 #mrcfeed > table p {
     font-weight: normal;
     font-size: 12px;
+}
+
+#mrcfeed > .button {
+	margin-right:0px;
 }
 
 /***************************************************************
