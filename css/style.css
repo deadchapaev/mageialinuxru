@@ -346,6 +346,7 @@ a:hover {
 }
 
 .about {
+    font-size: 13px;
     height: 300px;
     color: black;
     text-align: center;
@@ -360,7 +361,7 @@ a:hover {
 }
 
 .info {
-    font-size: 15px;
+    font-size: 13px;
     height: 90px;
     margin-top: 20px;
     margin-left: 10px;
@@ -368,7 +369,7 @@ a:hover {
 }
 
 .detail {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px;
     height: 70px;
     margin-left: 20px;
@@ -659,12 +660,12 @@ a:hover {
     margin-bottom: 50px;
 }
 
-#downloadcontainer > table {
+#downloadcontainer table {
     margin-top: 20px;
-    border: 1px solid #2497D4;
+    /*border: 1px solid #2497D4;*/
 }
 
-#downloadcontainer > table td {
+#downloadcontainer  table td {
     text-align: center;
     border: 1px solid #2497D4;
 }
