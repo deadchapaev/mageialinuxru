@@ -6,7 +6,7 @@ Template Name: Загрузки
 <?php
 get_header(); ?>
 
-	<div class="titleline1"><p>Загрузить Mageia</p></div>
+    <div class="titleline1"><p>Загрузить Mageia</p></div>
     <div id="downloadcontainer" class="grid_12">
         <br>
 
@@ -19,74 +19,97 @@ get_header(); ?>
         </p>
 
         <table class="grid_10 push_1">
-		<tr>
-			<td colspan="2" rowspan="2">Версия ОС</td> 
-			<td rowspan="2">GUI</td> 
-			<td rowspan="2">ver(bit)</td> 
-			<td colspan="2">скачать</td>
-		</tr>
-		
-		<tr>
-			<td>torrent</td>
-			<td>http</td>
-		</tr>
-		
-		
-		
-		<tr>
-			<td colspan="6">MAGEIA 4.1</td>
-		</tr>
-		
-		<tr>
-			<td rowspan="2">DVD</td>
-			<td rowspan="2">
-				DVD включает в себя несколько графических окружений и большое количество программ. 
-				На DVD собрано исключительно свободное программное обеспечение. 
-				Проприетарные драйвера в сборку не включены, их установку можно провести после установки системы. 
-				DVD доступен для архитектур 32 и 64 бит. 
-			</td>
-			<td rowspan="2">
-				GNOME, KDE, XFCE, Mate, Cinnamon, LXDE
-			</td>
-			<td>32</td>
-			<td>скачать</td>
-			<td>скачать</td>
-		</tr>
-		
-		<tr>
-			<td>64</td>
-			<td>скачать</td>
-			<td>скачать</td>
-		</tr>
-		
-		<tr>
-			<td rowspan="4">liveCD</td>
-			<td rowspan="4">
-				LiveCD подходит для тех, кто хочет познакомиться с ситемой без ее установкий на жесткий диск. 
-				По мимо прочего, в LiveCD образы включены несвободные драйвера и кодеки, необходимые, например,
-				если при установке потребуется подключение к интернету по средствам Wi-Fi и т.д. 
-				LiveCD доступны в сборках с KDE и GNOME. </td>
-			<td rowspan="2">KDE</td>
-			<td>32</td>
-			<td>скачать</td>
-			<td>скачать</td>
-		</tr>
-		<tr>
-			<td>64</td>
-			<td>скачать</td>
-			<td>скачать</td>
-		</tr>
-		<tr>
-			<td rowspan="2">GNOME</td>
-			<td>32</td>			
-			<td>скачать</td>
-			<td>скачать</td>
-		</tr>
-		<tr>
-			<td>64</td>
-			<td>скачать</td>
-			<td>скачать</td>
-		</tr>
+            <tr>
+                <td colspan="2" rowspan="2" class="headrow">Версия ОС</td>
+                <td rowspan="2" class="headrow">GUI</td>
+                <td rowspan="2" class="headrow">ver(bit)</td>
+                <td colspan="2" class="headrow">скачать</td>
+            </tr>
+
+            <tr>
+                <td class="headrow">http</td>
+                <td class="headrow">torrent</td>
+            </tr>
+
+
+            <tr>
+                <td colspan="6" class="osname">MAGEIA 4.1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">DVD</td>
+                <td rowspan="2"  class="info">
+                    DVD включает в себя несколько графических окружений и большое количество программ.
+                    На DVD собрано исключительно свободное программное обеспечение.
+                    Проприетарные драйвера в сборку не включены, их установку можно провести после установки системы.
+                    DVD доступен для архитектур 32 и 64 бит.
+                </td>
+                <td rowspan="2" class="gui">
+                    GNOME, KDE, XFCE, Mate, Cinnamon, LXDE
+                </td>
+                <td class="ver">32</td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso">скачать</a>
+                </td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso&torrent=1">скачать</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ver">64</td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso">скачать</a></td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-x86_64-DVD.iso&torrent=1">скачать</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">liveCD</td>
+                <td rowspan="4" class="info">
+                    LiveCD подходит для тех, кто хочет познакомиться с ситемой без ее установкий на жесткий диск.
+                    По мимо прочего, в LiveCD образы включены несвободные драйвера и кодеки, необходимые, например,
+                    если при установке потребуется подключение к интернету по средствам Wi-Fi и т.д.
+                    LiveCD доступны в сборках с KDE и GNOME.
+                </td>
+                <td rowspan="2" class="gui">KDE</td>
+                <td class="ver">32</td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso">скачать</a>
+                </td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso&torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ver">64</td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso">скачать</a>
+                </td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso&torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="gui">GNOME</td>
+                <td class="ver">32</td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso">скачать</a>
+                </td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso&torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ver">64</td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso">скачать</a>
+                </td>
+                <td class="download"><a
+                        href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso&torrent=1">скачать</a>
+                </td>
+            </tr>
         </table>
         <div class="clear"></div>
 
@@ -111,8 +134,8 @@ get_header(); ?>
         </div>
         <div class="clear"></div>
 
-		<div id="button" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
-        
+        <div id="button" class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
+
 
         <div class="clear"></div>
 
