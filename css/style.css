@@ -757,6 +757,7 @@ a:hover {
 
 #newscontent p {
     margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
     font-size: 13px;
     line-height: 1.7;
@@ -789,6 +790,7 @@ a:hover {
 }
 
 #buttonback {
+    margin-right: 10px;
     float: right;
     width: 120px;
 }
