@@ -90,7 +90,7 @@ Template Name: Репозиторий
 
 		<h4>Подключение репозитория Mageia Russian Community через консоль</h4>
 
-		<p>Репозиторий Mageia Russian Community (MRC) доступен для 32-битных и 64-битных версий Mageia 2 и 3.
+		<p>Репозиторий Mageia Russian Community (MRC) доступен для 32-битных и 64-битных версий Mageia 2, 3 и 4.
 		Для подключения репозитория нужно ввести в терминал от root
 		</p>
 		
