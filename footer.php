@@ -5,11 +5,14 @@
         <h1>Полезные ссылки:</h1>
         <hr>
         <ul>
-            <li><a href="http://www.mageia.org">mageia.org</a></li>
-            <li><a href="http://pingvinus.ru/">pingvinus.ru</a></li>
-            <li><a href="http://www.linux.org/">linux.org</a></li>
+            <li><a href="http://mageia.org/ru">mageia.org</a></li>
+            <li><a href="http://mageia.madb.org">mageia.madb.org</a></li>
+            <li><a href="http://pkgs.org">pkgs.org</a></li>
+            <li><a href="http://linuxforum.ru">linuxforum.ru</a></li>
+            <li><a href="http://linuxru.org">linuxru.org</a></li>
 			<li><a href="http://www.hostedredmine.com/">hostedredmine.com</a></li>
 			<li><a href="https://github.com/">github.com</a></li>
+            <li><a href="https://bitbucket.org">bitbucket.org</a></li>            
         </ul>
     </div>
 
