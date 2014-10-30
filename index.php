@@ -107,31 +107,23 @@
 <div class="newscontainer">
     <div class="newshead">Последние новости</div>
     <div id="newsblock" class="grid_12">
-
-
         <div id="leftarrow" class="button"> &lt; </div>
         <div id="rightarrow" class="button"> &gt; </div>
-        <?php if (have_posts()) :
-            $i = 0;
-            while (have_posts()) : the_post(); ?>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="grid_3 news">
                     <div class="newsdetails">
                         <br><?php the_time('F jS, Y'); ?>
                     </div>
-                        <H4>
+                    <H4>
 						<a href="<?php the_permalink(); ?>">
-                            <?php
-                            trimAndPrint(get_the_title(), 30, "...");
-                            ?>
+							<?php trimAndPrint(get_the_title(), 30, "..."); ?>
 						</a>
-                        </H4>
+                    </H4>
                     <p>
-                        <?php
-                        trimAndPrint(get_the_content(), 120, "...");
-                        ?>
+                        <?php trimAndPrint(get_the_content(), 120, "...");?>
                     </p>
                 </div>
-                <?php if (++$i >= 6) break;
+                <?php 
             endwhile;
         endif; ?>
     </div>

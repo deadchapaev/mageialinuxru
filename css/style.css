@@ -178,16 +178,13 @@ a:hover {
     position: absolute;
     top: 0;
     right: 0;
+	list-style-type: none;
+    width: 140px;
+    height: 35px;
 }
 
 #uppermenu a {
     text-decoration: underline;
-}
-
-#uppermenu ul {
-    list-style-type: none;
-    width: 140px;
-    height: 35px;
 }
 
 #uppermenu li, #uppermenu li a {
@@ -211,19 +208,15 @@ a:hover {
  *  Основное меню сайта
  */
 #menu {
-    float: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: -1px;
-}
-
-#menu ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     list-style-type: none;
     height: 35px;
     width: 555px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: -1px;
 }
 
 #menu li, #menu li a {
