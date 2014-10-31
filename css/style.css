@@ -19,7 +19,6 @@ body {
     background-color: white;
     margin: 0 auto;
     box-shadow: 0 1px 3px #b9b9b9;
-
 }
 
 hr {
@@ -30,7 +29,6 @@ hr {
     background-image: -moz-linear-gradient(left, white, #ddeeee, white);
     background-image: -ms-linear-gradient(left, white, #ddeeee, white);
     background-image: -o-linear-gradient(left, white, #ddeeee, white);
-
 }
 
 H2 {
@@ -575,26 +573,17 @@ a:hover {
     margin: 15px;    
 }
 
+#downloadcontainer p  a {
+    font-weight: bold;
+}
+
 #downloadcontainer h3 {
     margin-bottom: 50px;
 }
 
-#downloadcontainer .headrow {
-    font-weight: bold;
-}
-
-#downloadcontainer .osname {
-    font-weight: bold;
-    font-size: 15px;
-    color: #435779;
-}
-
-#downloadcontainer .gui {
-    font-size: 12px;
-}
-
 #downloadcontainer table {
-    margin-top: 20px;
+    margin-top: 35px;
+	width:81%;
 }
 
 #downloadcontainer table td {
@@ -602,12 +591,23 @@ a:hover {
     border: 1px solid #2497D4;
 }
 
-#downloadcontainer table p {
-    font-weight: normal;
-    font-size: 12px;
+#downloadcontainer table .headrow {
+    font-weight: bold;
 }
 
-#downloadcontainer table td .ver {
+#downloadcontainer table .osname {
+    font-weight: bold;
+    font-size: 15px;
+    color: #435779;
+}
+#downloadcontainer table .info {
+	margin-top: 20px;
+	height: 90px;
+}
+
+#downloadcontainer table .ver,
+#downloadcontainer table .info,
+#downloadcontainer table .gui {
     font-size: 12px;
 }
 
@@ -616,7 +616,7 @@ a:hover {
 }
 
 #downloadcontainer table .download a {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     color: #435779;
 }
@@ -625,19 +625,9 @@ a:hover {
     color: #6a97ae;
 }
 
-#downloadcontainer table .info {
-    font-size: 12px;
-}
-
-#downloadcontainer #aftertable {
-    margin-top: 20px;
+#downloadcontainer table + p{
+    margin-top: 35px;
     margin-bottom: 30px;
-    padding-left: 0px;
-    margin-left: 0px;
-}
-
-#downloadcontainer #aftertable a {
-    font-weight: bold;
 }
 
 #downloadcontainer .button {
@@ -777,11 +767,6 @@ a:hover {
     content: "›";
 }
 
-#newsarchcontent #archews > li > a {
-    margin: 0px auto;
-    position: relative;
-}
-
 #newsarchcontent  > .button {
 	margin-right:0px;
 	height: 45px;
@@ -812,7 +797,6 @@ a:hover {
 }
 
 #mrcfeed > .button {
-	margin-right:0px;
 	height: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
