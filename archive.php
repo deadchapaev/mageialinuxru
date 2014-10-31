@@ -7,7 +7,7 @@ Template Name: Архив новостей
 get_header(); ?>
 <div class="titleline1"><p>Архив новостей</p></div>
     <div id="newsarchcontent" class="grid_12">
-        <ul id="archews">
+        <ul>
             <?php
             $myposts = get_posts('numberposts=-1');
             foreach ($myposts as $post) :

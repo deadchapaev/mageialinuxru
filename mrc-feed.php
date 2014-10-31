@@ -8,8 +8,8 @@ Template Name: mrc-feed
 <div id="mrcfeed" class="grid_12">
 	<br><br><br><br><br>
 	<h4 style="text-align:center">...в разработке... :)</h4>
-	<?php 
-	/*
+	
+	
 	<table align="center">
 
         <tr>
@@ -58,8 +58,8 @@ Template Name: mrc-feed
         </tr>
 
     </table>
-	*/
-	?>
+	
+	
 	<div class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 </div>
 <?php get_footer(); ?>
