@@ -6,59 +6,60 @@ Template Name: mrc-feed
 <?php get_header(); ?>
 <div class="titleline1"><p>Mrc-feed</p></div>
 <div id="mrcfeed" class="grid_12">
-	<br><br><br><br><br>
-	<h4 style="text-align:center">...в разработке... :)</h4>
 	
+	<h4>Список пакетов для x32 и x64 версий Mageia 2, 3 и 4</h4>
+	<form>
+		<h5>Фильтры</h5>
+		<input type="checkbox" name="m2" value="m2" /><label for="m2">Mageia 2</label>
+		<input type="checkbox" name="m3" value="m3" /><label for="m2">Mageia 3</label>
+		<input type="checkbox" name="m4" value="m4" /><label for="m2">Mageia 4</label>
+		<input type="checkbox" name="x32" value="x32" /><label for="m2">x32</label>
+		<input type="checkbox" name="x64" value="x64" /><label for="m2">x64</label>
+	</form>
+	<div class="clear"></div>
 	
-	<table align="center">
-
-        <tr>
-            <th>Пакет</th>
-            <th>Название</th>
-            <th>Версия</th>
-            <th>Категория</th>
-            <th>Собрал</th>
-            <th>Описание</th>
-        </tr>
-
-        <tr>
-            <td>dkms-acpi_call-1.1.0-0.1.mga4.mrc.noarch.rpm</td>
-            <td>dkms-acpi_call</td>
-            <td>1.1.0</td>
-            <td>System/Kernel and hardware</td>
-            <td>Ole Lukoie </td>
-            <td>A kernel module that enables you to call ACPI methods</td>
-        </tr>
-
-        <tr>
-            <td>dkms-bbswitch-0.7-0.1.mga4.mrc.noarch.rpm</td>
-            <td>dkms-bbswitch</td>
-            <td>0.7</td>
-            <td>System/Kernel and hardware</td>
-            <td>Ole Lukoie </td>
-            <td>bbswitch - Optimus GPU power switcher</td>
-        </tr>
-
-        <tr>
-            <td>get-skype-4.2.0.13-1.mga4.mrc.noarch.rpm</td>
-            <td>get-skype</td>
-            <td>4.2.0.13</td>
-            <td>Networking/Instant messaging</td>
-            <td>Andrew Lashkeyev </td>
-            <td>Download and Install Skype</td>
-        </tr>
-
-        <tr>
-            <td>i-nex-0.6.2-1.mga4.mrc.noarch.rpm</td>
-            <td>i-nex</td>
-            <td>0.6.2</td>
-            <td>System/X11/Utilities</td>
-            <td>Zomby </td>
-            <td>System information tool</td>
-        </tr>
-
-    </table>
+	<div class="m4 x64">
+		<h5>Mageia 4 x64</h5>
+		<?php 
+			//include 'mrcfeed/MRC_Construct_i586.php';
+		?>
+	</div>
 	
+	<div class="m4 x32">
+		<h5>Mageia 4 x32</h5>
+		<?php 
+			//include 'mrcfeed/MRC_Construct_i586.php';
+		?>
+	</div>
+	
+	<div class="m3 x64">
+		<h5>Mageia 3 x64</h5>
+		<?php 
+			//include 'mrcfeed/MRC_Construct_i586.php';
+		?>
+	</div>
+	
+	<div class="m3 x32">
+		<h5>Mageia 3 x32</h5>
+		<?php 
+			//include 'mrcfeed/MRC_Construct_i586.php';
+		?>
+	</div>	
+	
+	<div class="m2 x64">
+		<h5>Mageia 2 x64</h5>
+		<?php 
+			//include 'mrcfeed/MRC_Construct_i586.php';
+		?>
+	</div>
+	
+	<div class="m2 x32">
+		<h5>Mageia 2 x32</h5>
+		<?php 
+			//include 'mrcfeed/MRC_Construct_i586.php';
+		?>
+	</div>	
+
 	
 	<div class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>
 </div>

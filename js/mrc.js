@@ -36,3 +36,101 @@ $(document).on('click', '#leftarrow', function () {
 	});
 	
 });
+
+
+/**
+ * mrc-feed
+ */
+$(document).ready(function () {
+
+	$('#mrcfeed form input[type="checkbox"]').each(
+		function() {
+			$(this).prop('checked', true);
+			$(this).attr('checked', true);
+		}
+	);
+	
+	$('#mrcfeed form input[type="checkbox"][name="m2"]').click(function(){
+		showHideVer(this, '.m2');
+	})
+	
+	$('#mrcfeed form input[type="checkbox"][name="m3"]').click(function(){
+		showHideVer(this, '.m3');
+	})
+	
+	$('#mrcfeed form input[type="checkbox"][name="m4"]').click(function(){
+		showHideVer(this, '.m4');
+	})
+
+	$('#mrcfeed form input[type="checkbox"][name="x32"]').click(function(){
+		showHideArch(this, '.x32');
+	})
+	
+	$('#mrcfeed form input[type="checkbox"][name="x64"]').click(function(){
+		showHideArch(this, '.x64');
+	})
+	
+	/**
+	 * показывает/скрывает архитектуру
+	 */
+	function showHideArch(checkbox, arch){
+		if ($(checkbox).attr('checked')) {
+			$(checkbox).attr('checked', false); // Unchecks it
+			$('#mrcfeed > ' + arch).hide();
+		} else {
+			$(checkbox).attr('checked', true); // Checks it
+			if (ism2checked()) {
+				$('#mrcfeed > .m2' + arch).show();
+			}
+			if (ism3checked()) {
+				$('#mrcfeed > .m3' + arch).show();
+			}
+			if (ism4checked()) {
+				$('#mrcfeed > .m4' + arch).show();
+			}			
+		}
+	}	
+	/**
+	 * показывает/скрывает версию
+	 */
+	function showHideVer(checkbox, sysver){
+		if ($(checkbox).attr('checked')) {
+			$(checkbox).attr('checked', false); // Unchecks it
+			$('#mrcfeed > ' + sysver).hide();
+		} else {
+			$(checkbox).attr('checked', true); // Checks it
+			if (isx32checked()) {
+				$('#mrcfeed > .x32' + sysver).show();
+			}
+			if (isx64checked()) {
+				$('#mrcfeed > .x64' + sysver).show();
+			}			
+		}
+	}
+
+	
+	/**
+	 * чеккеры
+	 */
+	function ism2checked() {
+		return Boolean($('#mrcfeed form input[type="checkbox"][name="m2"]').attr('checked'));
+	}
+	
+	function ism3checked() {
+		return Boolean($('#mrcfeed form input[type="checkbox"][name="m3"]').attr('checked'));
+	}
+	
+	function ism4checked() {
+		return Boolean($('#mrcfeed form input[type="checkbox"][name="m4"]').attr('checked'));
+	}
+	
+	function isx32checked() {
+		return Boolean($('#mrcfeed form input[type="checkbox"][name="x32"]').attr('checked'));
+	}
+	
+	function isx64checked() {
+		return Boolean($('#mrcfeed form input[type="checkbox"][name="x64"]').attr('checked'));
+	}
+		
+	
+});
