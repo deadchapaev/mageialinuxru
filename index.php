@@ -22,6 +22,7 @@
 		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/mate.png" alt="mate"/>
 		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/lxde.png" alt="lxde"/>
 		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/e17.png" alt="e17"/>		
+		<img src="<?php echo get_template_directory_uri(); ?>/images/pages/main/slide/xfce4.png" alt="xfce4"/>	
 	</div>
 </div>
 <div class="clear"></div>

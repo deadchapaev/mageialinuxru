@@ -21,65 +21,101 @@ Template Name: mrc-feed
 	<div class="clear"></div>
 	
 	<div class="m4 x64">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m4_x64.php')) {
+		?>
 		<h5>Mageia 4 x64</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m4_x64.php';
+			}
 		?>
 	</div>
 	
 	<div class="m4 x32">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m4_x32.php')) {
+		?>
 		<h5>Mageia 4 x32</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m4_x32.php';
+			}
 		?>
 	</div>
 	
 	<div class="m4 noarch">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m4_noarch.php')) {
+		?>
 		<h5>Mageia 4 noarch</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m4_noarch.php';
+			}
 		?>
 	</div>
 	
 	<div class="m3 x64">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m3_x64.php')) {
+		?>
 		<h5>Mageia 3 x64</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m3_x64.php';
+			}
 		?>
 	</div>
 	
 	<div class="m3 x32">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m3_x32.php')) {
+		?>
 		<h5>Mageia 3 x32</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m3_x32.php';
+			}
 		?>
 	</div>	
 	
 	<div class="m3 noarch">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m3_noarch.php')) {
+		?>	
 		<h5>Mageia 3 noarch</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m3_noarch.php';
+			}
 		?>
 	</div>
 	
 	<div class="m2 x64">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m2_x64.php')) {
+		?>	
 		<h5>Mageia 2 x64</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m2_x64.php';
+			}
 		?>
 	</div>
 	
 	<div class="m2 x32">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m2_x32.php')) {
+		?>	
 		<h5>Mageia 2 x32</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m2_x32.php';
+			}
 		?>
 	</div>	
 	
 	<div class="m2 noarch">
+		<?php
+			if (file_exists(get_template_directory() . '/mrcfeed/m2_noarch.php')) {
+		?>	
 		<h5>Mageia 2 noarch</h5>
 		<?php 
-			//include 'mrcfeed/MRC_Construct_i586.php';
+				include 'mrcfeed/m2_noarch.php';
+			}
 		?>
 	</div>
 	
