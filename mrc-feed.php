@@ -13,7 +13,7 @@ Template Name: mrc-feed
 		<label><input type="checkbox" name="m3" value="m3"/>Mageia 3</label>
 		<label><input type="checkbox" name="m4" value="m4"/>Mageia 4</label> 
 		
-		<label class="groupname">Разрядность:</label>
+		<label class="groupname">Архитектура:</label>
 		<label><input type="checkbox" name="x32" value="x32"/>x32</label>
 		<label><input type="checkbox" name="x64" value="x64"/>x64</label>
 		<label><input type="checkbox" name="noarch" value="noarch"/>noarch</label>
