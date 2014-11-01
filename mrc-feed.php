@@ -7,14 +7,15 @@ Template Name: mrc-feed
 <div class="titleline1"><p>Mrc-feed</p></div>
 <div id="mrcfeed" class="grid_12">
 	
-	<h4>Список пакетов для x32 и x64 версий Mageia 2, 3 и 4</h4>
 	<form>
-		<h5>Фильтры</h5>
-		<input type="checkbox" name="m2" value="m2" /><label for="m2">Mageia 2</label>
-		<input type="checkbox" name="m3" value="m3" /><label for="m2">Mageia 3</label>
-		<input type="checkbox" name="m4" value="m4" /><label for="m2">Mageia 4</label>
-		<input type="checkbox" name="x32" value="x32" /><label for="m2">x32</label>
-		<input type="checkbox" name="x64" value="x64" /><label for="m2">x64</label>
+		<label class="groupname">Версия ОС:</label>
+		<label><input type="checkbox" name="m2" value="m2"/>Mageia 2</label>
+		<label><input type="checkbox" name="m3" value="m3"/>Mageia 3</label>
+		<label><input type="checkbox" name="m4" value="m4"/>Mageia 4</label> 
+		
+		<label class="groupname">Разрядность:</label>
+		<label><input type="checkbox" name="x32" value="x32"/>x32</label>
+		<label><input type="checkbox" name="x64" value="x64"/>x64</label>
 	</form>
 	<div class="clear"></div>
 	

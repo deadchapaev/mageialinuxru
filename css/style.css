@@ -789,7 +789,35 @@ a:hover {
 #mrcfeed form{
 	float:right;
 	margin-right:10px;
+	margin-top:10px;
+	display:block;
+	width:330px;
+	
+	
 }
+
+#mrcfeed form label{
+	display: block; 
+	width: 75px;
+	float:left;
+	color:#435779;
+	cursor: pointer;
+	/*color:#6A97AE;*/
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 		
+}
+
+#mrcfeed form .groupname  {
+	font-weight: bold;
+	text-align:right;
+	padding-right:10px;
+	cursor: default;
+	width:90px;
+}
+
 #mrcfeed .m2, #mrcfeed .x32,
 #mrcfeed .m3, #mrcfeed .x64,
 #mrcfeed .m4 {
