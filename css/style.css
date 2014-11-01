@@ -791,9 +791,7 @@ a:hover {
 	margin-right:10px;
 	margin-top:10px;
 	display:block;
-	width:330px;
-	
-	
+	width:330px;	
 }
 
 #mrcfeed form label{
@@ -820,7 +818,7 @@ a:hover {
 
 #mrcfeed .m2, #mrcfeed .x32,
 #mrcfeed .m3, #mrcfeed .x64,
-#mrcfeed .m4 {
+#mrcfeed .m4, #mrcfeed .noarch {
 	margin: 20px 10px 20px 10px;
 }
 

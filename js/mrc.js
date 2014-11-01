@@ -70,6 +70,12 @@ $(document).ready(function () {
 		showHideArch(this, '.x64');
 	})
 	
+	$('#mrcfeed form input[type="checkbox"][name="noarch"]').click(function(){
+		showHideArch(this, '.noarch');
+	})
+	
+	
+	
 	/**
 	 * показывает/скрывает архитектуру
 	 */
@@ -104,7 +110,10 @@ $(document).ready(function () {
 			}
 			if (isx64checked()) {
 				$('#mrcfeed > .x64' + sysver).show();
-			}			
+			}	
+			if (noarchchecked()) {
+				$('#mrcfeed > .noarch' + sysver).show();
+			}							
 		}
 	}
 
@@ -130,6 +139,10 @@ $(document).ready(function () {
 	
 	function isx64checked() {
 		return Boolean($('#mrcfeed form input[type="checkbox"][name="x64"]').attr('checked'));
+	}
+	
+	function noarchchecked() {
+		return Boolean($('#mrcfeed form input[type="checkbox"][name="noarch"]').attr('checked'));
 	}
 		
 	
