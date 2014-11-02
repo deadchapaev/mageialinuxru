@@ -510,7 +510,7 @@ a:hover {
 
 .garmblock .garm {
     background-repeat: no-repeat;
-    background-position: left 10px top 7px;
+    background-position: 10px 7px;
     background-color: #ddeeee;
     font-size: 13px;
     text-align: left;
