@@ -7,7 +7,7 @@ $(function () {
 	
 	function change () {
 		el.fadeOut(1500);
-		el.filter(':nth-child('+indexImg+')').fadeIn(1500);
+		el.filter(':nth-child('+indexImg+')').fadeIn(1000);
 	}	
 		
 	function autoCange () {	
