@@ -705,6 +705,11 @@ a:hover {
     color: #435779;
 }
 
+#newscontent h2 {
+    margin-left: 10px;
+}
+
+
 #newscontent p {
     margin-left: 10px;
     margin-right: 10px;
