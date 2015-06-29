@@ -104,6 +104,81 @@ get_header(); ?>
 					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-5-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">скачать</a>
                 </td>
             </tr>
+            <tr>
+                <td colspan="6" class="osname">MAGEIA 4.1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">DVD</td>
+                <td rowspan="2"  class="info">
+                    DVD включает в себя несколько графических окружений и большое количество программ.
+                    На DVD собрано исключительно свободное программное обеспечение.
+                    Проприетарные драйвера в сборку не включены, их установку можно провести после установки системы.
+                    DVD доступен для архитектур 32 и 64 бит.
+                </td>
+                <td rowspan="2" class="gui">
+                    GNOME, KDE, XFCE, Mate, Cinnamon, LXDE
+                </td>
+                <td class="ver">32</td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso">скачать</a>
+                </td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso&amp;torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ver">64</td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-i586-DVD.iso">скачать</a></td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-x86_64-DVD.iso&amp;torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">liveDVD</td>
+                <td rowspan="4" class="info">
+                    LiveDVD подходит для тех, кто хочет познакомиться с ситемой без ее установкий на жесткий диск.
+                    По мимо прочего, в LiveDVD образы включены несвободные драйвера и кодеки, необходимые, например,
+                    если при установке потребуется подключение к интернету по средствам Wi-Fi и т.д.
+                    LiveDVD доступны в сборках с KDE и GNOME.
+                </td>
+                <td rowspan="2" class="gui">KDE</td>
+                <td class="ver">32</td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso">скачать</a>
+                </td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-i586-DVD.iso&amp;torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ver">64</td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso">скачать</a>
+                </td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="gui">GNOME</td>
+                <td class="ver">32</td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso">скачать</a>
+                </td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-i586-DVD.iso&amp;torrent=1">скачать</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ver">64</td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso">скачать</a>
+                </td>
+                <td class="download">
+					<a href="http://www.mageia.org/ru/downloads/get/?q=Mageia-4.1-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">скачать</a>
+                </td>
+            </tr>
         </table>
         
         <p>
