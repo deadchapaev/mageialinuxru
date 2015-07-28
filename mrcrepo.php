@@ -22,6 +22,7 @@ Template Name: Репозиторий
 					<li><a href="#mageia2">Mageia 2</a></li>
 					<li><a href="#mageia3">Mageia 3</a></li>
 					<li><a href="#mageia4">Mageia 4</a></li>
+					<li><a href="#mageia5">Mageia 5</a></li>
 				</ul>
 			</li>
 		</ul>
