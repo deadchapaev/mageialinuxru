@@ -22,6 +22,7 @@ Template Name: Репозиторий
 					<li><a href="#mageia2">Mageia 2</a></li>
 					<li><a href="#mageia3">Mageia 3</a></li>
 					<li><a href="#mageia4">Mageia 4</a></li>
+					<li><a href="#mageia5">Mageia 5</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -114,6 +115,13 @@ Template Name: Репозиторий
 		
 		<p>для 64-битной (x86_64) <b>Mageia 4</b>:</p>
 		<pre>urpmi.addmedia  --wget --distrib MageiaLinux.ru-x86_64- <a href="http://packages.mageialinux.ru/mageia4/x86_64/">http://packages.mageialinux.ru/mageia4/x86_64/</a></pre>
+
+		<h5 id="mageia5">Mageia 5</h5>
+		<p>для 32-битной (i586) <b>Mageia 5</b>:</p>
+		<pre>urpmi.addmedia  --wget --distrib MageiaLinux.ru-i586- <a href="http://packages.mageialinux.ru/mageia5/i586/">http://packages.mageialinux.ru/mageia5/i586/</a></pre>
+		
+		<p>для 64-битной (x86_64) <b>Mageia 4</b>:</p>
+		<pre>urpmi.addmedia  --wget --distrib MageiaLinux.ru-x86_64- <a href="http://packages.mageialinux.ru/mageia5/x86_64/">http://packages.mageialinux.ru/mageia5/x86_64/</a></pre>
 
         
         <div class="button"><a href="javascript:javascript:history.go(-1)">Назад</a></div>        
