@@ -120,7 +120,7 @@ Template Name: Репозиторий
 		<p>для 32-битной (i586) <b>Mageia 5</b>:</p>
 		<pre>urpmi.addmedia  --wget --distrib MageiaLinux.ru-i586- <a href="http://packages.mageialinux.ru/mageia5/i586/">http://packages.mageialinux.ru/mageia5/i586/</a></pre>
 		
-		<p>для 64-битной (x86_64) <b>Mageia 4</b>:</p>
+		<p>для 64-битной (x86_64) <b>Mageia 5</b>:</p>
 		<pre>urpmi.addmedia  --wget --distrib MageiaLinux.ru-x86_64- <a href="http://packages.mageialinux.ru/mageia5/x86_64/">http://packages.mageialinux.ru/mageia5/x86_64/</a></pre>
 
         
