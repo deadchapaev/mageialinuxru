@@ -28,7 +28,7 @@
         <div id="logo"><a href="/"></a></div>
         <ul id="uppermenu">
             <li><a href="/arch">Архив</a></li>
-            <li><a href="http://repo.mageialinux.ru/">mrc-feed</a></li>
+            <li><a href="http://repo.mageialinux.ru/">Пакеты</a></li>
         </ul>
         
         <ul id="menu">
