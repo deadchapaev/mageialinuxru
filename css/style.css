@@ -1,278 +1,887 @@
+/***************************************************************
+    Общие параметры
+***************************************************************/
 * {
     margin: 0 auto;
     z-index: 0;
-    font-family: "Verdana";
-    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     position: relative;
 }
 
 body {
-    width: 1020px;
+    background-color: white;
+    background-image: url('../images/bg-139.png');
+}
+
+#container {
+    width: 940px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px #b9b9b9;
 }
 
 hr {
+    margin-top: 10px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image: -moz-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image: -ms-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    background-image: -o-linear-gradient(left, #ffffff, #6a97ae, #ffffff);
-    margin-top: 20px;
-    margin-bottom: 40px;
+    background-image: -webkit-linear-gradient(left, white, #ddeeee, white);
+    background-image: -moz-linear-gradient(left, white, #ddeeee, white);
+    background-image: -ms-linear-gradient(left, white, #ddeeee, white);
+    background-image: -o-linear-gradient(left, white, #ddeeee, white);
 }
 
-#upline {
-    height: 3px;
-    background-image: url(../images/upline.png);
-    background-repeat: no-repeat;
-}
-
-#logo {
-    margin-top: 15px;
-    height: 88px;
-    background-image: url(../images/logomageia.png);
-    background-repeat: no-repeat;
-}
-
-#flowertop {
-    float: right;
-    height: 130px;
-    background: url(../images/flower-top.png) top right;
-    background-repeat: no-repeat;
+H2 {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    line-height: 0.833;
+    font-weight: normal;
+    margin-top: 30px;
 }
 
 H3 {
     font-size: 24px;
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
     line-height: 0.833;
     font-weight: normal;
-}
-
-H4 {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    line-height: 1.429;
-    font-weight: bold;
-    margin-left: 10px; /*!!*/
-    margin-top: 10px;
-}
-
-/***************************************************************
-    Навигационная панель
-***************************************************************/
-#navbar, #menu, #searchbar {
-    height: 38px;
-    background-color: #2497d4;
-}
-
-/*
-    Меню
-*/
-#menu > ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-#menu > ul > li,
-#menu > ul > li:hover {
-    display: block;
-    float: left;
-    width: 103px;
-    color: rgb(255, 255, 255);
-    line-height: 38px;
-    text-align: center;
-    cursor: pointer;
-
-}
-
-#menu > ul > li:hover,
-#menu > ul > li.active {
-    background-color: #185d81;
-}
-
-/*
-    Поиск
-*/
-#searchbar > form {
-    height: 22px;
-    padding-top: 8px;
-    width: 200px;
-    position: absolute;
-    right: 10px;
-}
-
-#searchinput {
-    float: right;
-    height: 16px;
-}
-
-/*
-    Кнопка поиска
-*/
-#searchsubmit {
-    margin-top: 1px;
-    margin-right: 1px;
-    border: none;
-    background-image: url(../images/loop.png);
-    background-repeat: no-repeat;
-    width: 22px;
-    height: 19px;
-    position: absolute;
-    right: 0px;
-    cursor: pointer;
-}
-
-/***************************************************************
-    Контент
-***************************************************************/
-.about {
-    color: rgb(0, 0, 0);
-    text-align: center;
     margin-top: 50px;
 }
 
-.about > .button {
-    width: 240px;
-    height: 45px;
-    background-color: #2497d4;
-    text-align: center;
-    line-height: 45px;
-    color: #ffffff;
+H4 {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+H5 {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+pre {
+    white-space: pre-wrap;
+    border: 1px dashed #435779;
+    background-color: #F9F9F9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: #435779 !important;
+}
+
+table td, table th {
+    border-color: #435779 !important;
+}
+
+.spoiler-head {
+    text-decoration: underline;
     cursor: pointer;
+    color: #435779;
 }
 
-.info {
-    height: 90px;
-    font-size: 18px;
+a {
+    color: #435779;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none !important;
 }
 
-.detail {
-    padding-top: 40px;
-    height: 70px;
-}
-
-.about > .button:hover {
-    background-color: #185d81;
-}
-
-#content {
-    background-image: url(../images/flower-bottom.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-}
-
-#monitor {
-    margin-top: 40px;
-    height: 262px;
-}
-
-#monitorpic {
-    background-image: url(../images/monitor.png);
-    height: 262px;
-    background-repeat: no-repeat;
-    margin-left: 25px;
+a:hover {
+    color: #6a97ae;
 }
 
 /*
-    Новости
+ *  Заготовка для кнопочки
+ */
+.button {
+    font-weight: normal;
+    background-color: #435779;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    color: white;
+}
+
+.button > a {
+    width: 100%;
+    height: 100%;
+    background-color: #435779 !important;
+    color: white !important;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    display: block;
+    font-size: 15px !important;
+    text-decoration: none;
+    font-weight: normal !important;
+}
+
+.button:hover,
+.button > a:hover {
+    background-color: #DEE !important;
+    color: #435779 !important;
+}
+
+/*
+================================================================
+    ПАРАМЕТРЫ ШАБЛОНА (шапка, подвал и тд)
+================================================================
 */
-.news {
-    width: 290px;
-    height: 260px;
-    position: relative;
-    text-align: left;
+/***************************************************************
+    Шапка
+***************************************************************/
+#logo {
+    margin: 0;
     float: left;
-    margin-left: 4px;
-    margin-top: 35px;
-    padding-left: 10px;
-    background-image: url('../images/news_angle.png');
+    width: 373px;
+    height: 168px;
+    background-color: white;
+    background-image: url('../images/logo.png');
     background-repeat: no-repeat;
 }
 
-.news > p {
-    padding-top: 10px;
-    font-size: 12px;
-    line-height: 1.7;
-    margin-right: 50px;
-    margin-left: 10px;
+#logo > a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
-.newsdetails {
-    margin-right: 50px;
-    margin-left: 10px;
-    font-size: 10px;
-    font-weight: bold;
+#logo > a:active {
+    background-color: transparent;
 }
 
-.button_read {
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 0px;
+    width: 100%;
+    height: 168px;
+}
 
-    background-color: #2497d4;
-    height: 30px;
-    width: 100px;
+/*
+ *  Верхнее меню сайта
+ */
+#uppermenu {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
+	list-style-type: none;
+    width: 140px;
+    height: 35px;
+}
+
+#uppermenu a {
+    text-decoration: underline;
+}
+
+#uppermenu li, #uppermenu li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 35px;
+    display: block;
+    float: left;
+    width: 70px;
+    color: #185D81;
+    line-height: 35px;
     text-align: center;
-    line-height: 28px;
-    color: #ffffff;
     cursor: pointer;
 }
 
-.button_read:hover {
-    background-color: #185d81;
+#uppermenu ul li:hover, 
+#uppermenu ul li a:hover {
+    color: #6a97ae;
+}
+
+/*
+ *  Основное меню сайта
+ */
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    list-style-type: none;
+    height: 35px;
+    width: 555px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: -1px;
+}
+
+#menu li, 
+#menu li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #435779;
+    height: 35px;
+    display: block;
+    float: left;
+    width: 110px;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 1px;
+}
+
+#menu li:hover, 
+#menu li a:hover {
+    background-color: #ddeeee;
+    color: #435779;
+}
+
+/*
+ *  Серенькая линия с названием страницы
+ */
+.titleline1 {
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #ddeeee;
+    color: black;
+}
+
+.titleline1 p {
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 13px;
 }
 
 /***************************************************************
     Футер
 ***************************************************************/
-#footer {
-    height: 300px;
-    /*background: linear-gradient(#f8fbfe, #2a9ad5);*/
-    background-image: url('../images/logo.png');
-    background-repeat: no-repeat;
+.footer_top {
+    width: 100%;
+    height: 240px;
 }
 
-#footer > img {
-    padding-top: 50px;
-    padding-left: 40px;
+.footer_top .grid_3 {
+    margin-top: 40px;
 }
 
-.footer_menu {
-    position: absolute;
-    font-weight: bold;
-    top: 20px;
-    right: 60px;
+.footer_top h1 {
+    margin-left: 40px;
+    color: #435779;
+    font-size: 12px;
 }
 
-.footer_menu > p {
-    padding-bottom: 15px;
+.footer_top ul {
+    margin-top: 20px;
+    list-style: none;
 }
 
-.footer_menu > ul {
-
-    font-weight: normal;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.footer_menu > ul > li > a {
+.footer_top ul li {
     text-decoration: none;
-    color: black;
+    line-height: 20px;
+}
+
+.footer_top ul li a {
+    color: #6a97ae;
     font-size: 12px;
 }
 
-.footer_menu > ul > li > a:hover {
-    color: #185d81;
-    text-decoration: underline;
+.footer_top ul li a:hover {
+    color: #435779;
 }
 
-.copyright {
-    margin-top: 280px;
+.infoabout ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+
+#vk,
+#tweeter  {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+#vk {
+	background-image: url('../images/iconovk.png');
+}
+#tweeter {
+    background-image: url('../images/icontw.png');
+}
+
+#vk > a,
+#tweeter > a{ 
+	display:block;
+	height:100%;
+}
+
+.footer_bottom {
+    color: white;
+    width: 100%;
+    height: 15px;
+    background-color: #435779;
+    margin-top: 20px;
+    font-size: 12px;
     text-align: center;
+}
+
+/*
+================================================================
+    СТРАНИЦЫ САЙТА
+================================================================
+*/
+
+/***************************************************************
+    Главная страница
+***************************************************************/
+#content {
+    width: 100%;
+	font-size: 13px;
+}
+
+#content .about {
+    height: 300px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+	
+}
+
+#content .info {
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;	
+	font-size:14px;
+}
+
+#content .detail {
+    margin-top: 20px;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+	font-size:14px;
+}
+
+#content .about .button {
+    margin-top: 35px;
+    width: 240px;
+}
+
+/*
+ *  Новости на главной странице
+ */
+.newscontainer {
+    height: 300px;
+    box-shadow: 0px 1px 1px 0px #b9b9b9;
+}
+
+.newshead {
+    margin-top: 40px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#newsblock {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    height: 230px;
+    overflow-y: hidden;
+}
+
+.newscontainer .news {
+    height: 200px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 2px #b9b9b9;
+    margin-top: 5px;
+}
+
+.newscontainer .news h4 {
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.newscontainer .news p {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.newscontainer .newsdetails {
+    margin-top: 0;
+    font-size: 10px;
+    color: #a7a7a7;
+    margin-left: 5px;
+}
+
+.newscontainer #leftarrow,
+.newscontainer #rightarrow {
+    position: absolute;
+    height: 20px;
+    bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 9px;
+    width: 55px;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.newscontainer #leftarrow {
+    right: 56px;
+}
+
+.newscontainer #rightarrow {
+    right: 0;
+}
+
+/*
+ *  Слайдшоу
+ */
+.slider_wrap {
+    margin-top: 30px;
+    width: 540px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.slider_wrap img {
+    width: 500px;
+    height: 320px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.slider_wrap img:first-child {
+    display: block;
+}
+
+.slider_wrap span {
+    margin-top: -13px;
+    width: 15px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    background: url(../images/slider2_arrow.png) no-repeat;
+}
+
+.slider_wrap span.next {
+    right: 0;
+    background-position: -15px 0;
+}
+
+.slider_wrap span.next:hover {
+    background-position: -15px -26px;
+}
+
+.slider_wrap span.prev {
+    left: 0;
+    background-position: 0 0;
+}
+
+.slider_wrap span.prev:hover {
+    background-position: 0 -26px;
+}
+
+/*
+*   гаромшка
+*/
+.garmblock {
+    margin-top: 40px;
+}
+
+.garmblock .garm {
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    background-color: #ddeeee;
+    font-size: 13px;
+    text-align: left;
+    color: black;
+    margin: 1px 0 0 0;
+    height: 40px;    
+    cursor: pointer;
+    padding-left:50px;
+    line-height: 40px;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+}
+
+.garmblock .garm:hover {
+    background-color: #435779;
+    color: white;
+}
+
+.garmblock ul {
+    margin: 20px;
+}
+
+.garmblock ul li {
+    line-height: 18px;
     font-size: 12px;
 }
 
+.garmpic {
+    background-image: url('../images/iconlinux.png');
+}
 
+.garmpicsocial {
+    background-image: url('../images/iconsoc.png');
+}
+
+.garmpictech {
+    background-image: url('../images/icontech.png');
+}
+
+.garmpicquality {
+    background-image: url('../images/iconquality.png');
+}
+
+.garmpic1 {
+    background-image: url('../images/icon1.png');
+}
+
+/***************************************************************
+    Загрузки
+***************************************************************/
+#downloadcontainer {
+    margin-left: 0;
+    width: 100%;
+    box-shadow: 0px 1px 1px 0px #b9b9b9;
+	font-size: 13px;
+}
+
+#downloadcontainer p {
+    margin: 15px;    
+}
+
+#downloadcontainer p  a {
+    font-weight: bold;
+}
+
+#downloadcontainer h3 {
+    margin-bottom: 50px;
+}
+
+#downloadcontainer table {
+    margin-top: 35px;
+	width:81%;
+}
+
+#downloadcontainer table td {
+    text-align: center;
+    border: 1px solid #2497D4;
+}
+
+#downloadcontainer table .headrow {
+    font-weight: bold;
+}
+
+#downloadcontainer table .osname {
+    font-weight: bold;
+    font-size: 15px;
+    color: #435779;
+}
+#downloadcontainer table .info {
+	margin-top: 20px;
+	height: 90px;
+}
+
+#downloadcontainer table .ver,
+#downloadcontainer table .info,
+#downloadcontainer table .gui {
+    font-size: 12px;
+}
+
+#downloadcontainer table .download {
+    width: 55px;
+}
+
+#downloadcontainer table .download a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #435779;
+}
+
+#downloadcontainer table .download a:hover {
+    color: #6a97ae;
+}
+
+#downloadcontainer table + p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+#downloadcontainer .button {
+    margin-right: 10px;
+	margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+    width: 150px;
+}
+
+/***************************************************************
+    Репозиторий
+***************************************************************/
+#repocontainer {
+	margin-left: 0px;
+	width: 100%;
+	box-shadow: 0px 1px 1px 0px #B9B9B9;
+}
+
+#repocontainer > * {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#repocontainer li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 1px solid #dee;
+    width: 40%;
+    height: 40%;
+}
+
+#repocontainer ol > li {
+    margin-left: -20px;
+}
+
+#repocontainer > ul > li {
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+#repocontainer a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#repocontainer .button {
+    margin-right: 10px;
+	margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+    width: 150px;
+}
+
+/***************************************************************
+    Новость
+***************************************************************/
+#newscontent {
+    margin-left: 0;
+    box-shadow: 0px 1px 1px 0px #b9b9b9;
+    font-size: 13px;
+    width: 100%;
+}
+
+#newscontent h3 {
+    margin-left: 10px;
+    color: #435779;
+}
+
+#newscontent h2 {
+    margin-left: 10px;
+}
+
+
+#newscontent p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    word-wrap: break-word;
+}
+
+#newscontent a {
+    font-weight: bold;
+}
+
+#newscontent .singlenewsdetails {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
+
+#newscontent  .button {
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#newscontent  #buttonforum {
+    margin-left: 10px;
+    float: left;
+    width: 240px;
+}
+
+#newscontent  #buttonback {
+    margin-right: 10px;
+    float: right;
+    width: 120px;
+}
+
+/***************************************************************
+    Архив новостей
+***************************************************************/
+#newsarchcontent {
+	margin-left: 0px;
+	width: 100%;
+	box-shadow: 0px 1px 1px 0px #B9B9B9;
+}
+
+#newsarchcontent ul {
+	margin-left: 10px;
+    margin-top: 30px;
+    list-style-type: none;
+    line-height: 25px;
+    color: #185d81;
+	padding: 0;
+}
+
+#newsarchcontent ul li:hover {
+    cursor: pointer;
+    color: #2497d4;
+}
+
+#newsarchcontent ul li:before {
+    content: "›";
+}
+
+#newsarchcontent  > .button {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	margin-right: 10px;
+    height: 45px;
+	float: right;
+    width: 120px;
+}
+
+/***************************************************************
+    mrcfeed
+***************************************************************/
+#mrcfeed  {
+	margin-left: 0px;
+	width: 100%;
+	box-shadow: 0px 1px 1px 0px #B9B9B9;
+}
+
+#mrcfeed form{
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	display:block;
+	width:330px;	
+}
+
+#mrcfeed form label{
+	display: block; 
+	width: 75px;
+	float:left;
+	color:#435779;
+	cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 		
+}
+
+#mrcfeed  table > caption > strong {
+ display:none;
+}
+
+#mrcfeed form .groupname  {
+	font-weight: bold;
+	text-align:right;
+	padding-right:10px;
+	cursor: default;
+	width:90px;
+}
+
+#mrcfeed .m2, #mrcfeed .x32,
+#mrcfeed .m3, #mrcfeed .x64,
+#mrcfeed .m4, #mrcfeed .noarch {
+	margin: 20px 10px 20px 10px;
+}
+
+#mrcfeed form H5{
+	text-align:right;
+}
+
+#mrcfeed > H4,
+#mrcfeed > H5 {
+	margin-left:10px;
+	padding-bottom:10px;
+}
+
+#mrcfeed > H5 {
+	padding-top:20px;
+}
+
+#mrcfeed > table {    
+    border: 1px solid;	
+}
+
+#mrcfeed > table td,
+#mrcfeed > table th {
+    text-align: center;
+    border: 1px solid;
+}
+
+#mrcfeed > .button {
+	height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	margin-right: 10px;
+    float: right;
+    width: 120px;
+}
+
+/***************************************************************
+    404
+***************************************************************/
+#mes {
+    min-height: 140px;
+}
+
+#mes p {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+#pinguin {
+    background-image: url('../images/linux.png');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
